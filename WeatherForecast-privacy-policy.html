@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — Weather Forecast</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0a1018;
+      --card: #121a24;
+      --text: #e8eef6;
+      --muted: #9aacbd;
+      --accent: #6eb8ff;
+      --border: rgba(255,255,255,0.08);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f4f7fb;
+        --card: #ffffff;
+        --text: #1a2330;
+        --muted: #5a6978;
+        --accent: #1565c0;
+        --border: rgba(0,0,0,0.08);
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px 18px 48px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.25rem; margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .note { font-size: 0.9rem; color: var(--muted); }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Gizlilik Politikası</h1>
+      <p class="meta"><strong>Weather Forecast</strong> mobil uygulaması</p>
+      <p class="meta">Son güncelleme: <time datetime="2026-04-21">21 Nisan 2026</time></p>
+    </header>
+
+    <p>
+      Bu sayfa, <strong>Weather Forecast</strong> uygulamasının kişisel verileri ve cihaz bilgilerini
+      nasıl işlediğini açıklar. Uygulama kişisel, ticari olmayan kullanım için sunulmaktadır.
+    </p>
+
+    <h2>1. Veri sorumlusu</h2>
+    <p>
+      Geliştirici: <strong>Mehmet Burhan</strong><br>
+      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+    </p>
+
+    <h2>2. Toplanan ve işlenen veriler</h2>
+
+    <h3>2.1. Konum (isteğe bağlı)</h3>
+    <p>
+      “Mevcut konum” ile hava durumu göstermek için, yalnızca siz izin verdiğinizde cihazınızın
+      yaklaşık veya hassas konumu okunabilir. Konum verisi uygulama içinde hava ve hava kalitesi
+      sorguları için kullanılır; geliştirici tarafında bir sunucuda hesabınıza bağlı olarak
+      saklanmaz. Konum, hava verisi almak için <strong>üçüncü taraf hava API’lerine istek parametreleri
+      olarak</strong> iletilir (aşağıda listelenmiştir).
+    </p>
+
+    <h3>2.2. Uygulama ayarları ve kayıtlı şehirler (cihazda)</h3>
+    <p>
+      Dil, birimler, tema, kayıtlı şehir listesi ve seçili konum gibi tercihler cihazınızda
+      (<strong>SharedPreferences</strong>) saklanır. Bu veriler geliştiriciye otomatik olarak gönderilmez.
+    </p>
+
+    <h3>2.3. Teknik iletişim verisi</h3>
+    <p>
+      Hava tahmini, hava kalitesi, şehir arama, harita karoları ve radar için internet üzerinden
+      bağlantı kurulur. Bu süreçte IP adresiniz ve standart HTTP/TLS bağlantı bilgileri ilgili
+      hizmet sağlayıcıların sistemlerinde, onların politikalarına tabi olarak işlenebilir.
+      Uygulama bu sürümde yerleşik reklam veya üçüncü taraf analitik (analytics) SDK’ları içermemektedir.
+    </p>
+
+    <div class="card">
+      <p class="note" style="margin:0">
+        Google Play Console’daki <strong>Veri güvenliği</strong> beyanında işaretlediğiniz maddelerin
+        bu metinle uyumlu olduğundan emin olun; uygulamaya yeni özellik veya SDK eklendiğinde hem formu
+        hem bu sayfayı güncelleyin.
+      </p>
+    </div>
+
+    <h2>3. Üçüncü taraf hizmetler</h2>
+    <p>Uygulama veriyi doğrudan şu kaynaklardan alır veya bunlarla etkileşir:</p>
+    <ul>
+      <li>
+        <strong>Open-Meteo</strong> — hava tahmini, hava kalitesi ve şehir/konum arama API’leri.
+        <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">open-meteo.com</a>
+      </li>
+      <li>
+        <strong>OpenStreetMap</strong> — harita karoları (harita kullanımında).
+        Karo istekleri OSM politikalarına tabidir.
+      </li>
+      <li>
+        <strong>RainViewer</strong> — yağış radarı katmanı (harita kullanımında).
+        <a href="https://www.rainviewer.com/" target="_blank" rel="noopener noreferrer">rainviewer.com</a>
+      </li>
+    </ul>
+    <p>
+      Bu hizmetlerin gizlilik uygulamaları kendi sitelerinde yayınlanır; konum veya koordinat içeren
+      istekler ilgili API uç noktalarına gönderilir.
+    </p>
+
+    <h2>4. Çocuklar</h2>
+    <p>
+      Uygulama bilerek 13 yaş altı çocuklardan veri toplamaya yönelik tasarlanmamıştır.
+      Eğer böyle bir durumdan haberdar olursanız lütfen yukarıdaki e-posta ile iletişime geçin.
+    </p>
+
+    <h2>5. Güvenlik</h2>
+    <p>
+      Uygulama API çağrılarını güvenli bağlantı (HTTPS) üzerinden yapmaya çalışır; cihazınızın ve
+      işletim sisteminizin güvenliği için güncel tutulması önemlidir.
+    </p>
+
+    <h2>6. Haklarınız ve iletişim</h2>
+    <p>
+      Bulunduğunuz ülkedeki kişisel verilerle ilgili haklarınız (erişim, düzeltme, silme vb.)
+      geçerli mevzuata tabidir. Talepleriniz için
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a> adresine yazabilirsiniz.
+    </p>
+
+    <h2>7. Bu politikanın güncellenmesi</h2>
+    <p>
+      Uygulama veya yasal gereklilikler değiştikçe bu metin güncellenebilir. Önemli değişikliklerde
+      güncellenmiş sürüm bu sayfada yayınlanır; “Son güncelleme” tarihini kontrol etmeniz yeterlidir.
+    </p>
+
+    <footer>
+      <p style="margin:0">
+        Bu sayfa <strong>Weather Forecast</strong> için hazırlanmıştır.
+        Play Console’a yapıştıracağınız adres, bu dosyanın yayınlandığı tam HTTPS URL olmalıdır.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
