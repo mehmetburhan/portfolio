@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — TalkSwap</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0a0f18;
+      --card: #111827;
+      --text: #e8eef6;
+      --muted: #94a3b8;
+      --accent: #1a73e8;
+      --accent2: #34a853;
+      --border: rgba(255,255,255,0.08);
+      --tag-bg: rgba(26,115,232,0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f4f7fb;
+        --card: #ffffff;
+        --text: #1a2330;
+        --muted: #5a6978;
+        --accent: #1565c0;
+        --accent2: #1e8e3e;
+        --border: rgba(0,0,0,0.08);
+        --tag-bg: rgba(21,101,192,0.08);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 28px 18px 56px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header {
+      margin-bottom: 32px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px 12px;
+      font-size: 0.82rem;
+      color: var(--accent);
+      margin-bottom: 14px;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.025em;
+    }
+    .meta { color: var(--muted); font-size: 0.88rem; margin: 0; }
+    h2 {
+      font-size: 1.1rem;
+      margin: 34px 0 12px;
+      font-weight: 700;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 0.97rem; font-weight: 600; margin: 20px 0 8px; color: var(--accent2); }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.3rem; margin: 0 0 14px; }
+    li { margin-bottom: 7px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.88em;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 18px 0;
+    }
+    .card p { margin: 0; }
+    .note { font-size: 0.88rem; color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 18px;
+      font-size: 0.91rem;
+    }
+    th {
+      text-align: left;
+      padding: 9px 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    td {
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .tag {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--accent);
+      border-radius: 5px;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid var(--border);
+    }
+    .divider {
+      margin: 56px 0 40px;
+      border: none;
+      border-top: 2px dashed var(--border);
+    }
+    .lang-label {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    footer {
+      margin-top: 44px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ════════════════════════════════════════════
+       TÜRKÇE
+  ════════════════════════════════════════════ -->
+  <div class="lang-label">🇹🇷 Türkçe</div>
+
+  <header>
+    <div class="app-badge">🗣️ TalkSwap — Çift Yönlü Sesli Çeviri</div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta">Paket kimliği: <code>com.mb.talkswap</code></p>
+    <p class="meta">Son güncelleme: <time datetime="2026-06-16">16 Haziran 2026</time></p>
+  </header>
+
+  <p>
+    Bu belge, <strong>TalkSwap</strong> mobil uygulamasının (Android ve iOS telefon/tablet)
+    kullanıcı verilerini ve cihaz bilgilerini nasıl işlediğini açıklar. Uygulamayı indirerek
+    veya kullanarak bu politikayı kabul etmiş sayılırsınız.
+  </p>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p>
+    Geliştirici: <strong>Mehmet Burhan</strong><br>
+    İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+  <div class="card">
+    <p class="note">
+      TalkSwap kişisel, ticari olmayan kullanım için sunulmuştur. Geliştirici,
+      uygulama aracılığıyla toplanan verileri <strong>kendi sunucusunda saklamaz,
+      hesap oluşturma veya kullanıcı profili tutma işlemi yapmaz.</strong>
+    </p>
+  </div>
+
+  <h2>2. Uygulama Ne Yapar?</h2>
+  <p>
+    TalkSwap, karşılıklı oturumlarda iki kişinin farklı dillerde konuşmasına yardımcı olan
+    bir <strong>çift yönlü gerçek zamanlı çeviri</strong> uygulamasıdır. Cihazı masanın
+    ortasına koyarak her iki taraf kendi dilinde konuşur; uygulama konuşmayı metne çevirir,
+    çevirir ve isteğe bağlı olarak sesli okur.
+  </p>
+  <ul>
+    <li>16 dil desteği (Türkçe, İngilizce, Fransızca, Almanca, İspanyolca, Arapça, Rusça, Çince, Japonca ve diğerleri)</li>
+    <li>Ses tanıma (mikrofon) ve metin girişi (klavye)</li>
+    <li>Metinden sese (TTS) okuma</li>
+    <li>Çeviri geçmişi (cihazda)</li>
+    <li>Çeviri motoru seçimi: Google Translate veya MyMemory</li>
+  </ul>
+
+  <h2>3. İşlenen Veriler</h2>
+
+  <h3>3.1. Cihazda Saklanan Veriler</h3>
+  <p>Aşağıdaki veriler <strong>yalnızca cihazınızda</strong> tutulur; geliştiriciye gönderilmez:</p>
+  <table>
+    <tr>
+      <th>Veri</th>
+      <th>Nerede saklanır</th>
+      <th>Amaç</th>
+    </tr>
+    <tr>
+      <td>Seçili üst/alt diller</td>
+      <td>SharedPreferences</td>
+      <td>Son kullanılan dil çiftini hatırlamak</td>
+    </tr>
+    <tr>
+      <td>Çeviri motoru tercihi</td>
+      <td>SharedPreferences</td>
+      <td>Google veya MyMemory seçimini saklamak</td>
+    </tr>
+    <tr>
+      <td>Uygulama arayüz dili</td>
+      <td>SharedPreferences</td>
+      <td>Menü ve etiketlerin dilini hatırlamak</td>
+    </tr>
+    <tr>
+      <td>Çeviri geçmişi (en fazla 100 kayıt)</td>
+      <td>SharedPreferences</td>
+      <td>Geçmiş ekranında önceki çevirileri göstermek</td>
+    </tr>
+  </table>
+  <p>
+    Geçmiş kayıtları uygulama içinden silebilir veya uygulamayı kaldırarak tüm yerel
+    verileri tamamen silebilirsiniz.
+  </p>
+
+  <h3>3.2. Mikrofon ve Ses Tanıma</h3>
+  <p>
+    Sesli çeviri için uygulama <strong>mikrofon erişimi</strong> ister. Konuşmanız,
+    cihazınızdaki işletim sistemi ve <strong>speech_to_text</strong> eklentisi aracılığıyla
+    metne dönüştürülür:
+  </p>
+  <ul>
+    <li><strong>iOS:</strong> Apple Speech Recognition (cihaz/OS altyapısı)</li>
+    <li><strong>Android:</strong> Google Speech Recognition veya cihaz üreticisinin ses tanıma hizmeti</li>
+  </ul>
+  <p>
+    Ses tanıma işleminin bir kısmı çevrimdışı veya cihaz üzerinde, bir kısmı ise
+    işletim sistemi sağlayıcısının sunucularında gerçekleşebilir. Bu işlem,
+    ilgili platformun (Apple/Google) gizlilik politikalarına tabidir.
+  </p>
+
+  <h3>3.3. Ağ Üzerinden Gönderilen Veriler (Çeviri)</h3>
+  <p>
+    Metin çevirisi için internet bağlantısı gereklidir. Çevirmek istediğiniz
+    <strong>metin</strong>, seçtiğiniz çeviri motoruna HTTPS üzerinden iletilir:
+  </p>
+  <ul>
+    <li>
+      <span class="tag">Google</span>
+      <code>translate.googleapis.com</code> — Google Translate uç noktası
+      (resmi mobil SDK değil; HTTP API isteği)
+    </li>
+    <li>
+      <span class="tag">MyMemory</span>
+      <code>api.mymemory.translated.net</code> — MyMemory Translation API
+      (günlük ücretsiz kota sınırı vardır)
+    </li>
+  </ul>
+  <p>
+    Bu istekler sırasında IP adresiniz, çevrilecek metin ve dil kodları ilgili
+    hizmet sağlayıcılarının sistemlerinde işlenebilir. Geliştirici bu sunucuları
+    işletmez; üçüncü taraf politikaları geçerlidir.
+  </p>
+  <div class="card">
+    <p class="note">
+      Uygulama oturum açma veya hesap oluşturma gerektirmez. Çeviri isteklerinde
+      kişisel kimlik bilgisi (ad, e-posta vb.) gönderilmez; yalnızca çevrilecek
+      metin ve dil parametreleri iletilir.
+    </p>
+  </div>
+
+  <h3>3.4. Metinden Sese (TTS)</h3>
+  <p>
+    Çeviri sonucunu sesli okumak için <strong>flutter_tts</strong> kullanılır.
+    Bu işlem büyük ölçüde cihazınızdaki yerleşik TTS motoru üzerinden yapılır;
+    metin cihaz dışına gönderilmez (işletim sistemi TTS davranışına bağlıdır).
+  </p>
+
+  <h3>3.5. Geçici Bellek (Önbellek)</h3>
+  <p>
+    Aynı metnin tekrar çevrilmesini önlemek için çeviri sonuçları uygulama
+    çalışma süresi boyunca cihaz belleğinde (RAM) kısa süreli önbelleğe alınır.
+    Uygulama kapatıldığında bu önbellek silinir; sunucuya yazılmaz.
+  </p>
+
+  <h3>3.6. Teknik İletişim Verisi</h3>
+  <p>
+    Çeviri API istekleri HTTPS üzerinden yapılır. Bu süreçte standart HTTP/TLS
+    bağlantı bilgileri (IP adresi, zaman damgası, tarayıcı/istemci başlıkları)
+    ilgili API sağlayıcılarının loglarında tutulabilir.
+  </p>
+
+  <h2>4. Toplamadığımız Veriler</h2>
+  <ul>
+    <li>Ad, soyad, e-posta, telefon numarası veya hesap bilgisi</li>
+    <li>Konum bilgisi (GPS veya ağ tabanlı)</li>
+    <li>Reklam kimliği (GAID / IDFA)</li>
+    <li>Kullanım analitiği, kilitlenme raporları veya oturum istatistikleri</li>
+    <li>Rehber, fotoğraf, dosya veya diğer cihaz içerikleri</li>
+  </ul>
+  <div class="card">
+    <p class="note">
+      Uygulama herhangi bir <strong>reklam SDK'sı, analitik SDK'sı veya üçüncü taraf
+      izleme kütüphanesi</strong> içermemektedir.
+    </p>
+  </div>
+
+  <h2>5. Üçüncü Taraf Hizmetler</h2>
+  <p>TalkSwap aşağıdaki harici hizmetlerle doğrudan etkileşir:</p>
+  <table>
+    <tr>
+      <th>Hizmet</th>
+      <th>Amaç</th>
+      <th>Gizlilik</th>
+    </tr>
+    <tr>
+      <td>Google Translate API</td>
+      <td>Metin çevirisi</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik</a></td>
+    </tr>
+    <tr>
+      <td>MyMemory Translation API</td>
+      <td>Alternatif metin çevirisi</td>
+      <td><a href="https://mymemory.translated.net/" target="_blank" rel="noopener noreferrer">mymemory.translated.net</a></td>
+    </tr>
+    <tr>
+      <td>Apple / Google Speech</td>
+      <td>Ses tanıma (STT)</td>
+      <td>Platform sağlayıcısı politikaları</td>
+    </tr>
+    <tr>
+      <td>Cihaz TTS motoru</td>
+      <td>Çeviriyi sesli okuma</td>
+      <td>Platform sağlayıcısı politikaları</td>
+    </tr>
+  </table>
+
+  <h2>6. İzinler</h2>
+  <table>
+    <tr>
+      <th>İzin</th>
+      <th>Platform</th>
+      <th>Neden</th>
+    </tr>
+    <tr>
+      <td>Mikrofon</td>
+      <td>Android, iOS</td>
+      <td>Sesli giriş ve konuşma tanıma</td>
+    </tr>
+    <tr>
+      <td>İnternet</td>
+      <td>Android, iOS</td>
+      <td>Çeviri API istekleri</td>
+    </tr>
+    <tr>
+      <td>Bluetooth (isteğe bağlı)</td>
+      <td>Android</td>
+      <td>Bluetooth mikrofon/ kulaklık desteği (OS düzeyi)</td>
+    </tr>
+    <tr>
+      <td>Ses tanıma</td>
+      <td>iOS</td>
+      <td>NSSpeechRecognitionUsageDescription</td>
+    </tr>
+  </table>
+
+  <h2>7. Çocuklar</h2>
+  <p>
+    Uygulama bilerek 13 yaş (veya uygulanabilir mevzuata göre daha yüksek bir yaş sınırı)
+    altındaki kişilerden veri toplamak amacıyla tasarlanmamıştır. Ebeveyn veya vasilerin
+    çocukların mikrofon kullanımını denetlemesi önerilir.
+  </p>
+
+  <h2>8. Veri Güvenliği</h2>
+  <ul>
+    <li>Çeviri istekleri mümkün olduğunca HTTPS üzerinden yapılır.</li>
+    <li>Kalıcı veriler (geçmiş, tercihler) yalnızca cihazınızda saklanır.</li>
+    <li>Geliştirici sunucusunda kullanıcı veritabanı bulunmaz.</li>
+    <li>Cihazınızı güncel tutmanız ve güvenli bir işletim sistemi kullanmanız önerilir.</li>
+  </ul>
+
+  <h2>9. Haklarınız ve İletişim</h2>
+  <p>
+    Uygulamada saklanan tüm veriler cihazınıza aittir. Geçmişi uygulama içinden
+    silebilir, ayarları sıfırlayabilir veya uygulamayı kaldırarak tüm yerel verileri
+    silebilirsiniz. Bulunduğunuz ülkedeki kişisel verilerle ilgili haklarınız
+    (erişim, düzeltme, silme vb.) geçerli mevzuata tabidir.
+  </p>
+  <p>
+    Sorularınız için:
+    <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+
+  <h2>10. Mağaza Beyanları</h2>
+  <div class="card">
+    <p class="note">
+      Google Play Console ve App Store Connect'teki <strong>Veri güvenliği / App Privacy</strong>
+      formlarını doldururken bu metinle uyumlu beyan verin. Uygulamaya yeni özellik,
+      SDK veya veri toplama eklendiğinde hem formları hem bu sayfayı güncelleyin.
+    </p>
+  </div>
+
+  <h2>11. Bu Politikanın Güncellenmesi</h2>
+  <p>
+    Uygulama güncellendiğinde veya yasal gereklilikler değiştiğinde bu metin
+    güncellenebilir. Önemli değişiklikler bu sayfada yayınlanır; "Son güncelleme"
+    tarihini kontrol etmeniz yeterlidir.
+  </p>
+
+  <footer>
+    <p style="margin:0">
+      Bu gizlilik politikası <strong>TalkSwap</strong> (Android / iOS) uygulaması için
+      hazırlanmıştır. Play Console ve App Store Connect'e yapıştıracağınız URL,
+      bu dosyanın yayınlandığı geçerli HTTPS adresi olmalıdır.
+    </p>
+  </footer>
+
+
+  <!-- ════════════════════════════════════════════
+       ENGLISH
+  ════════════════════════════════════════════ -->
+  <hr class="divider">
+  <div class="lang-label">🇬🇧 English</div>
+
+  <header>
+    <div class="app-badge">🗣️ TalkSwap — Two-Way Voice Translation</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Bundle ID: <code>com.mb.talkswap</code></p>
+    <p class="meta">Last updated: <time datetime="2026-06-16">June 16, 2026</time></p>
+  </header>
+
+  <p>
+    This document describes how the <strong>TalkSwap</strong> mobile application
+    (Android and iOS phones/tablets) handles user data and device information.
+    By downloading or using the application you agree to this policy.
+  </p>
+
+  <h2>1. Data Controller</h2>
+  <p>
+    Developer: <strong>Mehmet Burhan</strong><br>
+    Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+  <div class="card">
+    <p class="note">
+      TalkSwap is provided for personal, non-commercial use. The developer does
+      <strong>not store collected data on any server, operate user accounts,
+      or maintain user profiles.</strong>
+    </p>
+  </div>
+
+  <h2>2. What Does the Application Do?</h2>
+  <p>
+    TalkSwap is a <strong>two-way real-time translation</strong> app designed for
+    face-to-face conversations. Place the device on the table between two people;
+    each side speaks in their own language while the app converts speech to text,
+    translates it, and optionally reads the translation aloud.
+  </p>
+  <ul>
+    <li>16 languages (Turkish, English, French, German, Spanish, Arabic, Russian, Chinese, Japanese, and more)</li>
+    <li>Speech recognition (microphone) and text input (keyboard)</li>
+    <li>Text-to-speech playback</li>
+    <li>Translation history (on device)</li>
+    <li>Translation engine choice: Google Translate or MyMemory</li>
+  </ul>
+
+  <h2>3. Data Processed</h2>
+
+  <h3>3.1. Data Stored on Device</h3>
+  <p>The following data is kept <strong>on your device only</strong> and is never sent to the developer:</p>
+  <table>
+    <tr>
+      <th>Data</th>
+      <th>Storage</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td>Selected top/bottom languages</td>
+      <td>SharedPreferences</td>
+      <td>Remember last language pair</td>
+    </tr>
+    <tr>
+      <td>Translation engine preference</td>
+      <td>SharedPreferences</td>
+      <td>Store Google or MyMemory choice</td>
+    </tr>
+    <tr>
+      <td>App interface language</td>
+      <td>SharedPreferences</td>
+      <td>Remember menu/label language</td>
+    </tr>
+    <tr>
+      <td>Translation history (up to 100 entries)</td>
+      <td>SharedPreferences</td>
+      <td>Show past translations in History</td>
+    </tr>
+  </table>
+  <p>
+    You can delete history inside the app or uninstall the application to remove
+    all local data completely.
+  </p>
+
+  <h3>3.2. Microphone and Speech Recognition</h3>
+  <p>
+    Voice translation requires <strong>microphone access</strong>. Your speech is
+    converted to text through the device operating system and the
+    <strong>speech_to_text</strong> plugin:
+  </p>
+  <ul>
+    <li><strong>iOS:</strong> Apple Speech Recognition (device/OS infrastructure)</li>
+    <li><strong>Android:</strong> Google Speech Recognition or the device manufacturer's speech service</li>
+  </ul>
+  <p>
+    Part of speech recognition may run on-device or on the platform provider's
+    servers. This processing is subject to the relevant platform's (Apple/Google)
+    privacy policies.
+  </p>
+
+  <h3>3.3. Network Data (Translation)</h3>
+  <p>
+    An internet connection is required for text translation. The <strong>text</strong>
+    you want to translate is sent over HTTPS to your selected translation engine:
+  </p>
+  <ul>
+    <li>
+      <span class="tag">Google</span>
+      <code>translate.googleapis.com</code> — Google Translate endpoint
+      (HTTP API request, not the official mobile SDK)
+    </li>
+    <li>
+      <span class="tag">MyMemory</span>
+      <code>api.mymemory.translated.net</code> — MyMemory Translation API
+      (free daily quota applies)
+    </li>
+  </ul>
+  <p>
+    During these requests your IP address, the text to be translated, and language
+    codes may be processed by the respective service providers. The developer does
+    not operate these servers; third-party policies apply.
+  </p>
+  <div class="card">
+    <p class="note">
+      The app does not require sign-in or account creation. Translation requests
+      do not include personal identity data (name, email, etc.); only the text
+      to translate and language parameters are transmitted.
+    </p>
+  </div>
+
+  <h3>3.4. Text-to-Speech (TTS)</h3>
+  <p>
+    <strong>flutter_tts</strong> is used to read translations aloud. This largely
+    uses your device's built-in TTS engine; text is not sent externally for
+    translation playback (subject to OS TTS behavior).
+  </p>
+
+  <h3>3.5. In-Memory Cache</h3>
+  <p>
+    Translation results may be briefly cached in device RAM during the app session
+    to avoid repeating identical requests. This cache is cleared when the app closes
+    and is not written to any server.
+  </p>
+
+  <h3>3.6. Technical Connection Data</h3>
+  <p>
+    Translation API calls use HTTPS. Standard HTTP/TLS connection metadata
+    (IP address, timestamps, client headers) may be logged by the API providers.
+  </p>
+
+  <h2>4. Data We Do Not Collect</h2>
+  <ul>
+    <li>Name, email, phone number, or account credentials</li>
+    <li>Location data (GPS or network-based)</li>
+    <li>Advertising identifiers (GAID / IDFA)</li>
+    <li>Usage analytics, crash reports, or session statistics</li>
+    <li>Contacts, photos, files, or other device content</li>
+  </ul>
+  <div class="card">
+    <p class="note">
+      The application does not include any <strong>advertising SDK, analytics SDK,
+      or third-party tracking library</strong>.
+    </p>
+  </div>
+
+  <h2>5. Third-Party Services</h2>
+  <p>TalkSwap interacts directly with the following external services:</p>
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Purpose</th>
+      <th>Privacy</th>
+    </tr>
+    <tr>
+      <td>Google Translate API</td>
+      <td>Text translation</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a></td>
+    </tr>
+    <tr>
+      <td>MyMemory Translation API</td>
+      <td>Alternative text translation</td>
+      <td><a href="https://mymemory.translated.net/" target="_blank" rel="noopener noreferrer">mymemory.translated.net</a></td>
+    </tr>
+    <tr>
+      <td>Apple / Google Speech</td>
+      <td>Speech recognition (STT)</td>
+      <td>Platform provider policies</td>
+    </tr>
+    <tr>
+      <td>Device TTS engine</td>
+      <td>Read translations aloud</td>
+      <td>Platform provider policies</td>
+    </tr>
+  </table>
+
+  <h2>6. Permissions</h2>
+  <table>
+    <tr>
+      <th>Permission</th>
+      <th>Platform</th>
+      <th>Why</th>
+    </tr>
+    <tr>
+      <td>Microphone</td>
+      <td>Android, iOS</td>
+      <td>Voice input and speech recognition</td>
+    </tr>
+    <tr>
+      <td>Internet</td>
+      <td>Android, iOS</td>
+      <td>Translation API requests</td>
+    </tr>
+    <tr>
+      <td>Bluetooth (optional)</td>
+      <td>Android</td>
+      <td>Bluetooth mic/headset support (OS level)</td>
+    </tr>
+    <tr>
+      <td>Speech recognition</td>
+      <td>iOS</td>
+      <td>NSSpeechRecognitionUsageDescription</td>
+    </tr>
+  </table>
+
+  <h2>7. Children</h2>
+  <p>
+    The application is not designed to knowingly collect data from persons under
+    13 years of age (or a higher threshold as required by applicable law). Parents
+    or guardians are encouraged to supervise children's microphone use.
+  </p>
+
+  <h2>8. Data Security</h2>
+  <ul>
+    <li>Translation requests are made over HTTPS wherever possible.</li>
+    <li>Persistent data (history, preferences) is stored only on your device.</li>
+    <li>No user database is maintained on the developer's servers.</li>
+    <li>Keep your device and operating system up to date.</li>
+  </ul>
+
+  <h2>9. Your Rights and Contact</h2>
+  <p>
+    All data stored by the application belongs to you. You can clear history in
+    the app, reset preferences, or uninstall to delete all local data. Your
+    rights regarding personal data (access, correction, deletion, etc.) are
+    governed by applicable law in your country.
+  </p>
+  <p>
+    For questions, contact:
+    <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+
+  <h2>10. Store Disclosures</h2>
+  <div class="card">
+    <p class="note">
+      When completing <strong>Data safety / App Privacy</strong> forms in Google Play
+      Console and App Store Connect, ensure your declarations are consistent with
+      this document. Update both the forms and this page when new features, SDKs,
+      or data collection are added.
+    </p>
+  </div>
+
+  <h2>11. Updates to This Policy</h2>
+  <p>
+    This document may be updated when the application changes or legal requirements
+    evolve. Material changes will be published on this page; checking the
+    "Last updated" date is sufficient.
+  </p>
+
+  <footer>
+    <p style="margin:0">
+      This privacy policy is prepared for <strong>TalkSwap</strong> (Android / iOS).
+      The URL you provide in Play Console and App Store Connect must be the valid
+      HTTPS address at which this file is published.
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
