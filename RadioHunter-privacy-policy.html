@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — RadioHunter</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0e1518;
+      --card: #141c21;
+      --text: #e8eef4;
+      --muted: #8fa3b0;
+      --accent: #e8a838;
+      --accent2: #5bc4be;
+      --border: rgba(255,255,255,0.08);
+      --tag-bg: rgba(232,168,56,0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f3f6f8;
+        --card: #ffffff;
+        --text: #152028;
+        --muted: #5a6b78;
+        --accent: #c07a10;
+        --accent2: #1a8a82;
+        --border: rgba(0,0,0,0.08);
+        --tag-bg: rgba(192,122,16,0.08);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 28px 18px 56px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header {
+      margin-bottom: 32px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px 12px;
+      font-size: 0.82rem;
+      color: var(--accent);
+      margin-bottom: 14px;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.025em;
+    }
+    .meta { color: var(--muted); font-size: 0.88rem; margin: 0; }
+    h2 {
+      font-size: 1.1rem;
+      margin: 34px 0 12px;
+      font-weight: 700;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 0.97rem; font-weight: 600; margin: 20px 0 8px; color: var(--accent2); }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.3rem; margin: 0 0 14px; }
+    li { margin-bottom: 7px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.88em;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 18px 0;
+    }
+    .card p { margin: 0; }
+    .note { font-size: 0.88rem; color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 18px;
+      font-size: 0.91rem;
+    }
+    th {
+      text-align: left;
+      padding: 9px 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    td {
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .tag {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--accent);
+      border-radius: 5px;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid var(--border);
+    }
+    .divider {
+      margin: 56px 0 40px;
+      border: none;
+      border-top: 2px dashed var(--border);
+    }
+    .lang-label {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    footer {
+      margin-top: 44px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ════════════════════════════════════════════
+       TÜRKÇE
+  ════════════════════════════════════════════ -->
+  <div class="lang-label">🇹🇷 Türkçe</div>
+
+  <header>
+    <div class="app-badge">📻 RadioHunter — Dünya Radyoları</div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta">Paket kimliği (Android): <code>com.radiohunter.radio_hunter</code></p>
+    <p class="meta">Paket kimliği (iOS): <code>com.radiohunter.radioHunter</code></p>
+    <p class="meta">Son güncelleme: <time datetime="2026-07-16">16 Temmuz 2026</time></p>
+  </header>
+
+  <p>
+    Bu belge, <strong>RadioHunter</strong> mobil uygulamasının (Android ve iOS telefon/tablet)
+    kullanıcı verilerini ve cihaz bilgilerini nasıl işlediğini açıklar. Uygulamayı indirerek
+    veya kullanarak bu politikayı kabul etmiş sayılırsınız.
+  </p>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p>
+    Geliştirici: <strong>Mehmet Burhan</strong><br>
+    İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+  <div class="card">
+    <p class="note">
+      RadioHunter kişisel, ticari olmayan kullanım için sunulmuştur. Geliştirici,
+      uygulama aracılığıyla toplanan verileri <strong>kendi sunucusunda saklamaz,
+      hesap oluşturma veya kullanıcı profili tutma işlemi yapmaz.</strong>
+    </p>
+  </div>
+
+  <h2>2. Uygulama Ne Yapar?</h2>
+  <p>
+    RadioHunter, dünya çapındaki <strong>internet radyo istasyonlarını</strong> keşfetmenizi,
+    aramanızı ve dinlemenizi sağlayan bir medya uygulamasıdır. İstasyon listeleri ve meta veriler
+    topluluk destekli <strong>Radio Browser API</strong> üzerinden gelir; uygulama kendi yayın
+    içeriği sunmaz, yalnızca kullanıcının seçtiği akış adreslerine bağlanır.
+  </p>
+  <ul>
+    <li>Ülke, dil, kategori, eyalet/şehir, codec ve popülerlik filtreleriyle gezinme</li>
+    <li>Canlı radyo akışı oynatma, sıra (kuyruk) ve önceki/sonraki istasyon</li>
+    <li>Favoriler ve son dinlenenler (cihazda)</li>
+    <li>Arama ve sayfalı istasyon listesi</li>
+    <li>Uyku zamanlayıcısı</li>
+    <li>Arka planda oynatma, kilit ekranı ve bildirim medya kontrolleri</li>
+    <li>Ana ekran widget'ı (şu an çalan istasyon)</li>
+    <li>Android Auto ve CarPlay desteği</li>
+    <li>Çevrimdışı yedek istasyon listesi (paket içi önbellek)</li>
+    <li>Uygulama dil seçimi (Türkçe, İngilizce, Fransızca, Almanca, Rusça, Ukraynaca)</li>
+  </ul>
+
+  <h2>3. İşlenen Veriler</h2>
+
+  <h3>3.1. Cihazda Saklanan Veriler</h3>
+  <p>Aşağıdaki veriler <strong>yalnızca cihazınızda</strong> tutulur; geliştiriciye gönderilmez:</p>
+  <table>
+    <tr>
+      <th>Veri</th>
+      <th>Nerede saklanır</th>
+      <th>Amaç</th>
+    </tr>
+    <tr>
+      <td>Uygulama arayüz dili</td>
+      <td>SharedPreferences (<code>app_language</code>)</td>
+      <td>Menü ve etiketlerin dilini hatırlamak</td>
+    </tr>
+    <tr>
+      <td>Favori istasyon kimlikleri</td>
+      <td>SharedPreferences (<code>favorite_station_ids</code>)</td>
+      <td>Favoriler listesini saklamak</td>
+    </tr>
+    <tr>
+      <td>Son dinlenen istasyonlar (en fazla 40)</td>
+      <td>SharedPreferences (<code>history_station_ids</code>)</td>
+      <td>Geçmiş ekranını doldurmak</td>
+    </tr>
+    <tr>
+      <td>İstasyon anlık görüntüsü önbelleği</td>
+      <td>SharedPreferences (<code>station_snapshot_cache</code>)</td>
+      <td>Favori/geçmiş istasyon adı, logo ve akış bilgisini hatırlamak</td>
+    </tr>
+    <tr>
+      <td>Arama ve filtre tercihleri</td>
+      <td>SharedPreferences (<code>station_filters_v2</code>)</td>
+      <td>Ülke, dil, kategori, sıralama vb. seçimleri saklamak</td>
+    </tr>
+    <tr>
+      <td>Çalışmayan / doğrulanmış istasyon kimlikleri</td>
+      <td>SharedPreferences (<code>broken_station_ids_v1</code>, <code>verified_working_station_ids_v1</code>)</td>
+      <td>Yerel oynatma deneyimine göre kırık istasyonları gizlemek</td>
+    </tr>
+    <tr>
+      <td>Son oynatma oturumu (istasyon, kuyruk, durum)</td>
+      <td>SharedPreferences (<code>playback_session_v1</code>)</td>
+      <td>Uygulama yeniden açıldığında dinlemeye devam etmek</td>
+    </tr>
+    <tr>
+      <td>Widget metinleri ve durumu</td>
+      <td>Android widget deposu / iOS App Group (<code>group.com.radiohunter.radio_hunter</code>)</td>
+      <td>Ana ekran widget'ında şu an çalan istasyonu göstermek</td>
+    </tr>
+  </table>
+  <p>
+    Favorileri ve geçmişi uygulama içinden yönetebilir veya uygulamayı kaldırarak tüm yerel
+    verileri tamamen silebilirsiniz.
+  </p>
+
+  <h3>3.2. Ağ Üzerinden Gerçekleşen Bağlantılar</h3>
+  <p>
+    İnternet bağlantısı, istasyon keşfi ve oynatma için gereklidir. Uygulama aşağıdaki
+    adreslere doğrudan bağlanır:
+  </p>
+  <ul>
+    <li>
+      <span class="tag">Radio Browser</span>
+      <code>de1.api.radio-browser.info</code>,
+      <code>nl1.api.radio-browser.info</code>,
+      <code>at1.api.radio-browser.info</code> —
+      istasyon arama, filtre listeleri ve istatistikler (HTTPS).
+    </li>
+    <li>
+      <span class="tag">Akış</span> Seçtiğiniz radyo istasyonunun yayın URL'si —
+      canlı ses akışının oynatılması için (HTTP veya HTTPS; yayıncıya bağlı).
+    </li>
+    <li>
+      <span class="tag">Logo</span> İstasyon meta verisindeki logo görseli URL'leri —
+      arayüzde ve widget'ta göstermek için önbelleğe alınır.
+    </li>
+    <li>
+      <span class="tag">Tıklama</span> Bir istasyonu oynattığınızda Radio Browser'a
+      anonim popülerlik bildirimi (<code>/json/url/{uuid}</code>) gönderilebilir;
+      aynı IP + istasyon günde bir kez sayılır.
+    </li>
+    <li>
+      <span class="tag">Yazı tipi</span> İlk kullanımda <code>fonts.googleapis.com</code>
+      üzerinden arayüz yazı tipleri indirilebilir (Google Fonts).
+    </li>
+  </ul>
+  <p>
+    Bu bağlantılar sırasında IP adresiniz, istek zamanı, istemci başlıkları
+    (<code>User-Agent: RadioHunter/1.0</code>) ve arama/filtre parametreleri ilgili
+    sunucuların loglarında işlenebilir. Geliştirici bu sunucuları işletmez;
+    üçüncü taraf politikaları geçerlidir.
+  </p>
+  <div class="card">
+    <p class="note">
+      Uygulama oturum açma veya hesap oluşturma gerektirmez. Radio Browser isteklerinde
+      kişisel kimlik bilgisi (ad, e-posta vb.) gönderilmez; yalnızca arama parametreleri
+      ve standart HTTP bilgileri iletilir.
+    </p>
+  </div>
+
+  <h3>3.3. Çevrimdışı Önbellek</h3>
+  <p>
+    Radio Browser'a ulaşılamadığında uygulama, paket içindeki <code>stations.json</code>
+    dosyasından sınırlı bir istasyon listesi sunabilir. Bu veri uygulama ile birlikte
+    gelir; kişisel veri içermez.
+  </p>
+
+  <h3>3.4. Medya Oynatma ve Arka Plan</h3>
+  <p>
+    Arka planda dinleme, kilit ekranı kontrolleri ve Android Auto / CarPlay arayüzleri için
+    <strong>audio_service</strong> ve <strong>just_audio</strong> kullanılır. Bu süreçte
+    istasyon adı, alt başlık ve logo gibi <strong>yalnızca oynatılan içeriğin meta verileri</strong>
+    işletim sistemi medya katmanında gösterilir; geliştiriciye iletilmez.
+  </p>
+
+  <h3>3.5. Geçici Bellek (Önbellek)</h3>
+  <p>
+    İstasyon logoları cihazda görüntü önbelleğine alınabilir. API yanıtları ve oynatma
+    kuyruğu uygulama çalışırken bellekte tutulur; uygulama kapatıldığında geçici önbellek
+    silinir.
+  </p>
+
+  <h3>3.6. Teknik İletişim Verisi</h3>
+  <p>
+    Radio Browser ve çoğu logo isteği HTTPS üzerinden yapılır. Standart HTTP/TLS bağlantı
+    bilgileri (IP adresi, zaman damgası, istemci başlıkları) ilgili hizmet sağlayıcılarının
+    loglarında tutulabilir.
+  </p>
+
+  <h2>4. Toplamadığımız Veriler</h2>
+  <ul>
+    <li>Ad, soyad, e-posta, telefon numarası veya hesap bilgisi</li>
+    <li>Konum bilgisi (GPS veya ağ tabanlı)</li>
+    <li>Mikrofon veya kamera kaydı</li>
+    <li>Reklam kimliği (GAID / IDFA)</li>
+    <li>Kullanım analitiği, kilitlenme raporları veya oturum istatistikleri</li>
+    <li>Rehber, fotoğraf, dosya veya diğer cihaz içerikleri</li>
+  </ul>
+  <div class="card">
+    <p class="note">
+      Uygulama herhangi bir <strong>reklam SDK'sı, analitik SDK'sı veya üçüncü taraf
+      izleme kütüphanesi</strong> içermemektedir.
+    </p>
+  </div>
+
+  <h2>5. Üçüncü Taraf Hizmetler</h2>
+  <p>RadioHunter aşağıdaki harici kaynaklarla doğrudan etkileşir:</p>
+  <table>
+    <tr>
+      <th>Hizmet</th>
+      <th>Amaç</th>
+      <th>Gizlilik</th>
+    </tr>
+    <tr>
+      <td>Radio Browser API</td>
+      <td>İstasyon arama, filtreler, popülerlik</td>
+      <td><a href="https://www.radio-browser.info/" target="_blank" rel="noopener noreferrer">radio-browser.info</a></td>
+    </tr>
+    <tr>
+      <td>Radyo yayıncıları</td>
+      <td>Canlı ses akışı oynatma</td>
+      <td>Her yayıncının kendi politikası</td>
+    </tr>
+    <tr>
+      <td>Google Fonts</td>
+      <td>Arayüz yazı tipleri</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik</a></td>
+    </tr>
+    <tr>
+      <td>Google Play / App Store</td>
+      <td>Uygulama paylaşım bağlantıları (isteğe bağlı)</td>
+      <td>İlgili mağaza politikaları</td>
+    </tr>
+  </table>
+
+  <h2>6. İzinler</h2>
+  <table>
+    <tr>
+      <th>İzin / Özellik</th>
+      <th>Platform</th>
+      <th>Neden</th>
+    </tr>
+    <tr>
+      <td>İnternet</td>
+      <td>Android, iOS</td>
+      <td>Radio Browser API, akış ve logo istekleri</td>
+    </tr>
+    <tr>
+      <td>Bildirimler</td>
+      <td>Android 13+</td>
+      <td>Arka planda medya kontrol bildirimi göstermek</td>
+    </tr>
+    <tr>
+      <td>Ön plan hizmeti (medya oynatma)</td>
+      <td>Android</td>
+      <td>Arka planda radyo dinlemeyi sürdürmek</td>
+    </tr>
+    <tr>
+      <td>Ekran uyanık tutma</td>
+      <td>Android</td>
+      <td>Oynatma sırasında ekranın kararmasını önlemek (OS düzeyi)</td>
+    </tr>
+    <tr>
+      <td>Arka plan ses</td>
+      <td>iOS</td>
+      <td>Uygulama arka plandayken oynatmayı sürdürmek</td>
+    </tr>
+    <tr>
+      <td>Android Auto / CarPlay</td>
+      <td>Android, iOS</td>
+      <td>Araç ekranında medya kontrolleri</td>
+    </tr>
+    <tr>
+      <td>Ana ekran widget'ı</td>
+      <td>Android, iOS</td>
+      <td>Şu an çalan istasyonu göstermek</td>
+    </tr>
+  </table>
+
+  <h2>7. Şifresiz Trafik (HTTP)</h2>
+  <p>
+    Bazı radyo akışları ve logo adresleri HTTP (şifresiz) protokol üzerinden sunulabilir.
+    Bu, internet radyo ekosisteminde yaygındır. Android sürümünde manifest düzeyinde
+    şifresiz trafik varsayılan olarak kısıtlanmıştır (<code>usesCleartextTraffic="false"</code>);
+    uygulama içindeki <strong>Yalnızca HTTPS</strong> filtresi ile HTTPS akışları
+    tercih edilebilir. iOS'ta App Transport Security kuralları geçerlidir.
+  </p>
+
+  <h2>8. Çocuklar</h2>
+  <p>
+    Uygulama bilerek 13 yaş (veya uygulanabilir mevzuata göre daha yüksek bir yaş sınırı)
+    altındaki kişilerden veri toplamak amacıyla tasarlanmamıştır. İnternet radyo içerikleri
+    üçüncü taraf yayıncılara aittir; ebeveynlerin çocukların erişimini denetlemesi önerilir.
+  </p>
+
+  <h2>9. Veri Güvenliği</h2>
+  <ul>
+    <li>Radio Browser ve logo istekleri mümkün olduğunca HTTPS üzerinden yapılır.</li>
+    <li>Kalıcı veriler (favoriler, geçmiş, filtreler) yalnızca cihazınızda saklanır.</li>
+    <li>Geliştirici sunucusunda kullanıcı veritabanı bulunmaz.</li>
+    <li>Cihazınızı güncel tutmanız ve güvenli bir işletim sistemi kullanmanız önerilir.</li>
+  </ul>
+
+  <h2>10. Haklarınız ve İletişim</h2>
+  <p>
+    Uygulamada saklanan tüm veriler cihazınıza aittir. Favorileri ve geçmişi uygulama
+    içinden yönetebilir, ayarları sıfırlayabilir veya uygulamayı kaldırarak tüm yerel
+    verileri silebilirsiniz. Bulunduğunuz ülkedeki kişisel verilerle ilgili haklarınız
+    (erişim, düzeltme, silme vb.) geçerli mevzuata tabidir.
+  </p>
+  <p>
+    Sorularınız için:
+    <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+
+  <h2>11. Mağaza Beyanları</h2>
+  <div class="card">
+    <p class="note">
+      Google Play Console ve App Store Connect'teki <strong>Veri güvenliği / App Privacy</strong>
+      formlarını doldururken bu metinle uyumlu beyan verin. Uygulamaya yeni özellik,
+      SDK veya veri toplama eklendiğinde hem formları hem bu sayfayı güncelleyin.
+    </p>
+  </div>
+
+  <h2>12. Bu Politikanın Güncellenmesi</h2>
+  <p>
+    Uygulama güncellendiğinde veya yasal gereklilikler değiştiğinde bu metin
+    güncellenebilir. Önemli değişiklikler bu sayfada yayınlanır; "Son güncelleme"
+    tarihini kontrol etmeniz yeterlidir.
+  </p>
+
+  <footer>
+    <p style="margin:0">
+      Bu gizlilik politikası <strong>RadioHunter</strong> (Android / iOS) uygulaması için
+      hazırlanmıştır. Play Console ve App Store Connect'e yapıştıracağınız URL,
+      bu dosyanın yayınlandığı geçerli HTTPS adresi olmalıdır.
+    </p>
+  </footer>
+
+
+  <!-- ════════════════════════════════════════════
+       ENGLISH
+  ════════════════════════════════════════════ -->
+  <hr class="divider">
+  <div class="lang-label">🇬🇧 English</div>
+
+  <header>
+    <div class="app-badge">📻 RadioHunter — World Radio</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Bundle ID (Android): <code>com.radiohunter.radio_hunter</code></p>
+    <p class="meta">Bundle ID (iOS): <code>com.radiohunter.radioHunter</code></p>
+    <p class="meta">Last updated: <time datetime="2026-07-16">July 16, 2026</time></p>
+  </header>
+
+  <p>
+    This document describes how the <strong>RadioHunter</strong> mobile application
+    (Android and iOS phones/tablets) handles user data and device information.
+    By downloading or using the application you agree to this policy.
+  </p>
+
+  <h2>1. Data Controller</h2>
+  <p>
+    Developer: <strong>Mehmet Burhan</strong><br>
+    Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+  <div class="card">
+    <p class="note">
+      RadioHunter is provided for personal, non-commercial use. The developer does
+      <strong>not store collected data on any server, operate user accounts,
+      or maintain user profiles.</strong>
+    </p>
+  </div>
+
+  <h2>2. What Does the Application Do?</h2>
+  <p>
+    RadioHunter is a media application that lets you discover, search, and listen to
+    <strong>internet radio stations</strong> worldwide. Station listings and metadata come
+    from the community <strong>Radio Browser API</strong>; the app does not provide its own
+    broadcast content and only connects to stream URLs selected by the user.
+  </p>
+  <ul>
+    <li>Browse by country, language, category, state/city, codec, and popularity</li>
+    <li>Live radio playback, queue, and previous/next station</li>
+    <li>Favorites and recently played (on device)</li>
+    <li>Search and paginated station lists</li>
+    <li>Sleep timer</li>
+    <li>Background playback, lock-screen and notification media controls</li>
+    <li>Home-screen widget (now playing)</li>
+    <li>Android Auto and CarPlay support</li>
+    <li>Offline fallback station list (bundled cache)</li>
+    <li>App language selection (Turkish, English, French, German, Russian, Ukrainian)</li>
+  </ul>
+
+  <h2>3. Data Processed</h2>
+
+  <h3>3.1. Data Stored on Device</h3>
+  <p>The following data is kept <strong>on your device only</strong> and is never sent to the developer:</p>
+  <table>
+    <tr>
+      <th>Data</th>
+      <th>Storage</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td>App interface language</td>
+      <td>SharedPreferences (<code>app_language</code>)</td>
+      <td>Remember menu and label language</td>
+    </tr>
+    <tr>
+      <td>Favorite station IDs</td>
+      <td>SharedPreferences (<code>favorite_station_ids</code>)</td>
+      <td>Store the favorites list</td>
+    </tr>
+    <tr>
+      <td>Recently played stations (up to 40)</td>
+      <td>SharedPreferences (<code>history_station_ids</code>)</td>
+      <td>Populate the history screen</td>
+    </tr>
+    <tr>
+      <td>Station snapshot cache</td>
+      <td>SharedPreferences (<code>station_snapshot_cache</code>)</td>
+      <td>Remember name, logo, and stream info for favorites/history</td>
+    </tr>
+    <tr>
+      <td>Search and filter preferences</td>
+      <td>SharedPreferences (<code>station_filters_v2</code>)</td>
+      <td>Store country, language, category, sort, etc.</td>
+    </tr>
+    <tr>
+      <td>Broken / verified station IDs</td>
+      <td>SharedPreferences (<code>broken_station_ids_v1</code>, <code>verified_working_station_ids_v1</code>)</td>
+      <td>Hide broken stations based on local playback experience</td>
+    </tr>
+    <tr>
+      <td>Last playback session (station, queue, state)</td>
+      <td>SharedPreferences (<code>playback_session_v1</code>)</td>
+      <td>Resume listening when the app reopens</td>
+    </tr>
+    <tr>
+      <td>Widget text and state</td>
+      <td>Android widget storage / iOS App Group (<code>group.com.radiohunter.radio_hunter</code>)</td>
+      <td>Show now playing on the home-screen widget</td>
+    </tr>
+  </table>
+  <p>
+    You can manage favorites and history inside the app or uninstall the application
+    to remove all local data completely.
+  </p>
+
+  <h3>3.2. Network Connections</h3>
+  <p>
+    An internet connection is required for station discovery and playback. The app connects
+    directly to:
+  </p>
+  <ul>
+    <li>
+      <span class="tag">Radio Browser</span>
+      <code>de1.api.radio-browser.info</code>,
+      <code>nl1.api.radio-browser.info</code>,
+      <code>at1.api.radio-browser.info</code> —
+      station search, filter lists, and statistics (HTTPS).
+    </li>
+    <li>
+      <span class="tag">Stream</span> The broadcast URL of the station you select —
+      for live audio playback (HTTP or HTTPS; depends on the broadcaster).
+    </li>
+    <li>
+      <span class="tag">Logos</span> Logo image URLs from station metadata —
+      cached for display in the UI and widget.
+    </li>
+    <li>
+      <span class="tag">Click</span> When you play a station, an anonymous popularity
+      signal may be sent to Radio Browser (<code>/json/url/{uuid}</code>);
+      the same IP + station is counted once per day.
+    </li>
+    <li>
+      <span class="tag">Fonts</span> On first use, UI fonts may be downloaded from
+      <code>fonts.googleapis.com</code> (Google Fonts).
+    </li>
+  </ul>
+  <p>
+    During these connections your IP address, request time, client headers
+    (<code>User-Agent: RadioHunter/1.0</code>), and search/filter parameters may be
+    processed in server logs. The developer does not operate these servers;
+    third-party policies apply.
+  </p>
+  <div class="card">
+    <p class="note">
+      The app does not require sign-in or account creation. Radio Browser requests do not
+      include personal identity data (name, email, etc.); only search parameters and
+      standard HTTP metadata are transmitted.
+    </p>
+  </div>
+
+  <h3>3.3. Offline Cache</h3>
+  <p>
+    When Radio Browser is unreachable, the app may serve a limited station list from the
+    bundled <code>stations.json</code> file. This data ships with the app and contains
+    no personal information.
+  </p>
+
+  <h3>3.4. Media Playback and Background</h3>
+  <p>
+    <strong>audio_service</strong> and <strong>just_audio</strong> power background listening,
+    lock-screen controls, and Android Auto / CarPlay interfaces. Only metadata of the
+    playing station (name, subtitle, logo) is shown in the OS media layer;
+    it is not sent to the developer.
+  </p>
+
+  <h3>3.5. In-Memory Cache</h3>
+  <p>
+    Station logos may be cached as images on device. API responses and the playback queue
+    are held in memory while the app runs; temporary cache is cleared when the app closes.
+  </p>
+
+  <h3>3.6. Technical Connection Data</h3>
+  <p>
+    Radio Browser and most logo requests use HTTPS. Standard HTTP/TLS connection metadata
+    (IP address, timestamps, client headers) may be logged by the respective providers.
+  </p>
+
+  <h2>4. Data We Do Not Collect</h2>
+  <ul>
+    <li>Name, email, phone number, or account credentials</li>
+    <li>Location data (GPS or network-based)</li>
+    <li>Microphone or camera recordings</li>
+    <li>Advertising identifiers (GAID / IDFA)</li>
+    <li>Usage analytics, crash reports, or session statistics</li>
+    <li>Contacts, photos, files, or other device content</li>
+  </ul>
+  <div class="card">
+    <p class="note">
+      The application does not include any <strong>advertising SDK, analytics SDK,
+      or third-party tracking library</strong>.
+    </p>
+  </div>
+
+  <h2>5. Third-Party Services</h2>
+  <p>RadioHunter interacts directly with the following external sources:</p>
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Purpose</th>
+      <th>Privacy</th>
+    </tr>
+    <tr>
+      <td>Radio Browser API</td>
+      <td>Station search, filters, popularity</td>
+      <td><a href="https://www.radio-browser.info/" target="_blank" rel="noopener noreferrer">radio-browser.info</a></td>
+    </tr>
+    <tr>
+      <td>Radio broadcasters</td>
+      <td>Live audio stream playback</td>
+      <td>Each broadcaster's own policy</td>
+    </tr>
+    <tr>
+      <td>Google Fonts</td>
+      <td>UI typefaces</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a></td>
+    </tr>
+    <tr>
+      <td>Google Play / App Store</td>
+      <td>App share links (optional)</td>
+      <td>Respective store policies</td>
+    </tr>
+  </table>
+
+  <h2>6. Permissions</h2>
+  <table>
+    <tr>
+      <th>Permission / Feature</th>
+      <th>Platform</th>
+      <th>Why</th>
+    </tr>
+    <tr>
+      <td>Internet</td>
+      <td>Android, iOS</td>
+      <td>Radio Browser API, streams, and logo requests</td>
+    </tr>
+    <tr>
+      <td>Notifications</td>
+      <td>Android 13+</td>
+      <td>Show media control notification in background</td>
+    </tr>
+    <tr>
+      <td>Foreground service (media playback)</td>
+      <td>Android</td>
+      <td>Continue radio playback in background</td>
+    </tr>
+    <tr>
+      <td>Wake lock</td>
+      <td>Android</td>
+      <td>Prevent screen dimming during playback (OS level)</td>
+    </tr>
+    <tr>
+      <td>Background audio</td>
+      <td>iOS</td>
+      <td>Continue playback when app is in background</td>
+    </tr>
+    <tr>
+      <td>Android Auto / CarPlay</td>
+      <td>Android, iOS</td>
+      <td>Media controls on in-car displays</td>
+    </tr>
+    <tr>
+      <td>Home-screen widget</td>
+      <td>Android, iOS</td>
+      <td>Show now playing station</td>
+    </tr>
+  </table>
+
+  <h2>7. Cleartext Traffic (HTTP)</h2>
+  <p>
+    Some radio streams and logo URLs may be served over plain HTTP (unencrypted).
+    This is common in the internet radio ecosystem. On Android, cleartext traffic is
+    restricted at manifest level (<code>usesCleartextTraffic="false"</code>); the in-app
+    <strong>HTTPS only</strong> filter lets you prefer HTTPS streams. iOS App Transport
+    Security rules apply on Apple devices.
+  </p>
+
+  <h2>8. Children</h2>
+  <p>
+    The application is not designed to knowingly collect data from persons under
+    13 years of age (or a higher threshold as required by applicable law). Internet radio
+    content belongs to third-party broadcasters; parents are encouraged to supervise
+    children's access.
+  </p>
+
+  <h2>9. Data Security</h2>
+  <ul>
+    <li>Radio Browser and logo requests are made over HTTPS wherever possible.</li>
+    <li>Persistent data (favorites, history, filters) is stored only on your device.</li>
+    <li>No user database is maintained on the developer's servers.</li>
+    <li>Keep your device and operating system up to date.</li>
+  </ul>
+
+  <h2>10. Your Rights and Contact</h2>
+  <p>
+    All data stored by the application belongs to you. You can manage favorites and history
+    in the app, reset preferences, or uninstall to delete all local data. Your rights
+    regarding personal data (access, correction, deletion, etc.) are governed by
+    applicable law in your country.
+  </p>
+  <p>
+    For questions, contact:
+    <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+
+  <h2>11. Store Disclosures</h2>
+  <div class="card">
+    <p class="note">
+      When completing <strong>Data safety / App Privacy</strong> forms in Google Play
+      Console and App Store Connect, ensure your declarations are consistent with
+      this document. Update both the forms and this page when new features, SDKs,
+      or data collection are added.
+    </p>
+  </div>
+
+  <h2>12. Updates to This Policy</h2>
+  <p>
+    This document may be updated when the application changes or legal requirements
+    evolve. Material changes will be published on this page; checking the
+    "Last updated" date is sufficient.
+  </p>
+
+  <footer>
+    <p style="margin:0">
+      This privacy policy is prepared for <strong>RadioHunter</strong> (Android / iOS).
+      The URL you provide in Play Console and App Store Connect must be the valid
+      HTTPS address at which this file is published.
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
