@@ -251,8 +251,6 @@ https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
 https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAlternativa.br@SD" tvg-name="TV Alternativa" tvg-logo="https://i.imgur.com/wM9xXhc.png" group-title="Brazil / Brezilya",TV Alternativa
 https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
-#EXTINF:-1 tvg-id="TVArapuan.br@SD" tvg-name="TV Arapuan" tvg-logo="https://i.imgur.com/3395A2h.png" group-title="Brazil / Brezilya",TV Arapuan
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" tvg-name="TV BRICS Portuguese" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="Brazil / Brezilya",TV BRICS Portuguese
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br@SD" tvg-name="TV Brusque" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Brazil / Brezilya",TV Brusque
@@ -2150,10 +2148,6 @@ https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/
 https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
 #EXTINF:-1 tvg-id="News12Westchester.us@SD" tvg-name="News12 Westchester" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="USA / ABD",News12 Westchester
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8?omap=https
-#EXTINF:-1 tvg-id="News12PlusLongIsland.us@HD" tvg-name="News12+ Long Island" tvg-logo="https://i.ibb.co/p6FPNcCk/news12plus-LI.jpg" group-title="USA / ABD",News12+ Long Island
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="News12PlusNewJersey.us@HD" tvg-name="News12+ New Jersey" tvg-logo="https://i.ibb.co/qYCVcWDV/news12plus-NJ.jpg" group-title="USA / ABD",News12+ New Jersey
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusNewYork.us@HD" tvg-name="News12+ New York" tvg-logo="https://i.ibb.co/tThKYM09/news12plus-NYC.jpg" group-title="USA / ABD",News12+ New York
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="Newsmax2.us@SD" tvg-name="Newsmax 2" tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="USA / ABD",Newsmax 2
