@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:9
+#EXT-X-INDEPENDENT-SEGMENTS
+# TV Câmara — resmi HLS (mutlak alt playlist URL'leri; göreli yol sorununu giderir)
+# Kaynak: https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Português",LANGUAGE="pt",AUTOSELECT=YES,DEFAULT=YES,URI="https://stream3.camara.gov.br/tv1/audio2_stream.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=3662806,AVERAGE-BANDWIDTH=2233876,CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=1920x1080,FRAME-RATE=29.970,AUDIO="audio"
+https://stream3.camara.gov.br/tv1/video1_stream.m3u8
