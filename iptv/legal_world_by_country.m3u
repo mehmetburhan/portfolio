@@ -4,343 +4,343 @@
 # Not: Bazı akışlar coğrafi kısıtlı veya zamanla değişebilir. Ticari şifreli kanallar yoktur.
 # Güncelleme: 2026-10-21 (genişletilmiş; doğrulanmış; logolar tamam)
 
-# ── Türkiye ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Türkiye",TRT 1
+# ── Turkey / Türkiye ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Turkey / Türkiye",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/TRT_2_logo.svg/512px-TRT_2_logo.svg.png" group-title="Türkiye",TRT 2
+#EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/TRT_2_logo.svg/512px-TRT_2_logo.svg.png" group-title="Turkey / Türkiye",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/TRT_Arabi_logo.svg/512px-TRT_Arabi_logo.svg.png" group-title="Türkiye",TRT Arabi
+#EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/TRT_Arabi_logo.svg/512px-TRT_Arabi_logo.svg.png" group-title="Turkey / Türkiye",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-name="TRT Avaz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Türkiye",TRT Avaz
+#EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-name="TRT Avaz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Turkey / Türkiye",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-name="TRT Belgesel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TRT_Belgesel_logo.svg/512px-TRT_Belgesel_logo.svg.png" group-title="Türkiye",TRT Belgesel
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-name="TRT Belgesel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TRT_Belgesel_logo.svg/512px-TRT_Belgesel_logo.svg.png" group-title="Turkey / Türkiye",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_Diyanet_%C3%87ocuk_logo.svg/512px-TRT_Diyanet_%C3%87ocuk_logo.svg.png" group-title="Türkiye",TRT Diyanet Çocuk
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_Diyanet_%C3%87ocuk_logo.svg/512px-TRT_Diyanet_%C3%87ocuk_logo.svg.png" group-title="Turkey / Türkiye",TRT Diyanet Çocuk
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTEOkul.tr" tvg-name="TRT EBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Türkiye",TRT EBA TV
+#EXTINF:-1 tvg-id="TRTEOkul.tr" tvg-name="TRT EBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Turkey / Türkiye",TRT EBA TV
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTGenc.tr" tvg-name="TRT Genç" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/8/8e/TRT_Gen%C3%A7_logo.png/512px-TRT_Gen%C3%A7_logo.png" group-title="Türkiye",TRT Genç
+#EXTINF:-1 tvg-id="TRTGenc.tr" tvg-name="TRT Genç" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/8/8e/TRT_Gen%C3%A7_logo.png/512px-TRT_Gen%C3%A7_logo.png" group-title="Turkey / Türkiye",TRT Genç
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TRT_Haber_logo.svg/512px-TRT_Haber_logo.svg.png" group-title="Türkiye",TRT Haber
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TRT_Haber_logo.svg/512px-TRT_Haber_logo.svg.png" group-title="Turkey / Türkiye",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-name="TRT Kurdî" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png" group-title="Türkiye",TRT Kurdî
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-name="TRT Kurdî" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png" group-title="Turkey / Türkiye",TRT Kurdî
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/TRT_M%C3%BCzik_logo.svg/512px-TRT_M%C3%BCzik_logo.svg.png" group-title="Türkiye",TRT Müzik
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/TRT_M%C3%BCzik_logo.svg/512px-TRT_M%C3%BCzik_logo.svg.png" group-title="Turkey / Türkiye",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/TRT_Spor_logo.svg/512px-TRT_Spor_logo.svg.png" group-title="Türkiye",TRT Spor
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/TRT_Spor_logo.svg/512px-TRT_Spor_logo.svg.png" group-title="Turkey / Türkiye",TRT Spor
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TRT_Spor_Y%C4%B1ld%C4%B1z_logo.svg/512px-TRT_Spor_Y%C4%B1ld%C4%B1z_logo.svg.png" group-title="Türkiye",TRT Spor Yıldız
+#EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TRT_Spor_Y%C4%B1ld%C4%B1z_logo.svg/512px-TRT_Spor_Y%C4%B1ld%C4%B1z_logo.svg.png" group-title="Turkey / Türkiye",TRT Spor Yıldız
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TRT Türk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png" group-title="Türkiye",TRT Türk
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TRT Türk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png" group-title="Turkey / Türkiye",TRT Türk
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TRT_World_logo.svg/512px-TRT_World_logo.svg.png" group-title="Türkiye",TRT World
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TRT_World_logo.svg/512px-TRT_World_logo.svg.png" group-title="Turkey / Türkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-name="TRT Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TRT_%C3%87ocuk_logo.svg/512px-TRT_%C3%87ocuk_logo.svg.png" group-title="Türkiye",TRT Çocuk
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-name="TRT Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TRT_%C3%87ocuk_logo.svg/512px-TRT_%C3%87ocuk_logo.svg.png" group-title="Turkey / Türkiye",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="Türkiye",24 TV
+#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="Turkey / Türkiye",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Türkiye",A Haber
+#EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Turkey / Türkiye",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-name="A Spor" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="Türkiye",A Spor
+#EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-name="A Spor" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="Turkey / Türkiye",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-id="A2TV.tr@SD" tvg-name="A2TV" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Türkiye",A2TV
+#EXTINF:-1 tvg-id="A2TV.tr@SD" tvg-name="A2TV" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Turkey / Türkiye",A2TV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-name="ATV" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Türkiye",ATV
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-name="ATV" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Turkey / Türkiye",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-name="CNBC-e" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Türkiye",CNBC-e
+#EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-name="CNBC-e" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Turkey / Türkiye",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="Türkiye",Diyanet TV
+#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="Turkey / Türkiye",Diyanet TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="Türkiye",Dream Türk
+#EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="Turkey / Türkiye",Dream Türk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="EkoTürk" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="Türkiye",EkoTürk
+#EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="EkoTürk" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="Turkey / Türkiye",EkoTürk
 https://cdn.ekoturk.net/hls/master.m3u8
-#EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-name="Euro D" tvg-logo="https://i.imgur.com/x9kHsXo.png" group-title="Türkiye",Euro D
+#EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-name="Euro D" tvg-logo="https://i.imgur.com/x9kHsXo.png" group-title="Turkey / Türkiye",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-name="Haber Global" tvg-logo="https://i.imgur.com/fu6XeGS.png" group-title="Türkiye",Haber Global
+#EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-name="Haber Global" tvg-logo="https://i.imgur.com/fu6XeGS.png" group-title="Turkey / Türkiye",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-name="Habertürk" tvg-logo="https://i.imgur.com/6Tw3rUp.png" group-title="Türkiye",Habertürk
+#EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-name="Habertürk" tvg-logo="https://i.imgur.com/6Tw3rUp.png" group-title="Turkey / Türkiye",Habertürk
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
-#EXTINF:-1 tvg-id="HalkTV.tr@SD" tvg-name="Halk TV" tvg-logo="https://i.imgur.com/xM0HA30.png" group-title="Türkiye",Halk TV
+#EXTINF:-1 tvg-id="HalkTV.tr@SD" tvg-name="Halk TV" tvg-logo="https://i.imgur.com/xM0HA30.png" group-title="Turkey / Türkiye",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-name="HT Spor" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Türkiye",HT Spor
+#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-name="HT Spor" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Turkey / Türkiye",HT Spor
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="İlke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="Türkiye",İlke TV
+#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="İlke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="Turkey / Türkiye",İlke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-name="Kanal 7 Avrupa" tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="Türkiye",Kanal 7 Avrupa
+#EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-name="Kanal 7 Avrupa" tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="Turkey / Türkiye",Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-name="Kanal D" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="Türkiye",Kanal D
+#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-name="Kanal D" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="Turkey / Türkiye",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="Kral Pop TV" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="Türkiye",Kral Pop TV
+#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="Kral Pop TV" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="Turkey / Türkiye",Kral Pop TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-name="Lalegül TV" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="Türkiye",Lalegül TV
+#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-name="Lalegül TV" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="Turkey / Türkiye",Lalegül TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 tvg-id="MeltemTV.tr@SD" tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Türkiye",Meltem TV
+#EXTINF:-1 tvg-id="MeltemTV.tr@SD" tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Turkey / Türkiye",Meltem TV
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="Türkiye",Minika Go
+#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="Turkey / Türkiye",Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Çocuk" tvg-logo="https://i.imgur.com/VCywMTv.png" group-title="Türkiye",Minika Çocuk
+#EXTINF:-1 tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Çocuk" tvg-logo="https://i.imgur.com/VCywMTv.png" group-title="Turkey / Türkiye",Minika Çocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 tvg-id="NTV.tr@SD" tvg-name="NTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" group-title="Türkiye",NTV
+#EXTINF:-1 tvg-id="NTV.tr@SD" tvg-name="NTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" group-title="Turkey / Türkiye",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Türkiye",Number 1 TV
+#EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Turkey / Türkiye",Number 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="Türkiye",Power TV
+#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="Turkey / Türkiye",Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-name="PowerTürk" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="Türkiye",PowerTürk
+#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-name="PowerTürk" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="Turkey / Türkiye",PowerTürk
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
-#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="Türkiye",Semerkand TV
+#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="Turkey / Türkiye",Semerkand TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-name="Star TV" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Türkiye",Star TV
+#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-name="Star TV" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Turkey / Türkiye",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-name="TBMM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="Türkiye",TBMM TV
+#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-name="TBMM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="Turkey / Türkiye",TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-name="Tele 1" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Türkiye",Tele 1
+#EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-name="Tele 1" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Turkey / Türkiye",Tele 1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-name="TGRT Haber" tvg-logo="https://i.imgur.com/PrxwKDw.png" group-title="Türkiye",TGRT Haber
+#EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-name="TGRT Haber" tvg-logo="https://i.imgur.com/PrxwKDw.png" group-title="Turkey / Türkiye",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Türkiye",TJK TV
+#EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Turkey / Türkiye",TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 tvg-id="TJKTV2.tr@SD" tvg-name="TJK TV 2" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Türkiye",TJK TV 2
+#EXTINF:-1 tvg-id="TJKTV2.tr@SD" tvg-name="TJK TV 2" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Turkey / Türkiye",TJK TV 2
 https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-#EXTINF:-1 tvg-id="360.tr@SD" tvg-name="TV 360" tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="Türkiye",TV 360
+#EXTINF:-1 tvg-id="360.tr@SD" tvg-name="TV 360" tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="Turkey / Türkiye",TV 360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="Bloomberg HT" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Türkiye",Bloomberg HT
+#EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="Bloomberg HT" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Turkey / Türkiye",Bloomberg HT
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/NOW_TV_%28Turkey%29_logo.svg/512px-NOW_TV_%28Turkey%29_logo.svg.png" group-title="Türkiye",NOW
+#EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/NOW_TV_%28Turkey%29_logo.svg/512px-NOW_TV_%28Turkey%29_logo.svg.png" group-title="Turkey / Türkiye",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="Show TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Show_TV_logo.svg/512px-Show_TV_logo.svg.png" group-title="Türkiye",Show TV
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="Show TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Show_TV_logo.svg/512px-Show_TV_logo.svg.png" group-title="Turkey / Türkiye",Show TV
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/TV8_logo_%28Turkey%29.svg/512px-TV8_logo_%28Turkey%29.svg.png" group-title="Türkiye",TV8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/TV8_logo_%28Turkey%29.svg/512px-TV8_logo_%28Turkey%29.svg.png" group-title="Turkey / Türkiye",TV8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-# ── Almanya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ARDalpha.de" tvg-name="ARD-alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/512px-ARD_alpha.svg.png" group-title="Almanya",ARD-alpha
+# ── Germany / Almanya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ARDalpha.de" tvg-name="ARD-alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/512px-ARD_alpha.svg.png" group-title="Germany / Almanya",ARD-alpha
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="BRFernsehen.de" tvg-name="BR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Fernsehen_Logo_2016.svg/512px-BR_Fernsehen_Logo_2016.svg.png" group-title="Almanya",BR Fernsehen
+#EXTINF:-1 tvg-id="BRFernsehen.de" tvg-name="BR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Fernsehen_Logo_2016.svg/512px-BR_Fernsehen_Logo_2016.svg.png" group-title="Germany / Almanya",BR Fernsehen
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="DasErste.de" tvg-name="Das Erste" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" group-title="Almanya",Das Erste
+#EXTINF:-1 tvg-id="DasErste.de" tvg-name="Das Erste" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" group-title="Germany / Almanya",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
-#EXTINF:-1 tvg-id="DWArabic.de" tvg-name="DW Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW Arabic
+#EXTINF:-1 tvg-id="DWArabic.de" tvg-name="DW Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Germany / Almanya",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
-#EXTINF:-1 tvg-id="DWDeutsch.de" tvg-name="DW Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW Deutsch
+#EXTINF:-1 tvg-id="DWDeutsch.de" tvg-name="DW Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Germany / Almanya",DW Deutsch
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW English
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Germany / Almanya",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="hrfernsehen.de" tvg-name="hr-fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Hr-fernsehen_Logo_2015.svg/512px-Hr-fernsehen_Logo_2015.svg.png" group-title="Almanya",hr-fernsehen
+#EXTINF:-1 tvg-id="hrfernsehen.de" tvg-name="hr-fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Hr-fernsehen_Logo_2015.svg/512px-Hr-fernsehen_Logo_2015.svg.png" group-title="Germany / Almanya",hr-fernsehen
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
-#EXTINF:-1 tvg-id="KiKA.de" tvg-name="KiKA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png" group-title="Almanya",KiKA
+#EXTINF:-1 tvg-id="KiKA.de" tvg-name="KiKA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png" group-title="Germany / Almanya",KiKA
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
-#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NDR_Fernsehen_Logo_2017.svg/512px-NDR_Fernsehen_Logo_2017.svg.png" group-title="Almanya",NDR International
+#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NDR_Fernsehen_Logo_2017.svg/512px-NDR_Fernsehen_Logo_2017.svg.png" group-title="Germany / Almanya",NDR International
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
-#EXTINF:-1 tvg-id="SRFernsehen.de" tvg-name="SR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SR_Fernsehen_Logo_2016.svg/512px-SR_Fernsehen_Logo_2016.svg.png" group-title="Almanya",SR Fernsehen
+#EXTINF:-1 tvg-id="SRFernsehen.de" tvg-name="SR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SR_Fernsehen_Logo_2016.svg/512px-SR_Fernsehen_Logo_2016.svg.png" group-title="Germany / Almanya",SR Fernsehen
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
-#EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24_Logo_2015.svg/512px-Tagesschau24_Logo_2015.svg.png" group-title="Almanya",tagesschau24
+#EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24_Logo_2015.svg/512px-Tagesschau24_Logo_2015.svg.png" group-title="Germany / Almanya",tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
-# ── Fransa ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CGTNFranais.Fransa" tvg-name="CGTN Français" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="Fransa",CGTN Français
+# ── France / Fransa ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CGTNFranais.Fransa" tvg-name="CGTN Français" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="France / Fransa",CGTN Français
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Arabic
+#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="France / Fransa",France 24 Arabic
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 English
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="France / Fransa",France 24 English
 https://static.france24.com/live/F24_EN_HI_HLS/live_tv.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Español
+#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="France / Fransa",France 24 Español
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Français
+#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="France / Fransa",France 24 Français
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="TV5MondeInfo.fr" tvg-name="TV5Monde Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/TV5MONDE_logo_2018.svg/512px-TV5MONDE_logo_2018.svg.png" group-title="Fransa",TV5Monde Info
+#EXTINF:-1 tvg-id="TV5MondeInfo.fr" tvg-name="TV5Monde Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/TV5MONDE_logo_2018.svg/512px-TV5MONDE_logo_2018.svg.png" group-title="France / Fransa",TV5Monde Info
 https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
-# ── İngiltere ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="QVCUK.ngiltere" tvg-name="QVC UK" tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="İngiltere",QVC UK
+# ── United Kingdom / İngiltere ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="QVCUK.ngiltere" tvg-name="QVC UK" tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="United Kingdom / İngiltere",QVC UK
 https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
-# ── İtalya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="Rai1.talya" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" group-title="İtalya",Rai 1
+# ── Italy / İtalya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="Rai1.talya" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" group-title="Italy / İtalya",Rai 1
 https://d3k8wzt41aflvx.cloudfront.net/RAI1/Live.m3u8
-#EXTINF:-1 tvg-id="Rai2.talya" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" group-title="İtalya",Rai 2
+#EXTINF:-1 tvg-id="Rai2.talya" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" group-title="Italy / İtalya",Rai 2
 https://d3k8wzt41aflvx.cloudfront.net/RAI2/Live.m3u8
-#EXTINF:-1 tvg-id="Rai3.talya" tvg-name="Rai 3" tvg-logo="https://i.imgur.com/9kuQCIi.png" group-title="İtalya",Rai 3
+#EXTINF:-1 tvg-id="Rai3.talya" tvg-name="Rai 3" tvg-logo="https://i.imgur.com/9kuQCIi.png" group-title="Italy / İtalya",Rai 3
 https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8
-#EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rai_News_24_2018.svg/512px-Rai_News_24_2018.svg.png" group-title="İtalya",Rai News 24
+#EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rai_News_24_2018.svg/512px-Rai_News_24_2018.svg.png" group-title="Italy / İtalya",Rai News 24
 https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
-# ── İspanya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CanalExtremadura.es" tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" group-title="İspanya",Canal Extremadura
+# ── Spain / İspanya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CanalExtremadura.es" tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" group-title="Spain / İspanya",Canal Extremadura
 https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/continuous/9be76611-d2cd-474d-bf19-ef702ba31b02/index.m3u8
-#EXTINF:-1 tvg-id="CanalSurAndalucia.es" tvg-name="Canal Sur Andalucía" tvg-logo="https://i.imgur.com/WcVOXPr.png" group-title="İspanya",Canal Sur Andalucía
+#EXTINF:-1 tvg-id="CanalSurAndalucia.es" tvg-name="Canal Sur Andalucía" tvg-logo="https://i.imgur.com/WcVOXPr.png" group-title="Spain / İspanya",Canal Sur Andalucía
 https://d4oe4cnrgi9c9.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalEuropeAsia.es" tvg-name="TVE Internacional Europe-Asia" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="İspanya",TVE Internacional Europe-Asia
+#EXTINF:-1 tvg-id="TVEInternacionalEuropeAsia.es" tvg-name="TVE Internacional Europe-Asia" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Spain / İspanya",TVE Internacional Europe-Asia
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8
-# ── Hollanda ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="NHNieuws.Hollanda" tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" group-title="Hollanda",NH Nieuws
+# ── Netherlands / Hollanda ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="NHNieuws.Hollanda" tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" group-title="Netherlands / Hollanda",NH Nieuws
 https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabant.Hollanda" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/Jv7IjHJ.png" group-title="Hollanda",Omroep Brabant
+#EXTINF:-1 tvg-id="OmroepBrabant.Hollanda" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/Jv7IjHJ.png" group-title="Netherlands / Hollanda",Omroep Brabant
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepFlevolandTV.nl" tvg-name="Omroep Flevoland" tvg-logo="https://i.imgur.com/d1CmTcI.png" group-title="Hollanda",Omroep Flevoland
+#EXTINF:-1 tvg-id="OmroepFlevolandTV.nl" tvg-name="Omroep Flevoland" tvg-logo="https://i.imgur.com/d1CmTcI.png" group-title="Netherlands / Hollanda",Omroep Flevoland
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepGelderlandTV.nl" tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" group-title="Hollanda",Omroep Gelderland
+#EXTINF:-1 tvg-id="OmroepGelderlandTV.nl" tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" group-title="Netherlands / Hollanda",Omroep Gelderland
 https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
-#EXTINF:-1 tvg-id="OmroepWest.Hollanda" tvg-name="Omroep West" tvg-logo="https://i.imgur.com/aax1HPH.png" group-title="Hollanda",Omroep West
+#EXTINF:-1 tvg-id="OmroepWest.Hollanda" tvg-name="Omroep West" tvg-logo="https://i.imgur.com/aax1HPH.png" group-title="Netherlands / Hollanda",Omroep West
 https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVDrenthe.Hollanda" tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" group-title="Hollanda",RTV Drenthe
+#EXTINF:-1 tvg-id="RTVDrenthe.Hollanda" tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/GaGqM4z.png" group-title="Netherlands / Hollanda",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVNoord.Hollanda" tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" group-title="Hollanda",RTV Noord
+#EXTINF:-1 tvg-id="RTVNoord.Hollanda" tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" group-title="Netherlands / Hollanda",RTV Noord
 https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVOost.Hollanda" tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/8ropV29.png" group-title="Hollanda",RTV Oost
+#EXTINF:-1 tvg-id="RTVOost.Hollanda" tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/8ropV29.png" group-title="Netherlands / Hollanda",RTV Oost
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmond.Hollanda" tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/TNhUVEm.png" group-title="Hollanda",RTV Rijnmond
+#EXTINF:-1 tvg-id="RTVRijnmond.Hollanda" tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/TNhUVEm.png" group-title="Netherlands / Hollanda",RTV Rijnmond
 https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-# ── Portekiz ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CNNPortugal.pt" tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" group-title="Portekiz",CNN Portugal
+# ── Portugal / Portekiz ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CNNPortugal.pt" tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" group-title="Portugal / Portekiz",CNN Portugal
 https://github.com/LITUATUI/M3UPT/raw/main/M3U/CNN_Portugal.m3u8
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-name="Porto Canal" tvg-logo="https://i.imgur.com/wsyvP2H.png" group-title="Portekiz",Porto Canal
+#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-name="Porto Canal" tvg-logo="https://i.imgur.com/wsyvP2H.png" group-title="Portugal / Portekiz",Porto Canal
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SIC" tvg-name="SIC" tvg-logo="https://i.imgur.com/SPMqiDG.png" group-title="Portekiz",SIC
+#EXTINF:-1 tvg-id="SIC" tvg-name="SIC" tvg-logo="https://i.imgur.com/SPMqiDG.png" group-title="Portugal / Portekiz",SIC
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
-#EXTINF:-1 tvg-id="TVI" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/63/TVI_logo_2017.png" group-title="Portekiz",TVI
+#EXTINF:-1 tvg-id="TVI" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/63/TVI_logo_2017.png" group-title="Portugal / Portekiz",TVI
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
-# ── İsveç ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ExpressenTV.se" tvg-name="Expressen TV" tvg-logo="https://i.imgur.com/8EjMSr7.png" group-title="İsveç",Expressen TV
+# ── Sweden / İsveç ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ExpressenTV.se" tvg-name="Expressen TV" tvg-logo="https://i.imgur.com/8EjMSr7.png" group-title="Sweden / İsveç",Expressen TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
-# ── Norveç ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="Frikanalen.Norve" tvg-name="Frikanalen" tvg-logo="https://i.imgur.com/rY3Owxl.png" group-title="Norveç",Frikanalen
+# ── Norway / Norveç ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="Frikanalen.Norve" tvg-name="Frikanalen" tvg-logo="https://i.imgur.com/rY3Owxl.png" group-title="Norway / Norveç",Frikanalen
 https://frikanalen.no/stream/index.m3u8
-# ── Danimarka ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="DRTV.dk" tvg-name="DR TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DR_logo.svg/512px-DR_logo.svg.png" group-title="Danimarka",DR TV
+# ── Denmark / Danimarka ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="DRTV.dk" tvg-name="DR TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DR_logo.svg/512px-DR_logo.svg.png" group-title="Denmark / Danimarka",DR TV
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
-# ── Polonya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Polonya",Belsat
+# ── Poland / Polonya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Poland / Polonya",Belsat
 https://iptv.prosto.tv/ch171/index.m3u8
-# ── Romanya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="TVR1.ro" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CKQ7mpB.png" group-title="Romanya",TVR 1
+# ── Romania / Romanya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="TVR1.ro" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CKQ7mpB.png" group-title="Romania / Romanya",TVR 1
 https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR2.ro" tvg-name="TVR 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/TVR_2_2022_logo.png" group-title="Romanya",TVR 2
+#EXTINF:-1 tvg-id="TVR2.ro" tvg-name="TVR 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/TVR_2_2022_logo.png" group-title="Romania / Romanya",TVR 2
 https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR3.ro" tvg-name="TVR 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/TVR3_2022.png" group-title="Romanya",TVR 3
+#EXTINF:-1 tvg-id="TVR3.ro" tvg-name="TVR 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/TVR3_2022.png" group-title="Romania / Romanya",TVR 3
 https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="Romanya",TVR Craiova
+#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="Romania / Romanya",TVR Craiova
 https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-name="TVR International" tvg-logo="https://i.imgur.com/AlW8jyl.png" group-title="Romanya",TVR International
+#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-name="TVR International" tvg-logo="https://i.imgur.com/AlW8jyl.png" group-title="Romania / Romanya",TVR International
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
-# ── ABD ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ABCNewsLive1.us" tvg-name="ABC News Live 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="ABD",ABC News Live 1
+# ── USA / ABD ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ABCNewsLive1.us" tvg-name="ABC News Live 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="USA / ABD",ABC News Live 1
 https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive2.us" tvg-name="ABC News Live 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="ABD",ABC News Live 2
+#EXTINF:-1 tvg-id="ABCNewsLive2.us" tvg-name="ABC News Live 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="USA / ABD",ABC News Live 2
 https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-name="Bloomberg Live Event" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="ABD",Bloomberg Live Event
+#EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-name="Bloomberg Live Event" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="USA / ABD",Bloomberg Live Event
 https://bloomberg.com/media-manifest/streams/us-event.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@EU" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="ABD",Bloomberg TV
+#EXTINF:-1 tvg-id="BloombergTV.us@EU" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="USA / ABD",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 tvg-id="CBSNews.ABD" tvg-name="CBS News" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="ABD",CBS News
+#EXTINF:-1 tvg-id="CBSNews.ABD" tvg-name="CBS News" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="USA / ABD",CBS News
 https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
-#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Free_Speech_TV_logo.svg/512px-Free_Speech_TV_logo.svg.png" group-title="ABD",Free Speech TV
+#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Free_Speech_TV_logo.svg/512px-Free_Speech_TV_logo.svg.png" group-title="USA / ABD",Free Speech TV
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
-#EXTINF:-1 tvg-id="NASATVMedia.ABD" tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="ABD",NASA TV Media
+#EXTINF:-1 tvg-id="NASATVMedia.ABD" tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="USA / ABD",NASA TV Media
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
-#EXTINF:-1 tvg-id="NASATVPublic.ABD" tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="ABD",NASA TV Public
+#EXTINF:-1 tvg-id="NASATVPublic.ABD" tvg-name="NASA TV Public" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="USA / ABD",NASA TV Public
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-name="NBC News" tvg-logo="https://i.imgur.com/v48mMRT.png" group-title="ABD",NBC News
+#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-name="NBC News" tvg-logo="https://i.imgur.com/v48mMRT.png" group-title="USA / ABD",NBC News
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
-#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/PBS_Kids_logo.svg/512px-PBS_Kids_logo.svg.png" group-title="ABD",PBS Kids
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/PBS_Kids_logo.svg/512px-PBS_Kids_logo.svg.png" group-title="USA / ABD",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
-# ── Kanada ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/CBC_News_Network_logo.svg/512px-CBC_News_Network_logo.svg.png" group-title="Kanada",CBC News Network
+# ── Canada / Kanada ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/CBC_News_Network_logo.svg/512px-CBC_News_Network_logo.svg.png" group-title="Canada / Kanada",CBC News Network
 https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
-#EXTINF:-1 tvg-id="CityNewsToronto.ca" tvg-name="CityNews Toronto" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/CityNews_logo.svg/512px-CityNews_logo.svg.png" group-title="Kanada",CityNews Toronto
+#EXTINF:-1 tvg-id="CityNewsToronto.ca" tvg-name="CityNews Toronto" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/CityNews_logo.svg/512px-CityNews_logo.svg.png" group-title="Canada / Kanada",CityNews Toronto
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
-#EXTINF:-1 tvg-id="IciRDI.ca" tvg-name="Ici RDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ICI_RDI_logo_2016.svg/512px-ICI_RDI_logo_2016.svg.png" group-title="Kanada",Ici RDI
+#EXTINF:-1 tvg-id="IciRDI.ca" tvg-name="Ici RDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ICI_RDI_logo_2016.svg/512px-ICI_RDI_logo_2016.svg.png" group-title="Canada / Kanada",Ici RDI
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
-# ── Meksika ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ADNNoticias.mx" tvg-name="ADN Noticias" tvg-logo="https://pbs.twimg.com/profile_images/1968512728059850752/KUWD445m_200x200.jpg" group-title="Meksika",ADN Noticias
+# ── Mexico / Meksika ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ADNNoticias.mx" tvg-name="ADN Noticias" tvg-logo="https://pbs.twimg.com/profile_images/1968512728059850752/KUWD445m_200x200.jpg" group-title="Mexico / Meksika",ADN Noticias
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
-#EXTINF:-1 tvg-id="Canal6Multimedios.Meksika" tvg-name="Canal 6 Multimedios" tvg-logo="https://graph.facebook.com/multimediostv/picture?width=200&height=200" group-title="Meksika",Canal 6 Multimedios
+#EXTINF:-1 tvg-id="Canal6Multimedios.Meksika" tvg-name="Canal 6 Multimedios" tvg-logo="https://graph.facebook.com/multimediostv/picture?width=200&height=200" group-title="Mexico / Meksika",Canal 6 Multimedios
 https://mdstrm.com/live-stream-playlist/5d56ed29c92dd106ff01543b.m3u8
-#EXTINF:-1 tvg-id="CanalOnce.Meksika" tvg-name="Canal Once" tvg-logo="https://graph.facebook.com/CANALONCETV/picture?width=200&height=200" group-title="Meksika",Canal Once
+#EXTINF:-1 tvg-id="CanalOnce.Meksika" tvg-name="Canal Once" tvg-logo="https://graph.facebook.com/CANALONCETV/picture?width=200&height=200" group-title="Mexico / Meksika",Canal Once
 https://vivo.canaloncelive.tv/secureoncedos/oncedigital/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleFormula.Meksika" tvg-name="TeleFormula" tvg-logo="https://i.imgur.com/jR6taXt.png" group-title="Meksika",TeleFormula
+#EXTINF:-1 tvg-id="TeleFormula.Meksika" tvg-name="TeleFormula" tvg-logo="https://i.imgur.com/jR6taXt.png" group-title="Mexico / Meksika",TeleFormula
 https://mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8
-# ── Brezilya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png" group-title="Brezilya",CNN Brasil
+# ── Brazil / Brezilya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png" group-title="Brazil / Brezilya",CNN Brasil
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 tvg-id="RecordNews.Brezilya" tvg-name="Record News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Record_News_logo_2023.svg" group-title="Brezilya",Record News
+#EXTINF:-1 tvg-id="RecordNews.Brezilya" tvg-name="Record News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Record_News_logo_2023.svg" group-title="Brazil / Brezilya",Record News
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 tvg-id="TVCultura.Brezilya" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Brezilya",TV Cultura
+#EXTINF:-1 tvg-id="TVCultura.Brezilya" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Brazil / Brezilya",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="TVCmara.Brezilya" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Brezilya",TV Câmara
+#EXTINF:-1 tvg-id="TVCmara.Brezilya" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Brazil / Brezilya",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
-# ── Arjantin ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="Canal26.Arjantin" tvg-name="Canal 26" tvg-logo="https://i.imgur.com/5pAaVih.png" group-title="Arjantin",Canal 26
+# ── Argentina / Arjantin ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="Canal26.Arjantin" tvg-name="Canal 26" tvg-logo="https://i.imgur.com/5pAaVih.png" group-title="Argentina / Arjantin",Canal 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
-# ── Katar ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="AlArabyTV.qa" tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" group-title="Katar",Al Araby TV
+# ── Qatar / Katar ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AlArabyTV.qa" tvg-name="Al Araby TV" tvg-logo="https://i.imgur.com/YMqWEe4.png" group-title="Qatar / Katar",Al Araby TV
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraChannel2.qa" tvg-name="Al Jazeera 2" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="Katar",Al Jazeera 2
+#EXTINF:-1 tvg-id="AlJazeeraChannel2.qa" tvg-name="Al Jazeera 2" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="Qatar / Katar",Al Jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="Katar",Al Jazeera Arabic
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="Qatar / Katar",Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher.Katar" tvg-name="Al Jazeera Mubasher" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" group-title="Katar",Al Jazeera Mubasher
+#EXTINF:-1 tvg-id="AlJazeeraMubasher.Katar" tvg-name="Al Jazeera Mubasher" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" group-title="Qatar / Katar",Al Jazeera Mubasher
 https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-id="AlRayyanTV.qa" tvg-name="Al Rayyan" tvg-logo="https://i.imgur.com/Ts3RjTV.png" group-title="Katar",Al Rayyan
+#EXTINF:-1 tvg-id="AlRayyanTV.qa" tvg-name="Al Rayyan" tvg-logo="https://i.imgur.com/Ts3RjTV.png" group-title="Qatar / Katar",Al Rayyan
 https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="QatarTelevision.Katar" tvg-name="Qatar Television" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="Katar",Qatar Television
+#EXTINF:-1 tvg-id="QatarTelevision.Katar" tvg-name="Qatar Television" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="Qatar / Katar",Qatar Television
 https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
-#EXTINF:-1 tvg-id="QatarTelevision2.Katar" tvg-name="Qatar Television 2" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="Katar",Qatar Television 2
+#EXTINF:-1 tvg-id="QatarTelevision2.Katar" tvg-name="Qatar Television 2" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="Qatar / Katar",Qatar Television 2
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
-# ── BAE ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="AlArabiya.BAE" tvg-name="Al Arabiya" tvg-logo="https://i.imgur.com/eEV4r6J.jpg" group-title="BAE",Al Arabiya
+# ── UAE / BAE ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AlArabiya.BAE" tvg-name="Al Arabiya" tvg-logo="https://i.imgur.com/eEV4r6J.jpg" group-title="UAE / BAE",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlArabiyaBusiness.BAE" tvg-name="Al Arabiya Business" tvg-logo="https://i.imgur.com/eEV4r6J.jpg" group-title="BAE",Al Arabiya Business
+#EXTINF:-1 tvg-id="AlArabiyaBusiness.BAE" tvg-name="Al Arabiya Business" tvg-logo="https://i.imgur.com/eEV4r6J.jpg" group-title="UAE / BAE",Al Arabiya Business
 https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlHadath.BAE" tvg-name="Al Hadath" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" group-title="BAE",Al Hadath
+#EXTINF:-1 tvg-id="AlHadath.BAE" tvg-name="Al Hadath" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" group-title="UAE / BAE",Al Hadath
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-name="CNBC Arabiya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/512px-CNBC_Arabia_2025.svg.png" group-title="BAE",CNBC Arabiya
+#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-name="CNBC Arabiya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/512px-CNBC_Arabia_2025.svg.png" group-title="UAE / BAE",CNBC Arabiya
 https://cnbc-live.akamaized.net/cnbc/master.m3u8
-# ── Suudi Arabistan ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-name="Al Ekhbariya" tvg-logo="https://i.imgur.com/WcRlHQm.png" group-title="Suudi Arabistan",Al Ekhbariya
+# ── Saudi Arabia / Suudi Arabistan ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-name="Al Ekhbariya" tvg-logo="https://i.imgur.com/WcRlHQm.png" group-title="Saudi Arabia / Suudi Arabistan",Al Ekhbariya
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
-#EXTINF:-1 tvg-id="AlSaudiya.sa" tvg-name="Al Saudiya" tvg-logo="https://i.imgur.com/GRQTndk.png" group-title="Suudi Arabistan",Al Saudiya
+#EXTINF:-1 tvg-id="AlSaudiya.sa" tvg-name="Al Saudiya" tvg-logo="https://i.imgur.com/GRQTndk.png" group-title="Saudi Arabia / Suudi Arabistan",Al Saudiya
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
-# ── Hindistan ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="[ABP News](https://abplive.com)" tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" group-title="Hindistan",ABP News
+# ── India / Hindistan ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="[ABP News](https://abplive.com)" tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" group-title="India / Hindistan",ABP News
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
-#EXTINF:-1 tvg-id="NDTV24x7.Hindistan" tvg-name="NDTV 24x7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="Hindistan",NDTV 24x7
+#EXTINF:-1 tvg-id="NDTV24x7.Hindistan" tvg-name="NDTV 24x7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="India / Hindistan",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
-#EXTINF:-1 tvg-id="NDTVIndia.Hindistan" tvg-name="NDTV India" tvg-logo="https://i.imgur.com/QjJYohG.png" group-title="Hindistan",NDTV India
+#EXTINF:-1 tvg-id="NDTVIndia.Hindistan" tvg-name="NDTV India" tvg-logo="https://i.imgur.com/QjJYohG.png" group-title="India / Hindistan",NDTV India
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
-#EXTINF:-1 tvg-id="NDTVProfit.com" tvg-name="NDTV Profit" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" group-title="Hindistan",NDTV Profit
+#EXTINF:-1 tvg-id="NDTVProfit.com" tvg-name="NDTV Profit" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" group-title="India / Hindistan",NDTV Profit
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
-# ── Çin ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CGTNArabic.in" tvg-name="CGTN Arabic" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="Çin",CGTN Arabic
+# ── China / Çin ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CGTNArabic.in" tvg-name="CGTN Arabic" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="China / Çin",CGTN Arabic
 https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary.in" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Çin",CGTN Documentary
+#EXTINF:-1 tvg-id="CGTNDocumentary.in" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="China / Çin",CGTN Documentary
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@English" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="Çin",CGTN English
+#EXTINF:-1 tvg-id="CGTN.cn@English" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="China / Çin",CGTN English
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-#EXTINF:-1 tvg-id="CGTNEspaol.in" tvg-name="CGTN Español" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="Çin",CGTN Español
+#EXTINF:-1 tvg-id="CGTNEspaol.in" tvg-name="CGTN Español" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="China / Çin",CGTN Español
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-# ── Japonya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World_TV.svg/512px-NHK_World_TV.svg.png" group-title="Japonya",NHK World Japan
+# ── Japan / Japonya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World_TV.svg/512px-NHK_World_TV.svg.png" group-title="Japan / Japonya",NHK World Japan
 https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8
-# ── Güney Kore ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arirang_TV_logo.svg/512px-Arirang_TV_logo.svg.png" group-title="Güney Kore",Arirang TV
+# ── South Korea / Güney Kore ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arirang_TV_logo.svg/512px-Arirang_TV_logo.svg.png" group-title="South Korea / Güney Kore",Arirang TV
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS1TV.kr" tvg-name="EBS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/500px-EBS_1TV_Logo.svg.png" group-title="Güney Kore",EBS 1
+#EXTINF:-1 tvg-id="EBS1TV.kr" tvg-name="EBS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/500px-EBS_1TV_Logo.svg.png" group-title="South Korea / Güney Kore",EBS 1
 https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS2TV.kr" tvg-name="EBS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/500px-EBS_2TV_Logo.svg.png" group-title="Güney Kore",EBS 2
+#EXTINF:-1 tvg-id="EBS2TV.kr" tvg-name="EBS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/500px-EBS_2TV_Logo.svg.png" group-title="South Korea / Güney Kore",EBS 2
 https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBSEnglish.kr" tvg-name="EBS English" tvg-logo="https://i.imgur.com/qceaIf7.png" group-title="Güney Kore",EBS English
+#EXTINF:-1 tvg-id="EBSEnglish.kr" tvg-name="EBS English" tvg-logo="https://i.imgur.com/qceaIf7.png" group-title="South Korea / Güney Kore",EBS English
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBSKids.kr" tvg-name="EBS Kids" tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="Güney Kore",EBS Kids
+#EXTINF:-1 tvg-id="EBSKids.kr" tvg-name="EBS Kids" tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="South Korea / Güney Kore",EBS Kids
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
-# ── Singapur ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="CNA.Singapur" tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" group-title="Singapur",CNA
+# ── Singapore / Singapur ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CNA.Singapur" tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" group-title="Singapore / Singapur",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-# ── Endonezya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="TVRINasional.Endonezya" tvg-name="TVRI Nasional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/TVRI_logo_2019.svg/512px-TVRI_logo_2019.svg.png" group-title="Endonezya",TVRI Nasional
+# ── Indonesia / Endonezya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="TVRINasional.Endonezya" tvg-name="TVRI Nasional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/TVRI_logo_2019.svg/512px-TVRI_logo_2019.svg.png" group-title="Indonesia / Endonezya",TVRI Nasional
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
-# ── Avustralya ──────────────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ABC_News_logo_2021.svg/512px-ABC_News_logo_2021.svg.png" group-title="Avustralya",ABC News
+# ── Australia / Avustralya ──────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ABC_News_logo_2021.svg/512px-ABC_News_logo_2021.svg.png" group-title="Australia / Avustralya",ABC News
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.au" tvg-name="Bloomberg TV Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Avustralya",Bloomberg TV Australia
+#EXTINF:-1 tvg-id="BloombergTV.au" tvg-name="Bloomberg TV Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Australia / Avustralya",Bloomberg TV Australia
 https://bloomberg.com/media-manifest/streams/aus.m3u8
-#EXTINF:-1 tvg-id="SkyNewsExtra1.au" tvg-name="Sky News Extra 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Sky_News_logo.svg/512px-Sky_News_logo.svg.png" group-title="Avustralya",Sky News Extra 1
+#EXTINF:-1 tvg-id="SkyNewsExtra1.au" tvg-name="Sky News Extra 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Sky_News_logo.svg/512px-Sky_News_logo.svg.png" group-title="Australia / Avustralya",Sky News Extra 1
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
-#EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-name="Sky News Extra 3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Sky_News_logo.svg/512px-Sky_News_logo.svg.png" group-title="Avustralya",Sky News Extra 3
+#EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-name="Sky News Extra 3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Sky_News_logo.svg/512px-Sky_News_logo.svg.png" group-title="Australia / Avustralya",Sky News Extra 3
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
