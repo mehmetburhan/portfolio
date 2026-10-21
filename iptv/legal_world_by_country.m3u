@@ -1,0 +1,133 @@
+#EXTM3U
+# Owl IP Player — yasal / kamuya açık canlı yayınlar (ülke gruplu)
+# Kaynaklar: yayıncıların kendi HLS uçları (TRT, DW, ARD, France 24, Al Jazeera, vb.)
+# Not: Bazı akışlar coğrafi kısıtlı veya zamanla değişebilir. Ticari şifreli kanallar yoktur.
+# Güncelleme: 2026-10-21 (genişletilmiş)
+
+# ── Türkiye ──────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Türkiye",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/TRT_2_logo.svg/512px-TRT_2_logo.svg.png" group-title="Türkiye",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TRT_World_logo.svg/512px-TRT_World_logo.svg.png" group-title="Türkiye",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TRT_Haber_logo.svg/512px-TRT_Haber_logo.svg.png" group-title="Türkiye",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-name="TRT Belgesel" group-title="Türkiye",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-name="TRT Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TRT_%C3%87ocuk_logo.svg/512px-TRT_%C3%87ocuk_logo.svg.png" group-title="Türkiye",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" tvg-name="TRT Diyanet Çocuk" group-title="Türkiye",TRT Diyanet Çocuk
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/TRT_Spor_logo.svg/512px-TRT_Spor_logo.svg.png" group-title="Türkiye",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız" group-title="Türkiye",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Müzik" group-title="Türkiye",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-name="TRT Avaz" group-title="Türkiye",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-name="TRT Kurdî" group-title="Türkiye",TRT Kurdî
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" group-title="Türkiye",TRT Arabi
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TRT Türk" group-title="Türkiye",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTGenc.tr" tvg-name="TRT Genç" group-title="Türkiye",TRT Genç
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTEOkul.tr" tvg-name="TRT EBA TV" group-title="Türkiye",TRT EBA TV
+https://tv-e-okul00.medya.trt.com.tr/master.m3u8
+
+# ── Almanya ──────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="DWArabic.de" tvg-name="DW Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
+#EXTINF:-1 tvg-id="DWDeutsch.de" tvg-name="DW Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="Almanya",DW Deutsch
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 tvg-id="DasErste.de" tvg-name="Das Erste" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" group-title="Almanya",Das Erste
+https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="tagesschau24" group-title="Almanya",tagesschau24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-id="ARDalpha.de" tvg-name="ARD-alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/512px-ARD_alpha.svg.png" group-title="Almanya",ARD-alpha
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="BRFernsehen.de" tvg-name="BR Fernsehen" group-title="Almanya",BR Fernsehen
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de" tvg-name="WDR Fernsehen" group-title="Almanya",WDR Fernsehen
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="hrfernsehen.de" tvg-name="hr-fernsehen" group-title="Almanya",hr-fernsehen
+https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" group-title="Almanya",NDR International
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
+#EXTINF:-1 tvg-id="SRFernsehen.de" tvg-name="SR Fernsehen" group-title="Almanya",SR Fernsehen
+https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
+#EXTINF:-1 tvg-id="KiKA.de" tvg-name="KiKA" group-title="Almanya",KiKA
+https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+
+# ── Fransa ───────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Français
+https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 English
+https://static.france24.com/live/F24_EN_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Español
+https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="Fransa",France 24 Arabic
+https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="TV5MondeInfo.fr" tvg-name="TV5Monde Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/TV5MONDE_logo_2018.svg/512px-TV5MONDE_logo_2018.svg.png" group-title="Fransa",TV5Monde Info
+https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+
+# ── Katar ────────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="Katar",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/01.m3u8
+
+# ── Güney Kore ───────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arirang_TV_logo.svg/512px-Arirang_TV_logo.svg.png" group-title="Güney Kore",Arirang TV
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+
+# ── Çin ──────────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CGTN.cn@English" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="Çin",CGTN English
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+
+# ── ABD ──────────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="BloombergTV.us@EU" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="ABD",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-name="Bloomberg Live Event" group-title="ABD",Bloomberg Live Event
+https://bloomberg.com/media-manifest/streams/us-event.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive1.us" tvg-name="ABC News Live 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="ABD",ABC News Live 1
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive2.us" tvg-name="ABC News Live 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="ABD",ABC News Live 2
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/PBS_Kids_logo.svg/512px-PBS_Kids_logo.svg.png" group-title="ABD",PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" group-title="ABD",Free Speech TV
+https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
+
+# ── Avustralya ───────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ABC_News_logo_2021.svg/512px-ABC_News_logo_2021.svg.png" group-title="Avustralya",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="SkyNewsExtra1.au" tvg-name="Sky News Extra 1" group-title="Avustralya",Sky News Extra 1
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+#EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-name="Sky News Extra 3" group-title="Avustralya",Sky News Extra 3
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.au" tvg-name="Bloomberg TV Australia" group-title="Avustralya",Bloomberg TV Australia
+https://bloomberg.com/media-manifest/streams/aus.m3u8
+
+# ── Kanada ───────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/CBC_News_Network_logo.svg/512px-CBC_News_Network_logo.svg.png" group-title="Kanada",CBC News Network
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
+#EXTINF:-1 tvg-id="IciRDI.ca" tvg-name="Ici RDI" group-title="Kanada",Ici RDI
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsToronto.ca" tvg-name="CityNews Toronto" group-title="Kanada",CityNews Toronto
+https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+
+# ── BAE ──────────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-name="CNBC Arabiya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/512px-CNBC_Arabia_2025.svg.png" group-title="BAE",CNBC Arabiya
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+
+# ── Brezilya ─────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png" group-title="Brezilya",CNN Brasil
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+# ── Danimarka ────────────────────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="DRTV.dk" tvg-name="DR TV" group-title="Danimarka",DR TV
+https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
