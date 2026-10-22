@@ -3,111 +3,212 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Owl IP Player — Uygulama Bilgileri</title>
+  <title>OwlPlayer — Uygulama Bilgileri</title>
   <style>
     :root {
-      --bg: #0f1419;
-      --card: #1a2332;
-      --text: #e8eef6;
-      --muted: #9aa8b8;
-      --accent: #3d9cf0;
-      --ok: #3ecf8e;
-      --border: #2a3544;
+      --bg: #121212;
+      --surface: #121212;
+      --text: #ffffff;
+      --text-sec: #b0b0b0;
+      --orange: #ff9800;
+      --divider: #2a2a2a;
+      --icon: #cfcfcf;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.55;
+      font-family: "Roboto", "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
-    h1 { font-size: 1.75rem; margin: 0 0 0.35rem; letter-spacing: -0.02em; }
-    .tagline { color: var(--muted); margin: 0 0 1.75rem; }
-    h2 {
-      font-size: 1.1rem;
-      margin: 1.75rem 0 0.65rem;
-      color: var(--accent);
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.35rem;
+    .phone {
+      max-width: 420px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 1.25rem 0 2.5rem;
     }
-    p, li { color: var(--text); }
-    .muted { color: var(--muted); font-size: 0.95rem; }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
+    .section-title {
+      color: var(--orange);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 1.1rem 1.25rem 0.55rem;
+      margin: 0;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      border: none;
+      background: transparent;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+    }
+    .row:hover { background: rgba(255,255,255,0.04); }
+    .row + .row { border-top: 1px solid transparent; }
+    .icon-wrap {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-wrap svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: var(--icon);
+      stroke-width: 1.6;
+    }
+    .app-icon {
+      width: 40px;
+      height: 40px;
       border-radius: 10px;
-      padding: 1rem 1.15rem;
-      margin: 0.75rem 0;
+      display: block;
+      object-fit: cover;
     }
+    .row-text { flex: 1; min-width: 0; }
+    .row-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .row-sub {
+      margin: 0.15rem 0 0;
+      font-size: 0.875rem;
+      color: var(--text-sec);
+    }
+    .chevron {
+      color: var(--text-sec);
+      font-size: 1.25rem;
+      opacity: 0.7;
+    }
+    .divider {
+      height: 1px;
+      background: var(--divider);
+      margin: 0.35rem 0 0;
+    }
+    .detail {
+      padding: 0.5rem 1.25rem 0;
+    }
+    .detail h2 {
+      color: var(--orange);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 1.35rem 0 0.55rem;
+    }
+    .detail p {
+      margin: 0 0 0.75rem;
+      color: var(--text-sec);
+      font-size: 0.92rem;
+    }
+    .detail strong { color: var(--text); font-weight: 600; }
     .badge {
       display: inline-block;
-      background: rgba(62, 207, 142, 0.15);
-      color: var(--ok);
-      border: 1px solid rgba(62, 207, 142, 0.35);
-      border-radius: 6px;
+      margin: 0 0 0.65rem;
       padding: 0.2rem 0.55rem;
-      font-size: 0.8rem;
-      font-weight: 600;
-      margin-bottom: 0.75rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #3ecf8e;
+      border: 1px solid rgba(62, 207, 142, 0.4);
+      border-radius: 4px;
+      background: rgba(62, 207, 142, 0.12);
     }
-    ul { padding-left: 1.2rem; }
-    li { margin: 0.35rem 0; }
-    a { color: var(--accent); }
-    .footer { margin-top: 2.5rem; font-size: 0.85rem; color: var(--muted); }
+    .footer {
+      padding: 1.75rem 1.25rem 0;
+      font-size: 0.75rem;
+      color: #777;
+    }
+    a.link { color: var(--orange); }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Owl IP Player</h1>
-    <p class="tagline">IPTV / M3U oynatıcı — Android, Windows ve diğer desteklenen platformlar</p>
+  <div class="phone">
+    <!-- Ayarlar ekranındaki GİZLİLİK / HAKKINDA bloğu -->
+    <p class="section-title">Gizlilik</p>
+    <a class="row" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/OwlIPPlayer-privacy-policy.html">
+      <span class="icon-wrap" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z" stroke-linejoin="round"/>
+          <circle cx="12" cy="11" r="1.1" fill="currentColor" stroke="none"/>
+          <path d="M12 12.6v3.2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="row-text">
+        <p class="row-title">Gizlilik Politikası</p>
+        <p class="row-sub">Kullanım Koşulları</p>
+      </span>
+      <span class="chevron">↗</span>
+    </a>
 
-    <div class="card">
+    <p class="section-title">Hakkında</p>
+    <div class="row" role="group" aria-label="OwlPlayer hakkında">
+      <span class="icon-wrap">
+        <img class="app-icon" src="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/OwlIPPlayer-icon.png" width="40" height="40" alt="OwlPlayer" />
+      </span>
+      <span class="row-text">
+        <p class="row-title">OwlPlayer</p>
+        <p class="row-sub">Sürüm 1.0.25 (25) · Hakkında</p>
+      </span>
+    </div>
+    <div class="divider"></div>
+
+    <div class="detail">
+      <h2>World Free TV</h2>
       <span class="badge">Yasal içerik</span>
-      <p style="margin:0">
-        Uygulama, yerleşik <strong>World Free TV</strong> listesi ile
-        <strong>dünya genelindeki ücretsiz / kamuya açık canlı kanalları</strong>
-        ve <strong>ülkelere göre gruplanmış ulusal kanal listelerini</strong> sunar.
-        Bu listeler <strong>yasal</strong> kaynaklardan derlenir; ticari şifreli veya
-        abonelik gerektiren piracy kanalları içermez.
+      <p>
+        OwlPlayer, isteğe bağlı yerleşik <strong>World Free TV</strong> listesi ile
+        <strong>dünya genelindeki ücretsiz / kamuya açık canlı kanalları</strong> ve
+        <strong>ülkelere göre gruplanmış ulusal kanal listelerini</strong> sunar.
+      </p>
+      <p>
+        Bu listeler <strong>yasal</strong> kaynaklardan derlenir. Ticari şifreli veya
+        abonelik gerektiren piracy kanallar yoktur. Uygulama yayınları kendi sunucusunda
+        barındırmaz; yalnızca M3U adresini okur ve cihazda oynatmayı dener.
+      </p>
+      <p>
+        Ulusal gruplar ülke adına göredir (ör. Turkey / Türkiye, USA / ABD, Germany / Almanya).
+        Bazı akışlar coğrafi kısıtlı olabilir veya zamanla değişebilir.
+      </p>
+      <p>
+        Liste:
+        <a class="link" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/iptv/legal_world_by_country.m3u">legal_world_by_country.m3u</a>
+        ·
+        <a class="link" href="https://github.com/mehmetburhan/portfolio/blob/main/iptv/README.md">IPTV açıklaması</a>
+      </p>
+
+      <h2>Uygulama</h2>
+      <p>
+        OwlPlayer, sizin eklediğiniz oynatma kaynakları üzerinden canlı yayın ve isteğe bağlı
+        içerikleri oynatmanıza yardımcı olan bir IPTV istemcisidir. Kendi adına kanal, film veya
+        dizi yayını barındırmaz, satmaz veya yayımlamaz.
+      </p>
+
+      <h2>Yasal uyarı</h2>
+      <p>
+        Bulunduğunuz ülkede hangi yayınlara erişiminizin hukuka uygun olduğu konusunda son
+        sorumluluk size aittir. Kendi eklediğiniz listelerin yasalara uygunluğundan siz sorumlusunuz.
       </p>
     </div>
 
-    <h2>World Free TV — dünya ve ulusal listeler</h2>
-    <ul>
-      <li><strong>Dünya kanalları:</strong> Birçok ülkeden kamuya açık canlı TV yayınları tek listede toplanır.</li>
-      <li><strong>Ulusal kanal listesi:</strong> Kanallar ülke gruplarına ayrılır (ör. Türkiye, ABD, Almanya, Fransa, Birleşik Krallık vb.).</li>
-      <li><strong>Yasal / ücretsiz:</strong> Yalnızca ücretsiz erişime açık veya kamuya açık yayıncı akışları hedeflenir.</li>
-      <li>Liste uygulama açılışında güncellenebilir; bazı akışlar coğrafi kısıtlı veya geçici olabilir.</li>
-    </ul>
-
-    <h2>Özellikler (özet)</h2>
-    <ul>
-      <li>M3U / M3U8 oynatma (Xtream Codes ve yerel dosya desteği dahil)</li>
-      <li>Yerleşik World Free TV (yasal dünya + ulusal gruplar)</li>
-      <li>Favoriler, geçmiş, çoklu oynatma / PIP (platforma göre)</li>
-      <li>EPG (elektronik program rehberi) desteği</li>
-      <li>Kullanıcının kendi yasal oynatma listelerini eklemesi</li>
-    </ul>
-
-    <h2>Yasal uyarı</h2>
-    <p class="muted">
-      Owl IP Player bir oynatıcıdır; yayınları kendi sunucusunda barındırmaz.
-      World Free TV yalnızca kamuya açık / ücretsiz kaynaklara yönlendirir.
-      Kendi eklediğiniz listelerin yasalara uygunluğundan siz sorumlusunuz.
-      Bulunduğunuz ülkede erişim kurallarına uymak kullanıcının yükümlülüğündedir.
+    <p class="footer">
+      © OwlPlayer ·
+      <a class="link" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/OwlIPPlayer-privacy-policy.html">Gizlilik Politikası ve Kullanım Koşulları</a>
+      · Destek: <a class="link" href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
     </p>
-
-    <h2>Bağlantılar</h2>
-    <ul>
-      <li><a href="OwlIPPlayer-privacy-policy.html">Gizlilik Politikası ve Kullanım Koşulları</a></li>
-      <li><a href="iptv/legal_world_by_country.m3u">Yasal dünya / ulusal M3U listesi</a></li>
-      <li><a href="iptv/README.md">IPTV klasörü açıklaması</a></li>
-      <li>Destek: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a></li>
-    </ul>
-
-    <p class="footer">© Owl IP Player — Uygulama bilgileri sayfası. Son güncelleme: 2026-10-22.</p>
   </div>
 </body>
 </html>
