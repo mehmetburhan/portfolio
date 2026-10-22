@@ -1,7 +1,9 @@
 #EXTM3U
-# Owl IP Player — yasal / kamuya açık canlı yayınlar (ülke gruplu)
+# Owl IP Player — World Free TV: yasal dünya + ulusal (ülke gruplu) kanal listesi
+# İçerik: Kamuya açık / ücretsiz canlı yayınlar. Ticari şifreli / piracy kanallar YOKTUR.
 # Kaynaklar: Free-TV/IPTV + iptv-org + yayıncı HLS
-# Not: Bazı akışlar coğrafi kısıtlı veya zamanla değişebilir. Ticari şifreli kanallar yoktur.
+# Not: Bazı akışlar coğrafi kısıtlı veya zamanla değişebilir.
+# Bilgi: https://raw.githubusercontent.com/mehmetburhan/portfolio/main/OwlIPPlayer-app-info.html
 # Güncelleme: 2026-10-22 (ülkeler zenginleştirildi; alfabetik; doğrulanmış)
 
 # ── Argentina / Arjantin ──────────────────────────────────────────────────────────
