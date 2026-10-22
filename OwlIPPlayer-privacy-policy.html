@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gizlilik Politikası — Owl IP Player</title>
+  <title>Gizlilik Politikası ve Kullanım Koşulları — Owl IP Player</title>
   <style>
     :root {
       color-scheme: dark light;
@@ -71,6 +71,7 @@
       font-weight: 700;
       padding-bottom: 6px;
       border-bottom: 1px solid var(--border);
+      scroll-margin-top: 16px;
     }
     h3 { font-size: 0.97rem; font-weight: 600; margin: 20px 0 8px; color: var(--accent2); }
     p, li { margin: 0 0 12px; color: var(--text); }
@@ -119,6 +120,14 @@
       font-weight: 600;
       border: 1px solid var(--border);
     }
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin: 0 0 28px;
+    }
+    .toc a { display: inline-block; margin: 4px 12px 4px 0; }
     .divider {
       margin: 56px 0 40px;
       border: none;
@@ -151,41 +160,56 @@
 
   <header>
     <div class="app-badge">📺 Owl IP Player — IPTV İstemcisi</div>
-    <h1>Gizlilik Politikası</h1>
-    <p class="meta">Son güncelleme: <time datetime="2026-04-28">28 Nisan 2026</time></p>
+    <h1>Gizlilik Politikası ve Kullanım Koşulları</h1>
+    <p class="meta">Son güncelleme: <time datetime="2026-10-22">22 Ekim 2026</time></p>
   </header>
 
   <p>
-    Bu belge, <strong>Owl IP Player</strong> mobil/TV uygulamasının kullanıcı verilerini ve
-    cihaz bilgilerini nasıl işlediğini açıklar. Uygulamayı indirerek veya kullanarak bu
-    politikayı kabul etmiş sayılırsınız.
+    Bu tek belge, <strong>Owl IP Player</strong> uygulaması için
+    <strong>gizlilik politikası</strong> ile <strong>kullanım koşullarını</strong> birlikte içerir.
+    Uygulamayı indirerek veya kullanarak bu metni kabul etmiş sayılırsınız.
   </p>
 
-  <h2>1. Veri Sorumlusu</h2>
+  <nav class="toc" aria-label="İçindekiler">
+    <a href="#tr-gizlilik">Gizlilik Politikası</a>
+    <a href="#tr-kosullar">Kullanım Koşulları</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <h2 id="tr-gizlilik">A. Gizlilik Politikası</h2>
+
+  <h3>1. Veri Sorumlusu</h3>
   <p>
     Geliştirici: <strong>Mehmet Burhan</strong><br>
     İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
   </p>
   <div class="card">
     <p class="note">
-      Owl IP Player kişisel olmayan, ticari olmayan bir kullanım için sunulmuştur.
-      Geliştirici, uygulama aracılığıyla hiçbir kişisel veriyi kendi sunucusunda
-      <strong>toplamaz, işlemez veya saklamaz.</strong>
+      Owl IP Player kişisel / ticari olmayan kullanım için sunulmuştur.
+      Geliştirici, kullanıcı hesapları oluşturmaz ve playlist/izleme geçmişinizi
+      kendi sunucusunda sürekli olarak <strong>toplamaz veya saklamaz</strong>.
+      İstek/öneri formunu doldurduğunuzda gönderdiğiniz bilgiler e-posta ile
+      geliştiriciye iletilebilir (aşağıya bakınız).
     </p>
   </div>
 
-  <h2>2. Uygulama Ne Yapar?</h2>
+  <h3>2. Uygulama Ne Yapar?</h3>
   <p>
-    Owl IP Player, kullanıcının kendi temin ettiği <strong>M3U/M3U+ oynatma listelerini</strong>
-    yükleyip canlı TV kanallarını, dizi ve film içeriklerini oynatmasına olanak tanıyan
-    bir <strong>IPTV istemcisidir</strong>. Uygulama hiçbir içerik sunmaz; yalnızca
-    kullanıcının yapılandırdığı akış adreslerine bağlanır.
+    Owl IP Player; kullanıcının eklediği <strong>M3U/M3U+</strong> veya Xtream kaynakları
+    üzerinden canlı TV, film ve dizi oynatmasına yardımcı olan bir
+    <strong>IPTV istemcisidir</strong>. Uygulama kendi başına televizyon kanalı,
+    film veya dizi yayını barındırmaz, satmaz veya yayımlamaz.
+  </p>
+  <p>
+    İsteğe bağlı yerleşik <strong>World Free TV</strong> listesi, herkese açık / ücretsiz
+    erişilebilir yayınlara dair derlenmiş bir M3U adresinden uygulama açılışında
+    güncellenebilir. Bu akışlar geliştirici sunucusunda barındırılmaz; yalnızca
+    listenin adresi okunur ve cihazınızda oynatma denenir. Liste alınamazsa
+    uygulamadan kaldırılabilir.
   </p>
 
-  <h2>3. İşlenen Veriler</h2>
-
-  <h3>3.1. Cihazda Saklanan Veriler</h3>
-  <p>Aşağıdaki tüm veriler <strong>yalnızca cihazınızda</strong> tutulur, geliştiriciye gönderilmez:</p>
+  <h3>3. Cihazda Saklanan Veriler</h3>
+  <p>Aşağıdakiler <strong>çoğunlukla yalnızca cihazınızda</strong> tutulur:</p>
   <table>
     <tr>
       <th>Veri</th>
@@ -193,154 +217,125 @@
       <th>Amaç</th>
     </tr>
     <tr>
-      <td>M3U/EPG URL'leri ve playlist içerikleri</td>
+      <td>M3U / Xtream playlist bilgileri ve içerik indeksi</td>
       <td>Yerel veritabanı (SQLite)</td>
-      <td>Kanal listelerini saklamak</td>
+      <td>Kanal / film / dizi listelerini saklamak</td>
     </tr>
     <tr>
-      <td>Uygulama ayarları (dil, tema, birimler)</td>
+      <td>Uygulama ayarları (dil, tema vb.)</td>
       <td>SharedPreferences</td>
-      <td>Kullanıcı tercihlerini hatırlamak</td>
+      <td>Tercihleri hatırlamak</td>
     </tr>
     <tr>
-      <td>Ebeveyn kontrolü PIN'i</td>
-      <td>Cihaz güvenli deposu (Keystore/Keychain)</td>
+      <td>Ebeveyn kontrolü PIN’i</td>
+      <td>Cihaz güvenli deposu</td>
       <td>İçerik erişimini kısıtlamak</td>
     </tr>
     <tr>
-      <td>"Kaldığım yerden devam" izleme geçmişi</td>
-      <td>Yerel veritabanı (SQLite)</td>
+      <td>İzleme / kaldığım yerden devam geçmişi</td>
+      <td>Yerel veritabanı / tercihler</td>
       <td>Son izlenen yeri hatırlamak</td>
-    </tr>
-    <tr>
-      <td>Sıralama ve liste tercihleri</td>
-      <td>SharedPreferences</td>
-      <td>Kullanıcı deneyimini kişiselleştirmek</td>
     </tr>
   </table>
 
-  <h3>3.2. Ağ Üzerinden Gerçekleşen Bağlantılar</h3>
-  <p>
-    Uygulama <strong>yalnızca kullanıcının açıkça girdiği adresler</strong> ile ağ bağlantısı kurar:
-  </p>
+  <h3>4. Ağ Bağlantıları</h3>
   <ul>
-    <li>
-      <span class="tag">Akış</span> Kullanıcının eklediği IPTV yayın URL'leri —
-      canlı yayın ve VOD içeriklerinin oynatılması için.
-    </li>
-    <li>
-      <span class="tag">Playlist</span> Uzak M3U dosyası URL'leri —
-      kanal listesini güncellemek için.
-    </li>
-    <li>
-      <span class="tag">EPG</span> Elektronik Program Rehberi (EPG) XML URL'leri —
-      yayın programı bilgisini çekmek için.
-    </li>
-    <li>
-      <span class="tag">Logo</span> M3U listesinde belirtilen kanal logo URL'leri —
-      kanal logolarını önbelleğe almak için.
-    </li>
+    <li><span class="tag">Akış</span> Sizin eklediğiniz yayın URL’leri</li>
+    <li><span class="tag">Playlist</span> Uzak M3U veya Xtream API adresleri</li>
+    <li><span class="tag">World Free TV</span> Yerleşik ücretsiz dünya listesi M3U adresi (GitHub vb.)</li>
+    <li><span class="tag">Logo</span> Listelerde belirtilen logo URL’leri</li>
+    <li><span class="tag">Mağaza</span> Değerlendirme / mağaza sayfası açılışı</li>
   </ul>
   <p>
-    Bu bağlantılar sırasında IP adresiniz ve standart HTTP/TLS başlık bilgileri, bağlanılan
-    sunucu (IPTV sağlayıcısı) tarafından işlenebilir. Bu durum sağlayıcıların gizlilik
-    politikalarına tabidir; Owl IP Player bu verilere erişmez.
+    Bu bağlantılarda IP adresiniz ve HTTP/TLS başlıkları, bağlandığınız sunucu
+    tarafından işlenebilir; bu durum o sunucunun politikasına tabidir.
   </p>
 
-  <h3>3.3. Yerel Dosyaya Erişim</h3>
+  <h3>5. İstek ve Öneri (isteğe bağlı)</h3>
   <p>
-    Kullanıcı cihazından bir <code>.m3u</code> dosyası seçmek istediğinde uygulama
-    dosya sistemi erişimi ister (<code>READ_EXTERNAL_STORAGE</code> / <code>READ_MEDIA_VIDEO</code>).
-    Bu izin yalnızca seçilen dosyayı okumak için kullanılır; başka dosyalara erişilmez.
+    Uygulama içindeki <strong>İstek ve öneri</strong> formu yalnızca sizin
+    gönderdiğinizde çalışır. Gönderilen mesaj, seçilen tür, cihaz/platform ve sürüm
+    bilgisi ile (yazdıysanız) yanıt e-posta adresiniz geliştiriciye
+    <strong>e-posta</strong> yoluyla iletilebilir. Bu veriler zorunlu hesap kaydı
+    değildir; formu kullanmazsanız gönderilmez.
   </p>
 
-  <h3>3.4. Ekran Uyanık Tutma</h3>
-  <p>
-    Video oynatma sırasında ekranın kararmaması için <code>WAKE_LOCK</code> izni kullanılır.
-    Bu izin hiçbir veri toplama işlemi içermez.
-  </p>
-
-  <h3>3.5. Arka Plan Oynatma</h3>
-  <p>
-    Uygulama kapatılmadan arka plana alındığında oynatmayı sürdürmek için
-    <code>FOREGROUND_SERVICE</code> izni kullanılır. Bu izin yalnızca medya oynatıcıyı
-    aktif tutmak için gereklidir.
-  </p>
-
-  <h3>3.6. Masaüstü Kısayolu</h3>
-  <p>
-    İlk kurulumda cihazın ana ekranına uygulama kısayolu eklenmesi <strong>kullanıcıdan onay
-    alınarak</strong> teklif edilebilir. Bu işlem hiçbir kişisel veri gerektirmez.
-  </p>
-
-  <h2>4. Toplamadığımız Veriler</h2>
+  <h3>6. Toplamadığımız Veriler</h3>
   <ul>
-    <li>Ad, soyad, e-posta, telefon numarası</li>
-    <li>Konum bilgisi (GPS veya ağ tabanlı)</li>
-    <li>Reklam kimliği (GAID/IDFA)</li>
-    <li>Kullanım analitiği, kilitlenme raporları, oturum istatistikleri</li>
-    <li>Cihaz parmak izi veya benzersiz donanım tanımlayıcıları</li>
-  </ul>
-  <div class="card">
-    <p class="note">
-      Uygulama herhangi bir <strong>reklam SDK'sı, analitik SDK'sı veya üçüncü taraf
-      izleme kütüphanesi</strong> içermemektedir.
-    </p>
-  </div>
-
-  <h2>5. Üçüncü Taraf Hizmetler</h2>
-  <p>
-    Owl IP Player herhangi bir yerleşik üçüncü taraf hizmet sunucusuna veri göndermez.
-    Kullanıcının kendi eklediği IPTV sağlayıcısı ve EPG kaynağının gizlilik uygulamaları
-    tamamen o sağlayıcının sorumluluğundadır.
-  </p>
-
-  <h2>6. Açık Metin Trafik (HTTP)</h2>
-  <p>
-    Bazı IPTV akışları HTTP (şifresiz) protokol üzerinden sunulabilir. Bu durum IPTV sektörünün
-    yaygın gerçeğidir; uygulama bu tür bağlantılara teknik olarak izin verir
-    (<code>android:usesCleartextTraffic="true"</code>). Mümkün olan her durumda HTTPS
-    tercih edilmesi önerilir.
-  </p>
-
-  <h2>7. Çocuklar</h2>
-  <p>
-    Uygulama bilerek 13 yaş (veya uygulanabilir mevzuata göre daha yüksek bir yaş sınırı) altındaki
-    kişilerden veri toplamak amacıyla tasarlanmamıştır. Ebeveyn kontrolü özelliği, uygunsuz
-    içerikleri kısıtlamak için PIN koruması sağlar; ancak bu özelliğin devreye alınması
-    ebeveynin sorumluluğundadır.
-  </p>
-
-  <h2>8. Veri Güvenliği</h2>
-  <ul>
-    <li>Ebeveyn kontrolü PIN'i cihazın güvenli anahtar deposunda şifreli olarak saklanır.</li>
-    <li>Uygulama, mümkün olan durumlarda HTTPS bağlantılarını tercih eder.</li>
-    <li>Hiçbir veri geliştiricinin sunucusuna iletilmediğinden sunucu taraflı bir güvenlik riski yoktur.</li>
+    <li>Konum (GPS), reklam kimliği, analitik / çökme SDK’ları</li>
+    <li>Reklam veya izleme kütüphaneleri</li>
+    <li>Form dışında otomatik e-posta / kimlik toplama</li>
   </ul>
 
-  <h2>9. Verileriniz Üzerindeki Haklarınız</h2>
+  <h3>7. Çocuklar ve Güvenlik</h3>
   <p>
-    Uygulamada saklanan tüm veriler cihazınıza aittir. Uygulama ayarlarından verileri
-    temizleyebilir ya da uygulamayı kaldırarak tüm yerel verileri silebilirsiniz.
-    Geliştirici sunucusunda hiçbir kullanıcı verisi tutulmadığından silme/düzeltme talebi
-    gerektiren bir kayıt yoktur.
+    Uygulama bilerek 13 yaş altından veri toplamak için tasarlanmamıştır.
+    Ebeveyn kilidi PIN’i cihazın güvenli deposunda tutulur. HTTPS mümkünse tercih edilir;
+    bazı IPTV akışları HTTP kullanabilir.
   </p>
+
+  <h3>8. Haklarınız</h3>
   <p>
-    Yine de herhangi bir sorunuz için:
+    Yerel veriler cihazınızdadır; uygulama verilerini temizleyerek veya uygulamayı
+    kaldırarak silebilirsiniz. Sorularınız için:
     <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
   </p>
 
-  <h2>10. Bu Politikanın Güncellenmesi</h2>
+  <h2 id="tr-kosullar">B. Kullanım Koşulları</h2>
+
+  <h3>1. Kabul</h3>
   <p>
-    Uygulama güncellendiğinde veya yasal gereklilikler değiştiğinde bu metin güncellenebilir.
-    Önemli değişiklikler bu sayfada yayınlanır; "Son güncelleme" tarihini kontrol etmeniz yeterlidir.
+    Uygulamayı kullanarak bu koşulları ve gizlilik bölümünü kabul edersiniz.
+    Kabul etmiyorsanız uygulamayı kullanmayın ve kaldırın.
+  </p>
+
+  <h3>2. Lisans ve Amaç</h3>
+  <p>
+    Owl IP Player size kişisel, ticari olmayan kullanım için sınırlı, geri alınabilir
+    bir lisans verir. Uygulama bir yayıncı, katalog satıcısı veya içerik sağlayıcı
+    değildir; resmi kanal ortaklığı iddiasında bulunmaz.
+  </p>
+
+  <h3>3. İçerik ve Yasal Sorumluluk</h3>
+  <ul>
+    <li>Eklediğiniz listeler ve oynattığınız yayınlar için yasal uygunluk size aittir.</li>
+    <li>Telif, yayın hakkı veya bölgesel kısıtlara aykırı kullanım yasaktır.</li>
+    <li>World Free TV dahil tüm akışların kaynağı üçüncü taraflardır; erişim
+        hakkınız bulunduğunuz ülkenin hukukuna göre size aittir.</li>
+  </ul>
+
+  <h3>4. Yasaklı Kullanımlar</h3>
+  <ul>
+    <li>Uygulamayı hukuka aykırı içerik dağıtımı veya erişimi için kullanmak</li>
+    <li>Uygulamayı tersine mühendislik ile kötüye kullanmak (yasal izinler saklı)</li>
+    <li>Geliştiriciye spam, zararlı veya yanıltıcı istek/öneri göndermek</li>
+  </ul>
+
+  <h3>5. Garanti Reddi</h3>
+  <p>
+    Uygulama “olduğu gibi” sunulur. Kesintisiz çalışma, belirli bir kalite veya
+    her kaynağın sürekli erişilebilirliği garanti edilmez. World Free TV listesi
+    veya uzak M3U’lar zaman zaman kullanılamayabilir.
+  </p>
+
+  <h3>6. Sorumluluk Sınırı</h3>
+  <p>
+    Yürürlükteki hukukun izin verdiği ölçüde geliştirici; dolaylı, arızi veya
+    sonuç olarak doğan zararlardan, üçüncü taraf yayıncı uyuşmazlıklarından veya
+    sizin eklediğiniz kaynaklardan sorumlu tutulamaz.
+  </p>
+
+  <h3>7. Değişiklikler</h3>
+  <p>
+    Bu belge güncellenebilir. Güncel sürüm bu sayfada yayınlanır; “Son güncelleme”
+    tarihini kontrol edin.
   </p>
 
   <footer>
     <p style="margin:0">
-      Bu gizlilik politikası <strong>Owl IP Player</strong> Android/TV uygulaması için
-      hazırlanmıştır. Play Console'a yapıştıracağınız URL, bu dosyanın yayınlandığı
-      geçerli HTTPS adresi olmalıdır.
+      Bu belge <strong>Owl IP Player</strong> (Android, iOS, TV, masaüstü) için
+      hazırlanmıştır. Play Console / mağaza gizlilik URL’si olarak bu dosyanın
+      yayınlandığı HTTPS adresi kullanılabilir.
     </p>
   </footer>
 
@@ -348,198 +343,174 @@
   <!-- ════════════════════════════════════════════
        ENGLISH
   ════════════════════════════════════════════ -->
-  <hr class="divider">
+  <hr class="divider" id="en">
   <div class="lang-label">🇬🇧 English</div>
 
   <header>
     <div class="app-badge">📺 Owl IP Player — IPTV Client</div>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: <time datetime="2026-04-28">April 28, 2026</time></p>
+    <h1>Privacy Policy and Terms of Use</h1>
+    <p class="meta">Last updated: <time datetime="2026-10-22">October 22, 2026</time></p>
   </header>
 
   <p>
-    This document describes how <strong>Owl IP Player</strong> handles user data and device
-    information. By downloading or using the application you agree to this policy.
+    This single document contains both the <strong>Privacy Policy</strong> and the
+    <strong>Terms of Use</strong> for <strong>Owl IP Player</strong>.
+    By downloading or using the app you agree to this text.
   </p>
 
-  <h2>1. Data Controller</h2>
+  <nav class="toc" aria-label="Contents">
+    <a href="#en-privacy">Privacy Policy</a>
+    <a href="#en-terms">Terms of Use</a>
+    <a href="#tr-gizlilik">Türkçe</a>
+  </nav>
+
+  <h2 id="en-privacy">A. Privacy Policy</h2>
+
+  <h3>1. Data Controller</h3>
   <p>
     Developer: <strong>Mehmet Burhan</strong><br>
     Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
   </p>
   <div class="card">
     <p class="note">
-      Owl IP Player is provided for personal, non-commercial use. The developer does
-      <strong>not collect, process, or store any personal data</strong> on any server.
+      Owl IP Player is for personal, non-commercial use. The developer does not run user
+      accounts and does not continuously collect your playlists or watch history on a
+      developer server. If you submit the in-app feedback form, the content you send may
+      be delivered to the developer by email (see below).
     </p>
   </div>
 
-  <h2>2. What Does the Application Do?</h2>
+  <h3>2. What the App Does</h3>
   <p>
-    Owl IP Player is an <strong>IPTV client</strong> that lets users load their own
-    <strong>M3U/M3U+ playlists</strong> and stream live TV channels, series, and on-demand
-    video content. The application does not provide any content; it only connects to stream
-    URLs that the user explicitly configures.
+    Owl IP Player is an <strong>IPTV client</strong> that helps you play live TV, movies,
+    and series through <strong>M3U/M3U+</strong> or Xtream sources you add. It does not host,
+    sell, or broadcast channels or VOD titles on its own.
+  </p>
+  <p>
+    An optional built-in <strong>World Free TV</strong> list may refresh on launch from a
+    curated M3U of publicly available / free-to-access broadcasts. Those streams are not
+    hosted by the developer; the app only reads the list URL and attempts playback on your
+    device. If the list cannot be fetched, it may be removed from the app.
   </p>
 
-  <h2>3. Data Processed</h2>
-
-  <h3>3.1. Data Stored on Device</h3>
-  <p>All of the following data is kept <strong>on your device only</strong> and is never sent to the developer:</p>
+  <h3>3. Data Stored on Device</h3>
+  <p>Most of the following stays <strong>on your device only</strong>:</p>
   <table>
     <tr>
       <th>Data</th>
-      <th>Storage location</th>
+      <th>Storage</th>
       <th>Purpose</th>
     </tr>
     <tr>
-      <td>M3U/EPG URLs and playlist content</td>
+      <td>M3U / Xtream playlist data and media index</td>
       <td>Local database (SQLite)</td>
-      <td>Storing channel lists</td>
+      <td>Storing channel / movie / series lists</td>
     </tr>
     <tr>
-      <td>App settings (language, theme, units)</td>
+      <td>App settings</td>
       <td>SharedPreferences</td>
-      <td>Remembering user preferences</td>
+      <td>Remembering preferences</td>
     </tr>
     <tr>
-      <td>Parental control PIN</td>
-      <td>Device secure storage (Keystore/Keychain)</td>
-      <td>Restricting content access</td>
+      <td>Parental PIN</td>
+      <td>Secure device storage</td>
+      <td>Restricting content</td>
     </tr>
     <tr>
-      <td>"Continue watching" playback history</td>
-      <td>Local database (SQLite)</td>
-      <td>Resuming playback position</td>
-    </tr>
-    <tr>
-      <td>Sort and list preferences</td>
-      <td>SharedPreferences</td>
-      <td>Personalizing the experience</td>
+      <td>Continue-watching history</td>
+      <td>Local DB / preferences</td>
+      <td>Resuming playback</td>
     </tr>
   </table>
 
-  <h3>3.2. Network Connections</h3>
-  <p>
-    The application only makes network connections to addresses <strong>explicitly entered by the user</strong>:
-  </p>
+  <h3>4. Network Connections</h3>
   <ul>
-    <li>
-      <span class="tag">Stream</span> IPTV stream URLs added by the user —
-      for playing live and VOD content.
-    </li>
-    <li>
-      <span class="tag">Playlist</span> Remote M3U file URLs —
-      for fetching and updating the channel list.
-    </li>
-    <li>
-      <span class="tag">EPG</span> Electronic Program Guide (EPG) XML URLs —
-      for retrieving broadcast schedule information.
-    </li>
-    <li>
-      <span class="tag">Logos</span> Channel logo URLs specified in the M3U playlist —
-      for caching channel artwork.
-    </li>
-  </ul>
-  <p>
-    During these connections your IP address and standard HTTP/TLS headers may be processed
-    by the server you connect to (your IPTV provider). This is subject to that provider's
-    own privacy policy; Owl IP Player does not access this data.
-  </p>
-
-  <h3>3.3. Local File Access</h3>
-  <p>
-    When the user chooses to load a local <code>.m3u</code> file from their device, the app
-    requests file system access (<code>READ_EXTERNAL_STORAGE</code> / <code>READ_MEDIA_VIDEO</code>).
-    This permission is used solely to read the selected file; no other files are accessed.
-  </p>
-
-  <h3>3.4. Screen Wake Lock</h3>
-  <p>
-    The <code>WAKE_LOCK</code> permission is used to keep the screen on during video playback.
-    This permission involves no data collection.
-  </p>
-
-  <h3>3.5. Background Playback</h3>
-  <p>
-    The <code>FOREGROUND_SERVICE</code> permission is used to keep playback active when the
-    application is moved to the background. It is required only to maintain the media player.
-  </p>
-
-  <h3>3.6. Home Screen Shortcut</h3>
-  <p>
-    On first launch, the app may offer to add a shortcut to the device's home screen,
-    <strong>with the user's explicit confirmation</strong>. No personal data is required
-    for this operation.
-  </p>
-
-  <h2>4. Data We Do Not Collect</h2>
-  <ul>
-    <li>Name, surname, email address, or phone number</li>
-    <li>Location data (GPS or network-based)</li>
-    <li>Advertising identifiers (GAID / IDFA)</li>
-    <li>Usage analytics, crash reports, or session statistics</li>
-    <li>Device fingerprint or unique hardware identifiers</li>
-  </ul>
-  <div class="card">
-    <p class="note">
-      The application does not include any <strong>advertising SDK, analytics SDK,
-      or third-party tracking library</strong>.
-    </p>
-  </div>
-
-  <h2>5. Third-Party Services</h2>
-  <p>
-    Owl IP Player does not send data to any built-in third-party server. The privacy
-    practices of any IPTV provider or EPG source that the user adds are entirely the
-    responsibility of that provider.
-  </p>
-
-  <h2>6. Cleartext Traffic (HTTP)</h2>
-  <p>
-    Some IPTV streams may be served over plain HTTP (unencrypted). This is common in the
-    IPTV industry; the application technically permits such connections
-    (<code>android:usesCleartextTraffic="true"</code>). HTTPS is recommended and preferred
-    wherever supported by the stream provider.
-  </p>
-
-  <h2>7. Children</h2>
-  <p>
-    The application is not designed to knowingly collect data from persons under 13 years of age
-    (or a higher age threshold as required by applicable law). The parental control feature
-    provides PIN-based protection to restrict access to inappropriate content; however,
-    activating this feature is the parent's responsibility.
-  </p>
-
-  <h2>8. Data Security</h2>
-  <ul>
-    <li>The parental control PIN is stored encrypted in the device's secure key store.</li>
-    <li>The application prefers HTTPS connections wherever possible.</li>
-    <li>Because no data is transmitted to the developer's servers, there is no server-side security risk.</li>
+    <li><span class="tag">Stream</span> URLs you add</li>
+    <li><span class="tag">Playlist</span> Remote M3U or Xtream API endpoints</li>
+    <li><span class="tag">World Free TV</span> Built-in free world list M3U (e.g. GitHub)</li>
+    <li><span class="tag">Logos</span> Artwork URLs from playlists</li>
+    <li><span class="tag">Store</span> Opening store / rating pages</li>
   </ul>
 
-  <h2>9. Your Rights Over Your Data</h2>
+  <h3>5. Feedback (optional)</h3>
   <p>
-    All data stored by the application belongs to you and remains on your device. You can clear
-    application data from device settings or uninstall the application to delete all local data.
-    Since no user records are held on the developer's servers, there is nothing to request
-    deletion or correction of remotely.
-  </p>
-  <p>
-    If you have any questions, please contact:
-    <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+    The in-app <strong>Request &amp; suggestion</strong> form runs only when you submit it.
+    Your message, category, app version/platform, and optional reply email may be sent to
+    the developer by <strong>email</strong>. This is not an account registration; nothing is
+    sent if you never use the form.
   </p>
 
-  <h2>10. Updates to This Policy</h2>
+  <h3>6. Data We Do Not Collect</h3>
+  <ul>
+    <li>Location, ad IDs, analytics / crash SDKs</li>
+    <li>Advertising or tracking libraries</li>
+    <li>Automatic email/identity collection outside the feedback form</li>
+  </ul>
+
+  <h3>7. Children and Security</h3>
   <p>
-    This document may be updated when the application changes or legal requirements evolve.
-    Material changes will be published on this page; checking the "Last updated" date is sufficient.
+    The app is not designed to collect data from children under 13. Parental PIN is stored
+    in secure storage. HTTPS is preferred when available; some IPTV streams may use HTTP.
+  </p>
+
+  <h3>8. Your Rights</h3>
+  <p>
+    Local data stays on your device; clear app data or uninstall to delete it.
+    Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+  </p>
+
+  <h2 id="en-terms">B. Terms of Use</h2>
+
+  <h3>1. Acceptance</h3>
+  <p>
+    By using the app you accept these terms and the privacy section.
+    If you do not agree, do not use the app and uninstall it.
+  </p>
+
+  <h3>2. License and Purpose</h3>
+  <p>
+    You receive a limited, revocable license for personal, non-commercial use.
+    Owl IP Player is not a broadcaster, catalog seller, or content provider and does not
+    claim official partnership with any channel.
+  </p>
+
+  <h3>3. Content and Legal Responsibility</h3>
+  <ul>
+    <li>You are responsible for the lawfulness of playlists and streams you play.</li>
+    <li>Use that infringes copyright, broadcast rights, or regional rules is prohibited.</li>
+    <li>Including World Free TV, all streams come from third parties; whether access is
+        lawful in your country remains your responsibility.</li>
+  </ul>
+
+  <h3>4. Prohibited Uses</h3>
+  <ul>
+    <li>Using the app for unlawful content access or distribution</li>
+    <li>Abusive reverse engineering beyond what the law allows</li>
+    <li>Sending spam, harmful, or misleading feedback</li>
+  </ul>
+
+  <h3>5. Disclaimer of Warranty</h3>
+  <p>
+    The app is provided “as is.” Continuous availability, quality, or permanent access to
+    any source (including World Free TV / remote M3Us) is not guaranteed.
+  </p>
+
+  <h3>6. Limitation of Liability</h3>
+  <p>
+    To the fullest extent permitted by law, the developer is not liable for indirect or
+    consequential damages, disputes with third-party broadcasters, or sources you add.
+  </p>
+
+  <h3>7. Changes</h3>
+  <p>
+    This document may be updated. The current version is published on this page; check the
+    “Last updated” date.
   </p>
 
   <footer>
     <p style="margin:0">
-      This privacy policy is prepared for <strong>Owl IP Player</strong> Android/TV application.
-      The URL you paste into Play Console must be the valid HTTPS address at which this file is published.
+      Prepared for <strong>Owl IP Player</strong> (Android, iOS, TV, desktop).
+      You may use this file’s published HTTPS URL as the store privacy policy URL.
     </p>
   </footer>
 
