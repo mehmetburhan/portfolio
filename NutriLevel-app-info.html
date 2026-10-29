@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hakkında — NutriLevel</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0a1410;
+      --card: #121c18;
+      --text: #e8f2ed;
+      --muted: #8aa399;
+      --accent: #3dba86;
+      --border: rgba(255,255,255,0.08);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7fbf9;
+        --card: #ffffff;
+        --text: #12352a;
+        --muted: #5c7a6e;
+        --accent: #0b6e4f;
+        --border: rgba(0,0,0,0.08);
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px 18px 48px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 { font-size: 1.65rem; font-weight: 600; margin: 0 0 8px; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    p, li { margin: 0 0 12px; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>NutriLevel</h1>
+      <p class="meta">Etiketi oku, içindekini anla</p>
+      <p class="meta">Geliştirici: Mehmet Burhan · <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a></p>
+    </header>
+
+    <h2>Ne yapar?</h2>
+    <p>
+      NutriLevel, ambalaj üzerindeki besin değeri ve içindekiler etiketini fotoğraflayarak okur;
+      kategori eşikleri ve izleme listesine göre 1–100 arası bir skor kartı üretir.
+    </p>
+
+    <h2>Önemli not</h2>
+    <p>
+      Uygulama bilgilendirme amaçlıdır; tıbbi tavsiye, teşhis veya tedavi önerisi değildir.
+      NutriLevel puanı yasal uygunluk ölçüsü değildir.
+    </p>
+
+    <h2>Bağlantılar</h2>
+    <ul>
+      <li><a href="NutriLevel-privacy-policy.html">Gizlilik politikası</a></li>
+      <li><a href="https://github.com/mehmetburhan/portfolio">Portfolio</a></li>
+    </ul>
+
+    <footer>
+      <p style="margin:0">Paket kimliği: com.mb.nutrilevel</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — NutriLevel</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0a1410;
+      --card: #121c18;
+      --text: #e8f2ed;
+      --muted: #8aa399;
+      --accent: #3dba86;
+      --border: rgba(255,255,255,0.08);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7fbf9;
+        --card: #ffffff;
+        --text: #12352a;
+        --muted: #5c7a6e;
+        --accent: #0b6e4f;
+        --border: rgba(0,0,0,0.08);
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px 18px 48px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    h3 { font-size: 1rem; margin: 18px 0 8px; font-weight: 600; color: var(--accent); }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.25rem; margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .note { font-size: 0.9rem; color: var(--muted); }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--card); color: var(--muted); font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Gizlilik Politikası</h1>
+      <p class="meta"><strong>NutriLevel</strong> mobil uygulaması (paket: <code>com.mb.nutrilevel</code>)</p>
+      <p class="meta">Son güncelleme: <time datetime="2026-10-29">29 Ekim 2026</time></p>
+    </header>
+
+    <p>
+      Bu sayfa, <strong>NutriLevel</strong> uygulamasının kişisel verileri, cihaz izinlerini ve
+      etiket fotoğraflarını nasıl işlediğini açıklar. Uygulama bilgilendirme amaçlıdır; tıbbi tavsiye değildir.
+    </p>
+
+    <h2>1. Veri sorumlusu</h2>
+    <p>
+      Geliştirici: <strong>Mehmet Burhan</strong><br>
+      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      Portfolio: <a href="https://github.com/mehmetburhan/portfolio" target="_blank" rel="noopener noreferrer">github.com/mehmetburhan/portfolio</a>
+    </p>
+
+    <h2>2. Toplanan ve işlenen veriler</h2>
+
+    <h3>2.1. Etiket fotoğrafları (kamera / galeri / paylaşım)</h3>
+    <p>
+      NutriLevel, ambalajdaki besin değeri veya içindekiler etiketini analiz etmek için sizin seçtiğiniz
+      veya başka bir uygulamadan (ör. WhatsApp) paylaştığınız <strong>görselleri</strong> kullanır.
+      Bu görseller analiz için internet üzerinden üçüncü taraf yapay zekâ servisine iletilir (aşağıya bakın).
+      Uygulama bu sürümde kalıcı bir bulut kullanıcı hesabı veya tarama geçmişi veritabanı tutmaz;
+      son analiz oturum içinde cihazda geçici olarak tutulabilir.
+    </p>
+
+    <h3>2.2. Uygulama ayarları (cihazda)</h3>
+    <p>
+      Dil tercihi gibi ayarlar cihazınızda (<strong>SharedPreferences</strong>) saklanır.
+      Bu tercihler geliştiriciye otomatik olarak gönderilmez.
+    </p>
+
+    <h3>2.3. Teknik iletişim verisi</h3>
+    <p>
+      Analiz istekleri sırasında IP adresi ve standart HTTP bağlantı bilgileri, ilgili servis
+      sağlayıcının altyapısında kendi politikalarına tabi olarak işlenebilir. Uygulama bu sürümde
+      yerleşik reklam veya üçüncü taraf analitik (analytics) SDK’ları içermez.
+    </p>
+
+    <h3>2.4. Toplanmayan veriler</h3>
+    <ul>
+      <li>Hesap oluşturma / oturum açma zorunluluğu yoktur.</li>
+      <li>Kişi listesi, SMS, mikrofon veya konum bu özellik setinde kullanılmaz.</li>
+      <li>Skor hesaplaması cihaz üzerinde yapılır; sağlık teşhisi veya kimlik doğrulama yapılmaz.</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Veri</th>
+          <th>Amaç</th>
+          <th>Paylaşım</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Etiket görseli</td>
+          <td>OCR / etiket analizi</td>
+          <td>AIPool (analiz API’si)</td>
+        </tr>
+        <tr>
+          <td>Dil tercihi</td>
+          <td>Arayüz dili</td>
+          <td>Yalnızca cihazda</td>
+        </tr>
+        <tr>
+          <td>IP / bağlantı meta verisi</td>
+          <td>API iletişimi</td>
+          <td>Servis sağlayıcı altyapısı</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="card">
+      <p class="note" style="margin:0">
+        Google Play Console’daki <strong>Veri güvenliği</strong> beyanının bu metinle uyumlu olduğundan emin olun.
+        Yeni izin, SDK veya sunucu eklendiğinde hem formu hem bu sayfayı güncelleyin.
+      </p>
+    </div>
+
+    <h2>3. Üçüncü taraf hizmetler</h2>
+    <ul>
+      <li>
+        <strong>AIPool</strong> — etiket görüntüsünün yapay zekâ ile okunması için API.
+        Gönderilen içerik: seçtiğiniz etiket fotoğrafı ve analiz için gerekli teknik istek alanları.
+        Servis adresi uygulama yapılandırmasında tanımlıdır.
+      </li>
+      <li>
+        <strong>Google Play hizmetleri</strong> — uygulama dağıtımı ve cihaz güncellemeleri (Play’in kendi politikaları geçerlidir).
+      </li>
+    </ul>
+
+    <h2>4. İzinler</h2>
+    <ul>
+      <li><strong>Kamera</strong> — etiket fotoğrafı çekmek için (isteğe bağlı kullanım).</li>
+      <li><strong>Fotoğraflar / depolama (gerekli ölçüde)</strong> — galeriden seçim ve paylaşılan görselleri okumak için.</li>
+      <li><strong>İnternet</strong> — analiz API’sine bağlanmak için.</li>
+    </ul>
+
+    <h2>5. Çocuklar</h2>
+    <p>
+      Uygulama bilerek 13 yaş altı çocuklardan veri toplamaya yönelik tasarlanmamıştır.
+      Böyle bir durumdan haberdar olursanız lütfen iletişim e-postasına yazın.
+    </p>
+
+    <h2>6. Güvenlik</h2>
+    <p>
+      Mümkün olduğunca güncel cihaz ve işletim sistemi kullanmanızı öneririz. Analiz için gönderilen
+      görseller üçüncü taraf sunuculara iletilir; hassas kişisel belge veya yüz fotoğrafı göndermeyin —
+      yalnızca ambalaj etiketi kullanın.
+    </p>
+
+    <h2>7. Haklarınız ve iletişim</h2>
+    <p>
+      Geçerli mevzuat kapsamındaki talepleriniz (erişim, düzeltme, silme vb.) için
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a> adresine yazabilirsiniz.
+    </p>
+
+    <h2>8. Bu politikanın güncellenmesi</h2>
+    <p>
+      Uygulama veya yasal gereklilikler değiştikçe bu metin güncellenebilir. Güncel sürüm bu sayfada
+      yayınlanır; “Son güncelleme” tarihini kontrol etmeniz yeterlidir.
+    </p>
+
+    <footer>
+      <p style="margin:0">
+        Bu sayfa yalnızca <strong>NutriLevel</strong> için geçerlidir.
+        Play Console’a yapıştırılacak adres: bu dosyanın herkese açık HTTPS URL’sidir.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
