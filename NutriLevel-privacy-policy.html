@@ -9,17 +9,17 @@
       color-scheme: dark light;
       --bg: #0a1410;
       --card: #121c18;
-      --text: #e8f5f0;
-      --muted: #9aada4;
-      --accent: #3ecf8e;
+      --text: #e8f2ed;
+      --muted: #8aa399;
+      --accent: #3dba86;
       --border: rgba(255,255,255,0.08);
     }
     @media (prefers-color-scheme: light) {
       :root {
-        --bg: #f4fbf7;
+        --bg: #f7fbf9;
         --card: #ffffff;
-        --text: #14241c;
-        --muted: #5a6b62;
+        --text: #12352a;
+        --muted: #5c7a6e;
         --accent: #0b6e4f;
         --border: rgba(0,0,0,0.08);
       }
@@ -47,6 +47,7 @@
     }
     .meta { color: var(--muted); font-size: 0.9rem; }
     h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    h3 { font-size: 1rem; margin: 18px 0 8px; font-weight: 600; color: var(--accent); }
     p, li { margin: 0 0 12px; color: var(--text); }
     ul { padding-left: 1.25rem; margin: 0 0 16px; }
     li { margin-bottom: 8px; }
@@ -68,110 +69,164 @@
       color: var(--muted);
     }
     hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--card); color: var(--muted); font-size: 0.82rem; }
+    code { font-size: 0.92em; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
       <h1>Gizlilik Politikası</h1>
-      <p class="meta"><strong>NutriLevel</strong> mobil uygulaması</p>
+      <p class="meta"><strong>NutriLevel</strong> mobil uygulaması (paket: <code>com.mb.nutrilevel</code>)</p>
       <p class="meta">Son güncelleme: <time datetime="2026-10-29">29 Ekim 2026</time></p>
     </header>
 
     <p>
-      Bu sayfa, <strong>NutriLevel</strong> uygulamasının kişisel verileri ve cihaz bilgilerini
-      nasıl işlediğini açıklar. Uygulama kişisel, ticari olmayan kullanım için sunulmaktadır.
+      Bu sayfa, <strong>NutriLevel</strong> uygulamasının kişisel verileri, cihaz izinlerini ve
+      etiket fotoğraflarını nasıl işlediğini açıklar. Uygulama bilgilendirme amaçlıdır; tıbbi tavsiye değildir.
     </p>
 
     <h2>1. Veri sorumlusu</h2>
     <p>
       Geliştirici: <strong>Mehmet Burhan</strong><br>
-      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      Portfolio: <a href="https://github.com/mehmetburhan/portfolio" target="_blank" rel="noopener noreferrer">github.com/mehmetburhan/portfolio</a>
     </p>
 
     <h2>2. Toplanan ve işlenen veriler</h2>
 
-    <h3>2.1. Etiket fotoğrafları</h3>
+    <h3>2.1. Etiket fotoğrafları (kamera / galeri / paylaşım)</h3>
     <p>
-      Analiz için çektiğiniz veya galeriden seçtiğiniz ambalaj / besin etiketi fotoğrafı,
-      etiketi okumak üzere <strong>AIPool</strong> API’sine ve bağlı yapay zekâ modeline
-      gönderilir. Fotoğraf, bu işlem için gereklidir.
-    </p>
-    <div class="card note">
-      NutriLevel hesabı oluşturmaz. Fotoğraflarınız geliştirici tarafında kalıcı bir
-      kullanıcı profiline bağlanarak saklanmaz. Analiz yanıtı cihazınızda gösterilir.
-      Sağlayıcı tarafındaki geçici işlem / günlük kayıtları, kullandığınız AIPool ve
-      model sağlayıcısının kendi politikalarına tabidir.
-    </div>
-
-    <h3>2.2. Dil tercihi</h3>
-    <p>
-      Seçtiğiniz arayüz dili cihazınızda saklanır (ör. SharedPreferences) ve AI açıklamalarının
-      dilini belirlemek için istekte kullanılır. Bu tercih geliştirici sunucusuna ayrı bir
-      kimlik olarak kaydedilmez.
+      NutriLevel, ambalajdaki besin değeri veya içindekiler etiketini analiz etmek için sizin seçtiğiniz
+      veya başka bir uygulamadan (ör. WhatsApp) paylaştığınız <strong>görselleri</strong> kullanır.
+      Bu görseller analiz için internet üzerinden üçüncü taraf yapay zekâ servisine iletilir (aşağıya bakın).
+      Uygulama bu sürümde kalıcı bir bulut kullanıcı hesabı veya tarama geçmişi veritabanı tutmaz;
+      son analiz oturum içinde cihazda geçici olarak tutulabilir.
     </p>
 
-    <h3>2.3. Teknik istek bilgileri</h3>
+    <h3>2.2. Uygulama ayarları (cihazda)</h3>
     <p>
-      API çağrıları sırasında standart ağ meta verileri (IP adresi, cihaz / uygulama kimliği
-      başlıkları, zaman damgası) servis günlüklerinde işlenebilir. Bunlar hesabınızı
-      oluşturmak için kullanılmaz.
+      Dil tercihi gibi ayarlar cihazınızda (<strong>SharedPreferences</strong>) saklanır.
+      Bu tercihler geliştiriciye otomatik olarak gönderilmez.
     </p>
 
-    <h2>3. Toplanmayan veriler</h2>
+    <h3>2.3. Teknik iletişim verisi</h3>
+    <p>
+      Analiz istekleri sırasında IP adresi ve standart HTTP bağlantı bilgileri, ilgili servis
+      sağlayıcının altyapısında kendi politikalarına tabi olarak işlenebilir. Uygulama bu sürümde
+      yerleşik reklam veya üçüncü taraf analitik (analytics) SDK’ları içermez.
+    </p>
+
+    <h3>2.4. Toplanmayan veriler</h3>
     <ul>
-      <li>Ad, e-posta, telefon veya hesap kimlik bilgileri (uygulama içi kayıt yok)</li>
-      <li>Konum, rehber, mikrofon veya arka plan izleme</li>
-      <li>Reklam kimliği veya üçüncü taraf reklam SDK’sı</li>
+      <li>Hesap oluşturma / oturum açma zorunluluğu yoktur.</li>
+      <li>Kişi listesi, SMS, mikrofon veya konum bu özellik setinde kullanılmaz.</li>
+      <li>Skor hesaplaması cihaz üzerinde yapılır; sağlık teşhisi veya kimlik doğrulama yapılmaz.</li>
     </ul>
 
-    <h2>4. Amaç</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Veri</th>
+          <th>Amaç</th>
+          <th>Paylaşım</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Etiket görseli</td>
+          <td>OCR / etiket analizi</td>
+          <td>AIPool (analiz API’si)</td>
+        </tr>
+        <tr>
+          <td>Dil tercihi</td>
+          <td>Arayüz dili</td>
+          <td>Yalnızca cihazda</td>
+        </tr>
+        <tr>
+          <td>IP / bağlantı meta verisi</td>
+          <td>API iletişimi</td>
+          <td>Servis sağlayıcı altyapısı</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="card">
+      <p class="note" style="margin:0">
+        Google Play Console’daki <strong>Veri güvenliği</strong> beyanının bu metinle uyumlu olduğundan emin olun.
+        Yeni izin, SDK veya sunucu eklendiğinde hem formu hem bu sayfayı güncelleyin.
+      </p>
+    </div>
+
+    <h2>3. Üçüncü taraf hizmetler</h2>
+    <ul>
+      <li>
+        <strong>AIPool</strong> — etiket görüntüsünün yapay zekâ ile okunması için API.
+        Gönderilen içerik: seçtiğiniz etiket fotoğrafı ve analiz için gerekli teknik istek alanları.
+        Servis adresi uygulama yapılandırmasında tanımlıdır.
+      </li>
+      <li>
+        <strong>Google Play hizmetleri</strong> — uygulama dağıtımı ve cihaz güncellemeleri (Play’in kendi politikaları geçerlidir).
+      </li>
+    </ul>
+
+    <h2>4. İzinler</h2>
+    <ul>
+      <li><strong>Kamera</strong> — etiket fotoğrafı çekmek için (isteğe bağlı kullanım).</li>
+      <li><strong>Fotoğraflar / depolama (gerekli ölçüde)</strong> — galeriden seçim ve paylaşılan görselleri okumak için.</li>
+      <li><strong>İnternet</strong> — analiz API’sine bağlanmak için.</li>
+    </ul>
+
+    <h2>5. Çocuklar</h2>
     <p>
-      Veriler yalnızca etiket okuma ve skor kartı üretmek için işlenir. Puan tıbbi tavsiye
-      değildir; ürün karşılaştırma / bilgilendirme amaçlıdır.
+      Uygulama bilerek 13 yaş altı çocuklardan veri toplamaya yönelik tasarlanmamıştır.
+      Böyle bir durumdan haberdar olursanız lütfen iletişim e-postasına yazın.
     </p>
 
-    <h2>5. Üçüncü taraflar</h2>
+    <h2>6. Güvenlik</h2>
     <p>
-      Etiket analizi için <strong>AIPool</strong> ve bağlı model sağlayıcıları kullanılır.
-      Bu hizmetlerin kendi gizlilik politikaları geçerlidir. Geliştirici, bu sağlayıcıların
-      sunucularını işletmez.
-    </p>
-
-    <h2>6. Saklama</h2>
-    <p>
-      Geliştirici tarafında kullanıcı hesabı veya etiket fotoğrafı arşivi tutulmaz.
-      Cihazınızdaki önizleme / geçici dosyalar işletim sistemi ve uygulamanın normal
-      yaşam döngüsüne tabidir.
+      Mümkün olduğunca güncel cihaz ve işletim sistemi kullanmanızı öneririz. Analiz için gönderilen
+      görseller üçüncü taraf sunuculara iletilir; hassas kişisel belge veya yüz fotoğrafı göndermeyin —
+      yalnızca ambalaj etiketi kullanın.
     </p>
 
     <h2>7. Haklarınız ve iletişim</h2>
     <p>
-      Sorularınız için:
-      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
-    </p>
-    <p class="note">
+      Geçerli mevzuat kapsamındaki talepleriniz (erişim, düzeltme, silme vb.) için
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a> adresine yazabilirsiniz.
       Ayrıca bakınız:
       <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/NutriLevel-app-info.html">uygulama bilgileri</a>.
     </p>
 
-    <h2>8. Değişiklikler</h2>
+    <h2>8. Bu politikanın güncellenmesi</h2>
     <p>
-      Bu politika güncellenebilir. Önemli değişikliklerde uygulama veya bu sayfa üzerinden
-      bilgilendirme yapılır.
+      Uygulama veya yasal gereklilikler değiştikçe bu metin güncellenebilir. Güncel sürüm bu sayfada
+      yayınlanır; “Son güncelleme” tarihini kontrol etmeniz yeterlidir.
     </p>
 
     <hr>
 
     <header>
       <h1>Privacy Policy</h1>
-      <p class="meta"><strong>NutriLevel</strong> mobile app</p>
+      <p class="meta"><strong>NutriLevel</strong> mobile app (package: <code>com.mb.nutrilevel</code>)</p>
       <p class="meta">Last updated: <time datetime="2026-10-29">29 October 2026</time></p>
     </header>
 
     <p>
-      This page explains how <strong>NutriLevel</strong> handles personal and device data.
-      The app is provided for personal, non-commercial use.
+      This page explains how <strong>NutriLevel</strong> handles label photos, device permissions,
+      and related data. The app is informational and is not medical advice.
     </p>
 
     <h2>1. Data controller</h2>
@@ -182,41 +237,48 @@
 
     <h2>2. Data processed</h2>
     <p>
-      Label / packaging photos you capture or pick are sent to the <strong>AIPool</strong> API
-      and the linked AI model to read nutrition and ingredient text. There is no user
-      account. Photos are not stored by the developer in a user profile. Language preference
-      is kept on device. Standard network metadata may appear in service logs.
+      Photos of nutrition or ingredient labels that you capture, pick from the gallery, or share
+      from another app are sent over the internet to a third-party AI service (<strong>AIPool</strong>)
+      so the label can be read. This version does not keep a cloud account or a scan-history database.
+      The latest analysis may be held temporarily on the device for the current session.
+      Language preference is stored on the device (SharedPreferences) and is not sent to the developer.
+      IP address and standard HTTP connection data may be processed by the service provider.
+      The app does not include ads or third-party analytics SDKs. The score is calculated on device.
     </p>
 
     <h2>3. What we do not collect</h2>
     <ul>
-      <li>Name, email, phone, or account credentials</li>
-      <li>Location, contacts, microphone, or background tracking</li>
-      <li>Advertising IDs or third-party ad SDKs</li>
+      <li>Account sign-in is not required</li>
+      <li>Contacts, SMS, microphone, or location are not used</li>
+      <li>No health diagnosis or identity verification</li>
     </ul>
 
-    <h2>4. Purpose</h2>
-    <p>
-      Data is processed only to read labels and produce a score card. The score is
-      informational, not medical advice.
-    </p>
+    <h2>4. Permissions</h2>
+    <ul>
+      <li><strong>Camera</strong> — optional, to photograph a label</li>
+      <li><strong>Photos / storage (as needed)</strong> — to pick or receive a shared image</li>
+      <li><strong>Internet</strong> — to call the analysis API</li>
+    </ul>
 
-    <h2>5. Third parties</h2>
+    <h2>5. Children and security</h2>
     <p>
-      Analysis uses AIPool and linked model providers under their own policies. The
-      developer does not operate those servers.
+      The app is not designed to knowingly collect data from children under 13.
+      Send only packaging labels, not personal documents or face photos.
     </p>
 
     <h2>6. Contact</h2>
     <p>
-      Questions:
+      Requests (access, correction, deletion) and questions:
       <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
       ·
       <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/NutriLevel-app-info.html">app info</a>
     </p>
 
     <footer>
-      © NutriLevel · Mehmet Burhan
+      <p style="margin:0">
+        Bu sayfa yalnızca <strong>NutriLevel</strong> için geçerlidir.
+        Play Console’a yapıştırılacak adres: bu dosyanın herkese açık HTTPS URL’sidir.
+      </p>
     </footer>
   </div>
 </body>
