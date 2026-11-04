@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — RoamTrex</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0c1410;
+      --card: #141e18;
+      --text: #e8f0ea;
+      --muted: #8aa399;
+      --accent: #5cb87a;
+      --border: rgba(255,255,255,0.08);
+      --tag-bg: rgba(92, 184, 122, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f3f6f4;
+        --card: #ffffff;
+        --text: #14201a;
+        --muted: #5a6b62;
+        --accent: #2d5a37;
+        --border: rgba(0,0,0,0.08);
+        --tag-bg: rgba(45, 90, 55, 0.08);
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px 18px 48px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 6px; }
+    h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    h3 { font-size: 1rem; margin: 18px 0 8px; font-weight: 600; color: var(--accent); }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.25rem; margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .note { font-size: 0.9rem; color: var(--muted); margin: 0; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--card); color: var(--muted); font-size: 0.82rem; }
+    code { font-size: 0.92em; }
+    .tag {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--accent);
+      border-radius: 5px;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin: 0 0 28px;
+    }
+    .toc a { display: inline-block; margin: 4px 12px 4px 0; }
+    .lang-label {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin: 8px 0 28px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="lang-label">🇹🇷 Türkçe</div>
+
+    <header>
+      <h1>Gizlilik Politikası ve Kullanım Koşulları</h1>
+      <p class="meta"><strong>RoamTrex</strong> mobil uygulaması (paket: <code>com.roamtrex.roamtrex_mobile</code>)</p>
+      <p class="meta">Son güncelleme: <time datetime="2026-11-04">4 Kasım 2026</time></p>
+    </header>
+
+    <p>
+      Bu belge, <strong>RoamTrex</strong> uygulamasının konum, hesap, aktivite ve
+      medya verilerini nasıl işlediğini açıklar; aynı zamanda temel kullanım
+      koşullarını içerir. Uygulamayı indirerek veya kullanarak bu metni kabul
+      etmiş sayılırsınız.
+    </p>
+
+    <nav class="toc" aria-label="İçindekiler">
+      <a href="#tr-gizlilik">Gizlilik</a>
+      <a href="#tr-kosullar">Koşullar</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <h2 id="tr-gizlilik">A. Gizlilik Politikası</h2>
+
+    <h3>1. Veri sorumlusu</h3>
+    <p>
+      Geliştirici: <strong>Mehmet Burhan</strong><br>
+      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      Portfolio:
+      <a href="https://github.com/mehmetburhan/portfolio" target="_blank" rel="noopener noreferrer">github.com/mehmetburhan/portfolio</a><br>
+      Uygulama bilgileri:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-app-info.html">RoamTrex-app-info.html</a>
+    </p>
+
+    <h3>2. Uygulama ne yapar?</h3>
+    <p>
+      RoamTrex; bisiklet, koşu, yürüyüş ve benzeri outdoor aktivitelerde
+      <strong>GPS ile rota ve performans kaydı</strong> yapan bir uygulamadır.
+      Kayıtlar cihazınızda tutulur; oturum açtığınızda RoamTrex sunucusuna
+      (<code>api.roamtrex.com</code> veya yapılandırılmış API adresi) senkron
+      edilebilir. Harita karoları üçüncü taraf harita sunucularından (ör.
+      OpenStreetMap) yüklenir.
+    </p>
+
+    <h3>3. Toplanan / işlenen veriler</h3>
+
+    <h3>3.1. Konum verisi (kesin konum)</h3>
+    <p>
+      Aktivite kaydı ve önizleme için cihazınızın <strong>GPS / konum
+      servisleri</strong> kullanılır. Kayıt sırasında konum örnekleri (enlem,
+      boylam, zaman, isteğe bağlı hız / doğruluk / yükselti) yerel veritabanına
+      yazılır. Android’de kayıt sürerken <strong>arka planda konum</strong>
+      erişimi istenebilir; böylece ekran kapalıyken de rota tutulabilir.
+      Konum, reklam ağı veya üçüncü taraf analitik için kullanılmaz.
+    </p>
+
+    <h3>3.2. Hesap ve kimlik doğrulama</h3>
+    <p>
+      Google ile giriş veya e-posta / şifre ile oturum açabilirsiniz. Bu durumda
+      kimlik doğrulama belirteçleri ve hesap tanımlayıcıları RoamTrex API’sine
+      iletilir. Google oturumu Google’ın kendi politikalarına tabidir.
+    </p>
+
+    <h3>3.3. Profil bilgileri</h3>
+    <p>
+      İsteğe bağlı olarak ad, soyad, biyografi, cinsiyet, ülke, doğum tarihi,
+      boy, kilo ve profil fotoğrafı kaydedilebilir. Bu veriler cihazda önbelleğe
+      alınır ve giriş yaptıysanız sunucuya senkron edilebilir. Kilo / bisiklet
+      ağırlığı kalori tahmini için kullanılır.
+    </p>
+
+    <h3>3.4. Aktivite kayıtları</h3>
+    <p>
+      Spor türü, başlık, not, süre, mesafe, hız istatistikleri, yükselti özeti,
+      kalori tahmini, duraklama olayları ve GPS iz noktaları yerel olarak
+      saklanır. Çevrimiçi senkron açık / mümkün olduğunda bu veriler hesabınıza
+      yazılabilir.
+    </p>
+
+    <h3>3.5. Aktivite fotoğrafları</h3>
+    <p>
+      Sürüşe eklediğiniz fotoğraflar (kamera veya galeri) uygulama klasörüne
+      kopyalanır ve yerel veritabanında ilişkilendirilir.
+      <strong>Bu sürümde fotoğraflar sunucuya yüklenmez</strong>; yalnızca
+      cihazınızda kalır. İleride yükleme eklenirse bu politika güncellenir.
+    </p>
+
+    <h3>3.6. Ayarlar (cihazda)</h3>
+    <p>
+      Dil, birim (km/mil), otomatik duraklatma, ekranı açık tut, sanal GPS
+      (deneme), harita metrikleri vb. tercihler cihazda
+      (<strong>SharedPreferences</strong>) tutulur. Giriş yaptıysanız dil, birim,
+      ağırlık ve bazı metrik tercihleri sunucu ayarlarınızla da eşitlenebilir.
+    </p>
+
+    <h3>3.7. Teknik iletişim</h3>
+    <p>
+      API ve harita isteklerinde IP adresi ile standart HTTP/TLS meta verisi,
+      ilgili sunucu altyapısında kendi politikalarına tabi işlenebilir.
+      Bu sürümde yerleşik reklam veya üçüncü taraf analitik (analytics) SDK’sı
+      bulunmaz.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Veri</th>
+          <th>Amaç</th>
+          <th>Saklama / paylaşım</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GPS noktaları</td>
+          <td>Rota ve istatistik kaydı</td>
+          <td>Cihaz; senkron ile RoamTrex API</td>
+        </tr>
+        <tr>
+          <td>Hesap (e-posta / Google)</td>
+          <td>Oturum ve senkron</td>
+          <td>RoamTrex API (+ Google Auth)</td>
+        </tr>
+        <tr>
+          <td>Profil (isteğe bağlı)</td>
+          <td>Profil ekranı, kalori tahmini</td>
+          <td>Cihaz + API</td>
+        </tr>
+        <tr>
+          <td>Aktivite özeti / notlar</td>
+          <td>Geçmiş ve detay</td>
+          <td>Cihaz + API (mümkünse)</td>
+        </tr>
+        <tr>
+          <td>Sürüş fotoğrafları</td>
+          <td>Anı / etkinlik görselleri</td>
+          <td>Yalnızca cihaz (bu sürüm)</td>
+        </tr>
+        <tr>
+          <td>Ayarlar</td>
+          <td>Tercihleri hatırlamak</td>
+          <td>Cihaz; kısmen API</td>
+        </tr>
+        <tr>
+          <td>Harita karosu istekleri</td>
+          <td>Haritayı göstermek</td>
+          <td>Karo sağlayıcı (ör. OSM)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="card">
+      <p class="note">
+        Google Play / App Store <strong>Veri güvenliği</strong> formunu bu metinle
+        uyumlu tutun. Yeni izin, SDK veya sunucu yükleme özelliği eklendiğinde
+        hem mağaza beyanını hem bu sayfayı güncelleyin.
+      </p>
+    </div>
+
+    <h3>4. Üçüncü taraf hizmetler</h3>
+    <ul>
+      <li><span class="tag">RoamTrex API</span> — kimlik doğrulama, profil ve aktivite senkronu.</li>
+      <li><span class="tag">Google Sign-In</span> — isteğe bağlı Google oturumu.</li>
+      <li><span class="tag">Harita karoları</span> — OpenStreetMap veya yapılandırılmış karo URL’si.</li>
+      <li><span class="tag">Mağaza / OS</span> — dağıtım, güncelleme ve sistem konum servisleri.</li>
+    </ul>
+
+    <h3>5. İzinler</h3>
+    <ul>
+      <li><strong>Konum (kesin)</strong> — kayıt ve harita önizlemesi.</li>
+      <li><strong>Arka plan konumu (Android, kayıt sırasında)</strong> — ekran kapalıyken rota.</li>
+      <li><strong>Bildirimler / ön plan servisi</strong> — arka plan kaydı bilgilendirmesi.</li>
+      <li><strong>Kamera</strong> — aktivite / profil fotoğrafı (isteğe bağlı).</li>
+      <li><strong>Fotoğraflar / galeri</strong> — görsel seçmek (isteğe bağlı).</li>
+      <li><strong>İnternet</strong> — giriş, senkron, harita karoları.</li>
+      <li><strong>Pil optimizasyonu istisnası (Android, isteğe bağlı)</strong> — kaydın kesilmesini azaltmak.</li>
+    </ul>
+
+    <h3>6. Saklama süresi ve silme</h3>
+    <p>
+      Yerel kayıtları uygulamadan silebilirsiniz; cihazdan uygulama kaldırılınca
+      yerel veriler de silinir. Sunucudaki hesap / aktivite verilerinin silinmesi
+      için <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+      adresine yazın. Yasal zorunluluklar saklama süresini etkileyebilir.
+    </p>
+
+    <h3>7. Çocuklar</h3>
+    <p>
+      Uygulama bilerek 13 yaş altı çocuklardan veri toplamaya yönelik
+      tasarlanmamıştır. Böyle bir durumdan haberdar olursanız iletişime geçin.
+    </p>
+
+    <h3>8. Güvenlik</h3>
+    <p>
+      İletişim mümkün olduğunca HTTPS üzerinden yapılır. Cihaz kilidi ve güncel
+      işletim sistemi kullanmanızı öneririz. Konum verisi hassastır; cihazınızı
+      başkalarıyla paylaşırken oturumu kapatın.
+    </p>
+
+    <h3>9. Haklarınız</h3>
+    <p>
+      Geçerli mevzuat kapsamındaki erişim, düzeltme, silme ve itiraz talepleri
+      için e-posta ile başvurabilirsiniz. Ayrıca bakınız:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-app-info.html">uygulama bilgileri</a>.
+    </p>
+
+    <h3>10. Politika güncellemeleri</h3>
+    <p>
+      Özellik veya yasal gereklilikler değiştikçe bu metin güncellenir. Güncel
+      sürüm bu sayfada yayınlanır; “Son güncelleme” tarihini kontrol edin.
+    </p>
+
+    <h2 id="tr-kosullar">B. Kullanım Koşulları (özet)</h2>
+    <ul>
+      <li>RoamTrex spor / rota kaydı içindir; güvenli navigasyon veya tıbbi tavsiye değildir.</li>
+      <li>GPS sapmaları ve tahmini kalori değerleri garanti edilmez.</li>
+      <li>Trafik ve doğa koşullarında sorumluluk kullanıcıya aittir.</li>
+      <li>Hizmet “olduğu gibi” sunulur; kesintisiz veya hatasız çalışma taahhüt edilmez.</li>
+      <li>Uygunsuz kullanım veya yasalara aykırı kullanım yasaktır.</li>
+    </ul>
+
+    <hr id="en">
+
+    <div class="lang-label">🇬🇧 English</div>
+
+    <header>
+      <h1>Privacy Policy &amp; Terms of Use</h1>
+      <p class="meta"><strong>RoamTrex</strong> mobile app (package: <code>com.roamtrex.roamtrex_mobile</code>)</p>
+      <p class="meta">Last updated: <time datetime="2026-11-04">4 November 2026</time></p>
+    </header>
+
+    <p>
+      This page explains how <strong>RoamTrex</strong> handles location, account,
+      activity and media data, and includes basic terms of use. By installing or
+      using the app you agree to this text.
+    </p>
+
+    <h2>A. Privacy Policy</h2>
+
+    <h3>1. Data controller</h3>
+    <p>
+      Developer: <strong>Mehmet Burhan</strong><br>
+      Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      App info:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-app-info.html">RoamTrex-app-info.html</a>
+    </p>
+
+    <h3>2. What the app does</h3>
+    <p>
+      RoamTrex records outdoor activities (cycling, running, walking and more)
+      with <strong>GPS</strong>. Data is stored on the device and may sync to the
+      RoamTrex API when you are signed in. Map tiles are loaded from third-party
+      tile servers (e.g. OpenStreetMap).
+    </p>
+
+    <h3>3. Data we process</h3>
+    <ul>
+      <li><strong>Precise location</strong> — for recording and map preview; may include background location on Android while a ride is active. Not used for ads or third-party analytics.</li>
+      <li><strong>Account</strong> — Google Sign-In or email/password via RoamTrex API.</li>
+      <li><strong>Profile (optional)</strong> — name, bio, gender, country, date of birth, height, weight, avatar; may sync to the server.</li>
+      <li><strong>Activity data</strong> — sport type, title, notes, stats, pause events, GPS track points; local first, sync when possible.</li>
+      <li><strong>Ride photos</strong> — stored in the app folder on device; <strong>not uploaded to the server in this version</strong>.</li>
+      <li><strong>Settings</strong> — language, units, auto-pause, keep screen on, metrics; on device, partly synced when signed in.</li>
+      <li><strong>Technical data</strong> — IP / HTTP metadata on API and map requests. No built-in ads or analytics SDKs in this version.</li>
+    </ul>
+
+    <h3>4. Third parties</h3>
+    <ul>
+      <li>RoamTrex API — auth, profile and activity sync</li>
+      <li>Google Sign-In — optional</li>
+      <li>Map tile provider (e.g. OSM)</li>
+      <li>App stores / OS location services</li>
+    </ul>
+
+    <h3>5. Permissions</h3>
+    <ul>
+      <li>Location (precise); background location on Android during recording</li>
+      <li>Notifications / foreground service for background recording</li>
+      <li>Camera and photos (optional) for ride/profile images</li>
+      <li>Internet for login, sync and map tiles</li>
+      <li>Optional battery-optimization exemption on Android</li>
+    </ul>
+
+    <h3>6. Retention, children, security, contact</h3>
+    <p>
+      You can delete local rides in the app; uninstalling removes local data.
+      For server-side deletion contact the email above. The app is not directed
+      at children under 13. Use HTTPS where available and protect your device.
+      Rights requests (access, correction, deletion):
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>.
+    </p>
+
+    <h2>B. Terms of use (summary)</h2>
+    <ul>
+      <li>RoamTrex is for activity logging, not safety-critical navigation or medical advice.</li>
+      <li>GPS error and calorie estimates are not guaranteed.</li>
+      <li>You are responsible for safety in traffic and outdoors.</li>
+      <li>The service is provided “as is” without uptime guarantees.</li>
+    </ul>
+
+    <footer>
+      <p style="margin:0">
+        Bu sayfa yalnızca <strong>RoamTrex</strong> için geçerlidir.
+        Mağaza gizlilik URL’si: bu dosyanın herkese açık HTTPS adresi
+        (<code>…/RoamTrex-privacy-policy.html</code>).
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

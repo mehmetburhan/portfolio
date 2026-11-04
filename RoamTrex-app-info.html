@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RoamTrex — Uygulama Bilgileri</title>
+  <style>
+    :root {
+      --bg: #f3f6f4;
+      --surface: #ffffff;
+      --text: #14201a;
+      --text-sec: #5a6b62;
+      --accent: #2d5a37;
+      --divider: #d5e0d9;
+      --icon: #5a6b62;
+      --mint: #e8f0ea;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
+    .phone {
+      max-width: 420px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 1.25rem 0 2.5rem;
+    }
+    .section-title {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 1.1rem 1.25rem 0.55rem;
+      margin: 0;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      border: none;
+      background: var(--surface);
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+    }
+    .row:hover { background: var(--mint); }
+    .icon-wrap {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-wrap svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: var(--icon);
+      stroke-width: 1.6;
+    }
+    .app-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: block;
+      object-fit: cover;
+    }
+    .row-text { flex: 1; min-width: 0; }
+    .row-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .row-sub {
+      margin: 0.15rem 0 0;
+      font-size: 0.875rem;
+      color: var(--text-sec);
+    }
+    .chevron {
+      color: var(--text-sec);
+      font-size: 1.25rem;
+      opacity: 0.7;
+    }
+    .divider {
+      height: 1px;
+      background: var(--divider);
+      margin: 0.35rem 0 0;
+    }
+    .detail {
+      padding: 0.5rem 1.25rem 0;
+    }
+    .detail h2 {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 1.35rem 0 0.55rem;
+    }
+    .detail p, .detail li {
+      margin: 0 0 0.75rem;
+      color: var(--text-sec);
+      font-size: 0.92rem;
+    }
+    .detail ul { padding-left: 1.15rem; margin: 0 0 0.75rem; }
+    .detail li { margin-bottom: 0.4rem; }
+    .detail strong { color: var(--text); font-weight: 600; }
+    .badge {
+      display: inline-block;
+      margin: 0 0.35rem 0.65rem 0;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(45, 90, 55, 0.35);
+      border-radius: 4px;
+      background: rgba(45, 90, 55, 0.1);
+    }
+    .footer {
+      padding: 1.75rem 1.25rem 0;
+      font-size: 0.75rem;
+      color: #777;
+    }
+    a.link { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <p class="section-title">Gizlilik</p>
+    <a class="row" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-privacy-policy.html">
+      <span class="icon-wrap" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z" stroke-linejoin="round"/>
+          <circle cx="12" cy="11" r="1.1" fill="currentColor" stroke="none"/>
+          <path d="M12 12.6v3.2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="row-text">
+        <p class="row-title">Gizlilik Politikası</p>
+        <p class="row-sub">Kullanım Koşulları</p>
+      </span>
+      <span class="chevron">↗</span>
+    </a>
+
+    <p class="section-title">Hakkında</p>
+    <div class="row" role="group" aria-label="RoamTrex hakkında">
+      <span class="icon-wrap">
+        <img class="app-icon" src="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-icon.png" width="40" height="40" alt="RoamTrex" />
+      </span>
+      <span class="row-text">
+        <p class="row-title">RoamTrex</p>
+        <p class="row-sub">Sürüm 0.1.0 (1) · Her rota bir hikâye</p>
+      </span>
+    </div>
+    <div class="divider"></div>
+
+    <div class="detail">
+      <h2>Ne yapar?</h2>
+      <span class="badge">GPS</span>
+      <span class="badge">Outdoor</span>
+      <span class="badge">Çoklu spor</span>
+      <p>
+        <strong>RoamTrex</strong>, bisiklet, koşu, yürüyüş ve diğer outdoor
+        aktivitelerinizi <strong>GPS ile kaydeden</strong> bir aktivite takip
+        uygulamasıdır. Mesafe, süre, hız / tempo, yükselti, tahmini kalori ve
+        rota haritası cihazınızda tutulur; giriş yaptığınızda isteğe bağlı olarak
+        RoamTrex sunucusuna senkron edilebilir.
+      </p>
+      <p>
+        Slogan: <strong>Her rota bir hikâye.</strong>
+      </p>
+
+      <h2>Ana özellikler</h2>
+      <ul>
+        <li><strong>Canlı kayıt</strong> — harita üzerinde konum, GPS kalite göstergesi, başlat / ara ver / bitir.</li>
+        <li><strong>Spor türleri</strong> — tur bisikleti, dağ / yol bisikleti, yürüyüş, koşu, doğa yürüyüşü, kano, paten, kayak ve diğerleri.</li>
+        <li><strong>Otomatik duraklatma</strong> — durunca süreyi dondurur (spor türüne göre eşik).</li>
+        <li><strong>Arka plan kaydı (Android)</strong> — uygulama kapalıyken de kayıt devam edebilir (konum + bildirim izni gerekir).</li>
+        <li><strong>Etkinlik listesi</strong> — arama, dönem / spor filtresi, özet ve kişisel rekorlar.</li>
+        <li><strong>Detay analizi</strong> — harita, hız / tempo grafikleri, bölümler (split), yükselti istatistikleri.</li>
+        <li><strong>Fotoğraflar</strong> — sürüşe kamera veya galeriden birden fazla fotoğraf ekleme (cihazda saklanır).</li>
+        <li><strong>Profil &amp; ayarlar</strong> — dil (14 dil), birim (km/mil), ağırlıklar, harita metrikleri; Google veya e-posta ile giriş.</li>
+        <li><strong>GPX dışa aktarma</strong> — kaydı paylaşmak için.</li>
+      </ul>
+
+      <h2>Veri nerede tutulur?</h2>
+      <p>
+        Aktivite noktaları, duraklamalar ve fotoğraf dosyaları <strong>öncelikle cihazınızda</strong>
+        (yerel veritabanı + uygulama klasörü) saklanır. İnternet yokken de kayıt
+        tamamlanabilir; sunucu erişilince senkron denenir.
+      </p>
+      <p>
+        Hesap, profil ve etkinlik özeti / rota verileri, giriş yaptıysanız
+        <strong>RoamTrex API</strong> (<code>api.roamtrex.com</code>) üzerinden
+        hesabınıza yazılabilir. Harita karoları OpenStreetMap (veya yapılandırılmış
+        karo sağlayıcı) üzerinden yüklenir.
+      </p>
+
+      <h2>Konum izni neden gerekir?</h2>
+      <p>
+        Aktivite kaydı <strong>kesin konum</strong> kullanır. Kayıt sırasında
+        Android’de arka planda konum erişimi istenebilir; bu olmadan ekran kapalıyken
+        rota eksik kalabilir. Konum, reklam veya izleme ağı için kullanılmaz.
+      </p>
+
+      <h2>Yasal uyarı</h2>
+      <p>
+        RoamTrex bir spor / rota kaydı aracıdır; navigasyon güvenliği, tıbbi tavsiye
+        veya resmi yarış zamanlaması garantisi vermez. GPS sinyali ortama göre
+        sapabilir. Kalori değerleri tahmindir (vücut / bisiklet ağırlığı; nabız yok).
+        Trafikte ve doğada güvenliğinizden siz sorumlusunuz.
+      </p>
+
+      <h2>Geliştirici</h2>
+      <p>
+        <strong>Mehmet Burhan</strong><br />
+        Paket: <code>com.roamtrex.roamtrex_mobile</code><br />
+        Destek:
+        <a class="link" href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+      </p>
+    </div>
+
+    <p class="footer">
+      © RoamTrex ·
+      <a class="link" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/RoamTrex-privacy-policy.html">Gizlilik Politikası</a>
+      ·
+      <a class="link" href="https://github.com/mehmetburhan/portfolio">portfolio</a>
+    </p>
+  </div>
+</body>
+</html>
