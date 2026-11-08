@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI-Ahtapot — Uygulama Bilgileri</title>
+  <style>
+    :root {
+      --bg: #f4f7f6;
+      --surface: #ffffff;
+      --text: #14201c;
+      --text-sec: #5a6b66;
+      --accent: #0d8a68;
+      --divider: #d5e3dc;
+      --icon: #5a6b66;
+      --mint: #e7f5f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
+    .phone {
+      max-width: 420px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 1.25rem 0 2.5rem;
+    }
+    .section-title {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 1.1rem 1.25rem 0.55rem;
+      margin: 0;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      border: none;
+      background: var(--surface);
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+    }
+    .row:hover { background: var(--mint); }
+    .icon-wrap {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-wrap svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: var(--icon);
+      stroke-width: 1.6;
+    }
+    .app-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: block;
+      object-fit: cover;
+      background: #fff;
+    }
+    .row-text { flex: 1; min-width: 0; }
+    .row-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .row-sub {
+      margin: 0.15rem 0 0;
+      font-size: 0.875rem;
+      color: var(--text-sec);
+    }
+    .chevron {
+      color: var(--text-sec);
+      font-size: 1.25rem;
+      opacity: 0.7;
+    }
+    .divider {
+      height: 1px;
+      background: var(--divider);
+      margin: 0.35rem 0 0;
+    }
+    .detail {
+      padding: 0.5rem 1.25rem 0;
+    }
+    .detail h2 {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 1.35rem 0 0.55rem;
+    }
+    .detail p, .detail li {
+      margin: 0 0 0.75rem;
+      color: var(--text-sec);
+      font-size: 0.92rem;
+    }
+    .detail ul { padding-left: 1.15rem; margin: 0 0 0.75rem; }
+    .detail li { margin-bottom: 0.4rem; }
+    .detail strong { color: var(--text); font-weight: 600; }
+    .badge {
+      display: inline-block;
+      margin: 0 0.35rem 0.65rem 0;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(13, 138, 104, 0.35);
+      border-radius: 4px;
+      background: rgba(13, 138, 104, 0.1);
+    }
+    .footer {
+      padding: 1.75rem 1.25rem 0;
+      font-size: 0.75rem;
+      color: #777;
+    }
+    a.link { color: var(--accent); }
+    code { font-size: 0.86em; }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <p class="section-title">Gizlilik</p>
+    <a class="row" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-privacy-policy.html">
+      <span class="icon-wrap" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z" stroke-linejoin="round"/>
+          <circle cx="12" cy="11" r="1.1" fill="currentColor" stroke="none"/>
+          <path d="M12 12.6v3.2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="row-text">
+        <p class="row-title">Gizlilik Politikası</p>
+        <p class="row-sub">Kullanım Koşulları</p>
+      </span>
+      <span class="chevron">↗</span>
+    </a>
+
+    <p class="section-title">Hakkında</p>
+    <div class="row" role="group" aria-label="AI-Ahtapot hakkında">
+      <span class="icon-wrap">
+        <img class="app-icon" src="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-icon.png" width="40" height="40" alt="AI-Ahtapot" />
+      </span>
+      <span class="row-text">
+        <p class="row-title">AI-Ahtapot</p>
+        <p class="row-sub">Sürüm 1.0.0 (1) · AIPool sohbet istemcisi</p>
+      </span>
+    </div>
+    <div class="divider"></div>
+
+    <div class="detail">
+      <h2>Ne yapar?</h2>
+      <span class="badge">Sohbet</span>
+      <span class="badge">Çoklu model</span>
+      <span class="badge">TR bağlam</span>
+      <p>
+        <strong>AI-Ahtapot</strong>, telefonda ve masaüstünde doğal dilde yazışan
+        bir sohbet istemcisidir. Yanıtlar doğrudan bir model firmasından değil,
+        <strong>AIPool</strong> kapısından (<code>api-aipool.enkolaycari.com</code>)
+        gelir. Hesabınıza tanımlı modeller (Ollama, Gemini, Groq, OpenAI ve
+        grant’taki diğer sağlayıcılar) arasından seçim yapılır.
+      </p>
+      <p>
+        OpenAI, Google veya Apple ürünü değildir. ChatGPT markasıyla ilişkisi yoktur.
+        Genel asistan işi görür: yazı, özet, çeviri, kod yardımı, fikir, görsel okuma.
+        Tıbbi, hukuki veya mali tavsiye vermez.
+      </p>
+
+      <h2>Ana özellikler</h2>
+      <ul>
+        <li><strong>Sohbet</strong> — akan yanıt, sohbet listesi, model seçici, durdurma ve yeniden üretme.</li>
+        <li><strong>Geçici sohbet</strong> — sunucuya ve diske yazılmaz.</li>
+        <li><strong>Görsel ve belge</strong> — kamera, galeri veya paylaşımla fotoğraf; PDF ve metin ekleri. Görsel, seçili model görebiliyorsa okunur.</li>
+        <li><strong>Web araması</strong> — güncel sorularda AIPool üzerinden arama; kaynak bağlantıları yanıtta gösterilebilir.</li>
+        <li><strong>Canlı bağlam</strong> — döviz (Frankfurter), hava (Open-Meteo) ve nöbetçi eczane (eczaneler.gen.tr). Konum yalnızca siz sorduğunuzda istenir.</li>
+        <li><strong>Ses</strong> — dikte (cihaz konuşma tanıma) ve sesli okuma (cihaz veya nöral ses).</li>
+        <li><strong>Bellek ve yanıt tercihleri</strong> — kalıcı talimatlar ve isteğe bağlı bellek metni, siz silene kadar cihazda durur.</li>
+        <li><strong>Giriş</strong> — e-posta / şifre, Google veya Apple. Aynı AIPool kullanıcı hesabı.</li>
+        <li><strong>Dışa aktarma</strong> — yanıtı metin, Markdown veya PDF olarak paylaşma.</li>
+        <li><strong>Diller</strong> — arayüz Türkçe, İngilizce, Almanca ve Fransızca.</li>
+      </ul>
+
+      <h2>Veri nerede tutulur?</h2>
+      <p>
+        Sohbet listesi <strong>öncelikle cihazınızda</strong> durur. Geçici sohbet
+        diske yazılmaz. Normal sohbet, PersonalId doluysa AIPool oturumuna da
+        yazılabilir. Mesaj metni ve eklediğiniz görsel / belge, yanıt üretmek için
+        AIPool kapısına ve oradan seçtiğiniz model sağlayıcısına gider.
+      </p>
+      <p>
+        Uygulama anahtarları cihazda şifreli kasada tutulur; ayarlardan tekrar
+        görüntülenemez. Rehberiniz okunup yüklenmez. “Rehbere kaydet” yalnızca
+        sizin seçtiğiniz kartı cihaz rehberine yazar.
+      </p>
+
+      <h2>Konum ve mikrofon neden istenir?</h2>
+      <p>
+        Konum, hava ve yakındaki yer sorularında kullanılır; arka planda izleme
+        veya reklam için kullanılmaz. Mikrofon yalnızca dikte sırasında, siz
+        başlattığınızda açılır. Kamera ve galeri, sohbete görsel eklemek içindir.
+      </p>
+
+      <h2>Yasal uyarı</h2>
+      <p>
+        Model yanıtları hatalı, eksik veya güncel olmayabilir. AI-Ahtapot teşhis,
+        tedavi, hukuki görüş veya yatırım tavsiyesi değildir. Nöbetçi eczane,
+        hava ve kur bilgisi üçüncü taraf kaynaktan anlık okunur; resmi duyuru
+        yerine geçmez. Zararlı yazılım, başkasının hesabına girme veya yasa dışı
+        iş için kullanılamaz.
+      </p>
+
+      <h2>Geliştirici</h2>
+      <p>
+        <strong>Mehmet Burhan</strong><br />
+        Android paket: <code>com.aipool.aipool_chat_app</code><br />
+        iOS bundle: <code>com.aipool.aipoolChatApp</code><br />
+        Apple Services ID: <code>com.aipool.signin</code><br />
+        API: <code>https://api-aipool.enkolaycari.com</code><br />
+        Destek:
+        <a class="link" href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+      </p>
+    </div>
+
+    <p class="footer">
+      © AI-Ahtapot ·
+      <a class="link" href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-privacy-policy.html">Gizlilik Politikası</a>
+      ·
+      <a class="link" href="https://github.com/mehmetburhan/portfolio">portfolio</a>
+    </p>
+  </div>
+</body>
+</html>

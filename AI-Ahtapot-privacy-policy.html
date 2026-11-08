@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — AI-Ahtapot</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0c1412;
+      --card: #141e1b;
+      --text: #e8f2ee;
+      --muted: #8aa399;
+      --accent: #3dba8b;
+      --border: rgba(255,255,255,0.08);
+      --tag-bg: rgba(61, 186, 139, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f4f7f6;
+        --card: #ffffff;
+        --text: #14201c;
+        --muted: #5a6b66;
+        --accent: #0d8a68;
+        --border: rgba(0,0,0,0.08);
+        --tag-bg: rgba(13, 138, 104, 0.1);
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px 18px 48px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 6px; }
+    h2 { font-size: 1.15rem; margin: 28px 0 12px; font-weight: 600; }
+    h3 { font-size: 1rem; margin: 18px 0 8px; font-weight: 600; color: var(--accent); }
+    p, li { margin: 0 0 12px; color: var(--text); }
+    ul { padding-left: 1.25rem; margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .note { font-size: 0.9rem; color: var(--muted); margin: 0; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--card); color: var(--muted); font-size: 0.82rem; }
+    code { font-size: 0.92em; }
+    .tag {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--accent);
+      border-radius: 5px;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin: 0 0 28px;
+    }
+    .toc a { display: inline-block; margin: 4px 12px 4px 0; }
+    .lang-label {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin: 8px 0 28px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="lang-label">🇹🇷 Türkçe</div>
+
+    <header>
+      <h1>Gizlilik Politikası ve Kullanım Koşulları</h1>
+      <p class="meta"><strong>AI-Ahtapot</strong> (Android paket: <code>com.aipool.aipool_chat_app</code> · iOS bundle: <code>com.aipool.aipoolChatApp</code>)</p>
+      <p class="meta">Son güncelleme: <time datetime="2026-11-08">8 Kasım 2026</time></p>
+    </header>
+
+    <p>
+      Bu belge, <strong>AI-Ahtapot</strong> uygulamasının hesap, sohbet, dosya,
+      konum ve ses verilerini nasıl işlediğini açıklar; aynı zamanda temel
+      kullanım koşullarını içerir. Uygulamayı indirerek veya kullanarak bu
+      metni kabul etmiş sayılırsınız.
+    </p>
+
+    <nav class="toc" aria-label="İçindekiler">
+      <a href="#tr-gizlilik">Gizlilik</a>
+      <a href="#tr-kosullar">Koşullar</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <h2 id="tr-gizlilik">A. Gizlilik Politikası</h2>
+
+    <h3>1. Veri sorumlusu</h3>
+    <p>
+      Geliştirici: <strong>Mehmet Burhan</strong><br>
+      İletişim: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      Portfolio:
+      <a href="https://github.com/mehmetburhan/portfolio" target="_blank" rel="noopener noreferrer">github.com/mehmetburhan/portfolio</a><br>
+      Uygulama bilgileri:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-app-info.html">AI-Ahtapot-app-info.html</a>
+    </p>
+
+    <h3>2. Uygulama ne yapar?</h3>
+    <p>
+      AI-Ahtapot; yazı, özet, çeviri, kod yardımı ve görsel okuma için
+      <strong>AIPool</strong> kapısına bağlanan bir sohbet istemcisidir.
+      API adresi <code>https://api-aipool.enkolaycari.com</code> (veya
+      kurulumda tanımlı adres). Yanıt, hesabınıza açık model sağlayıcısından
+      üretilir. Uygulama reklam ağı veya üçüncü taraf analitik SDK’sı içermez.
+    </p>
+
+    <h3>3. Toplanan / işlenen veriler</h3>
+
+    <h3>3.1. Hesap ve kimlik doğrulama</h3>
+    <p>
+      E-posta ve şifre, <strong>Google</strong> veya <strong>Apple</strong> ile
+      giriş yapabilirsiniz. AIPool, oturum için bir JWT üretir. Apple, e-postanızı
+      gizlemeyi seçtiyseniz relay adresi (<code>@privaterelay.appleid.com</code>)
+      iletebilir; Apple kullanıcı kimliği (<code>sub</code>) hesabı bağlamak için
+      saklanır. Google oturumu Google’ın, Apple oturumu Apple’ın kendi
+      politikalarına tabidir. Şifre düz metin olarak cihazda tutulmaz.
+    </p>
+
+    <h3>3.2. Sohbet içeriği</h3>
+    <p>
+      Mesajlar, başlık, seçilen sağlayıcı / model ve ekler öncelikle
+      <strong>cihazınızda</strong> saklanır. Geçici sohbet sunucuya ve diske
+      yazılmaz. Normal sohbet, PersonalId doluysa AIPool üzerindeki sohbet
+      kaydına da yazılabilir. Mesaj metni ve ekler, yanıt üretmek üzere AIPool
+      kapısına ve oradan seçtiğiniz model sağlayıcısına iletilir. Sohbete
+      yazdığınız sır veya başkasına ait kişisel veri de bu yolla işlenir;
+      göndermeden önce içeriği siz seçersiniz.
+    </p>
+
+    <h3>3.3. Görsel, PDF ve paylaşılan dosyalar</h3>
+    <p>
+      Kamera, galeri veya başka uygulamadan paylaştığınız görsel, PDF ve metin
+      dosyaları sohbet ekine dönüşür. Görsel okuma veya metin çıkarımı için
+      ilgili içerik AIPool’a gider. Bu dosyalar reklam profili oluşturmak için
+      kullanılmaz.
+    </p>
+
+    <h3>3.4. Anahtarlar, bellek ve tercihler</h3>
+    <p>
+      AIPool uygulama anahtarı ve Ollama anahtarı cihazda
+      <strong>şifreli kasada</strong> durur; ayarlardan tekrar görüntülenemez.
+      İsteklerde başlık olarak kapıya gider. Yanıt tercihleri (kalıcı talimat)
+      ve isteğe bağlı bellek metni cihazda tutulur ve sohbet isteğine eklenebilir.
+      Dil, tema ve ses tercihi cihazda (SharedPreferences) saklanır.
+    </p>
+
+    <h3>3.5. Konum (yalnızca sorduğunuzda)</h3>
+    <p>
+      Hava, yakın yer veya nöbetçi eczane gibi sorularda
+      <strong>kullanım sırasında konum</strong> istenebilir. Koordinat,
+      yer adını çözmek için BigDataCloud’a, hava için Open-Meteo’ya gidebilir.
+      Nöbetçi eczane listesi eczaneler.gen.tr sayfasından okunur. Konum sürekli
+      izlenmez, arka planda toplanmaz ve reklam için kullanılmaz. İzin vermezseniz
+      şehir size sorulur.
+    </p>
+
+    <h3>3.6. Ses</h3>
+    <p>
+      Dikte, siz düğmeye bastığınızda mikrofonu açar. Konuşmayı metne çevirme
+      işletim sisteminin konuşma tanıma servisini kullanabilir (Android’de
+      çoğu cihazda Google, iOS’ta Apple). Nöral sesli okuma, asistanın
+      <strong>yazdığı metni</strong> Microsoft Edge okuma servisine
+      (<code>speech.platform.bing.com</code>) gönderir; ses dosyası geçici
+      klasöre yazılır ve oynatıldıktan sonra uygulama tarafından ayrıca
+      saklanmaz. Cihaz sesi seçilirse metin işletim sisteminin kendi
+      ses motorunda okunur.
+    </p>
+
+    <h3>3.7. Rehber</h3>
+    <p>
+      Uygulama rehberinizi okuyup sunucuya göndermez. “Rehbere kaydet”
+      yalnızca sizin onayladığınız bir kartı cihaz rehberine yazar.
+    </p>
+
+    <h3>3.8. Canlı dış veriler ve web araması</h3>
+    <p>
+      Kur sorularında Frankfurter API’sinden USD/EUR kuru okunur; bu istek
+      konum içermez. Web araması açıksa sorgunuz AIPool arama ucuna gider,
+      bulunan sayfa başlıkları ve adresleri yanıta kaynak olarak eklenebilir.
+    </p>
+
+    <h3>3.9. Teknik iletişim</h3>
+    <p>
+      API isteklerinde IP adresi ve standart HTTP/TLS meta verisi, sunucu
+      altyapısında işlenebilir. Bu sürümde yerleşik reklam veya üçüncü taraf
+      analitik (analytics) SDK’sı yoktur.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Veri</th>
+          <th>Amaç</th>
+          <th>Saklama / paylaşım</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hesap (e-posta, Google, Apple)</td>
+          <td>Oturum</td>
+          <td>AIPool API; Google / Apple kendi politikaları</td>
+        </tr>
+        <tr>
+          <td>Sohbet metni</td>
+          <td>Yanıt üretmek ve geçmiş</td>
+          <td>Cihaz; geçici değilse isteğe bağlı AIPool</td>
+        </tr>
+        <tr>
+          <td>Görsel / PDF / paylaşım</td>
+          <td>Okuma ve ek</td>
+          <td>Cihaz + AIPool (model sağlayıcısı)</td>
+        </tr>
+        <tr>
+          <td>Anahtarlar</td>
+          <td>Kapı yetkisi</td>
+          <td>Cihazda şifreli; istek başlığında AIPool</td>
+        </tr>
+        <tr>
+          <td>Bellek ve yanıt tercihleri</td>
+          <td>Kişiselleştirme</td>
+          <td>Cihaz; sohbet isteğiyle kapıya</td>
+        </tr>
+        <tr>
+          <td>Konum</td>
+          <td>Hava, yer, nöbetçi eczane</td>
+          <td>Yalnızca soru anında; BigDataCloud, Open-Meteo</td>
+        </tr>
+        <tr>
+          <td>Mikrofon</td>
+          <td>Dikte</td>
+          <td>İşletim sistemi konuşma tanıma</td>
+        </tr>
+        <tr>
+          <td>Sesli okuma metni</td>
+          <td>Nöral TTS</td>
+          <td>Microsoft Edge okuma servisi; cihaz TTS seçeneği de var</td>
+        </tr>
+        <tr>
+          <td>Web arama sorgusu</td>
+          <td>Güncel bilgi</td>
+          <td>AIPool arama</td>
+        </tr>
+        <tr>
+          <td>Kur</td>
+          <td>Döviz yanıtı</td>
+          <td>Frankfurter (konumsuz)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="card">
+      <p class="note">
+        Google Play / App Store <strong>Veri güvenliği</strong> formunu bu metinle
+        uyumlu tutun. Yeni izin, SDK veya sunucu yükleme özelliği eklendiğinde
+        hem mağaza beyanını hem bu sayfayı güncelleyin.
+      </p>
+    </div>
+
+    <h3>4. Üçüncü taraf hizmetler</h3>
+    <ul>
+      <li><span class="tag">AIPool API</span> — kimlik, sohbet, model listesi, web araması. Adres: <code>https://api-aipool.enkolaycari.com</code>.</li>
+      <li><span class="tag">Model sağlayıcıları</span> — grant’a göre Ollama, Gemini, Groq, OpenAI veya kapıda tanımlı başka bir sağlayıcı. İçerik, seçtiğiniz modele gider.</li>
+      <li><span class="tag">Google Sign-In</span> — isteğe bağlı Google oturumu.</li>
+      <li><span class="tag">Sign in with Apple</span> — isteğe bağlı Apple oturumu. Services ID: <code>com.aipool.signin</code>. Dönüş adresi: <code>https://api-aipool.enkolaycari.com/callbacks/sign_in_with_apple</code>.</li>
+      <li><span class="tag">BigDataCloud</span> — ters coğrafi kod (şehir adı).</li>
+      <li><span class="tag">Open-Meteo</span> — hava tahmini.</li>
+      <li><span class="tag">Frankfurter</span> — döviz kuru.</li>
+      <li><span class="tag">eczaneler.gen.tr</span> — nöbetçi eczane listesi, siz sorduğunuzda.</li>
+      <li><span class="tag">Microsoft Edge TTS</span> — nöral sesli okuma seçiliyse yanıt metni.</li>
+      <li><span class="tag">İşletim sistemi</span> — konuşma tanıma, cihaz TTS, kamera, galeri, harita uygulamasını açma.</li>
+    </ul>
+
+    <h3>5. İzinler</h3>
+    <ul>
+      <li><strong>İnternet</strong> — giriş, sohbet, arama ve canlı veriler.</li>
+      <li><strong>Mikrofon</strong> — dikte.</li>
+      <li><strong>Konuşma tanıma</strong> — dikteyi metne çevirmek.</li>
+      <li><strong>Kamera</strong> — sohbete fotoğraf (isteğe bağlı).</li>
+      <li><strong>Fotoğraflar / depolama</strong> — galeriden veya paylaşımdan görsel ve belge (isteğe bağlı).</li>
+      <li><strong>Konum (kullanım sırasında)</strong> — hava ve yakın yer soruları. Arka plan konumu istenmez.</li>
+      <li><strong>Bluetooth (Android)</strong> — kulaklık / ses yolu için gerekebilen sistem izni. Rehber veya konum ile birlikte reklam profili kurulmaz.</li>
+      <li><strong>Rehbere yazma (isteğe bağlı)</strong> — yalnızca “Rehbere kaydet” dediğinizde.</li>
+    </ul>
+
+    <h3>6. Saklama süresi ve silme</h3>
+    <p>
+      Sohbeti uygulama içinden silebilirsiniz. Geçici sohbet kapanınca diskte
+      kayıt bırakmaz. Uygulamayı kaldırmak yerel sohbetleri, tercihleri ve
+      şifreli kasadaki anahtarları siler. Sunucudaki hesap ve AIPool’a yazılmış
+      sohbetlerin silinmesi için
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>
+      adresine yazın. Yasal zorunluluk saklama süresini etkileyebilir.
+      Apple veya Google hesabını silmek, o sağlayıcının kendi akışına tabidir.
+    </p>
+
+    <h3>7. Çocuklar</h3>
+    <p>
+      Uygulama bilerek 13 yaş altı çocuklardan veri toplamaya yönelik
+      tasarlanmamıştır. Böyle bir durumdan haberdar olursanız iletişime geçin.
+    </p>
+
+    <h3>8. Güvenlik</h3>
+    <p>
+      AIPool iletişimi HTTPS üzerindedir. Anahtarlar cihazda şifreli tutulur.
+      Yine de sohbete yazdığınız metin, modeli çalıştıran sağlayıcıya gider.
+      Başkasına ait kimlik, şifre veya kart bilgisi göndermeyin. Cihaz kilidi
+      kullanın; paylaşılan cihazda oturumu kapatın.
+    </p>
+
+    <h3>9. Haklarınız</h3>
+    <p>
+      6698 sayılı KVKK ve geçerli diğer mevzuat kapsamındaki erişim, düzeltme,
+      silme, işlemeyi kısıtlama ve itiraz talepleri için e-posta ile
+      başvurabilirsiniz. Ayrıca bakınız:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-app-info.html">uygulama bilgileri</a>.
+    </p>
+
+    <h3>10. Politika güncellemeleri</h3>
+    <p>
+      Özellik veya yasal gereklilikler değiştikçe bu metin güncellenir. Güncel
+      sürüm bu sayfada yayınlanır; “Son güncelleme” tarihini kontrol edin.
+    </p>
+
+    <h2 id="tr-kosullar">B. Kullanım Koşulları (özet)</h2>
+    <ul>
+      <li>AI-Ahtapot genel bir sohbet aracıdır; tıbbi, hukuki veya mali danışmanlık değildir.</li>
+      <li>Model yanıtları garanti edilmez. Hava, kur ve nöbetçi eczane verisi üçüncü taraf kaynaktır; resmi ilan yerine geçmez.</li>
+      <li>Hizmet “olduğu gibi” sunulur. Kota, model erişimi ve kesinti AIPool grant’ına ve sağlayıcıya bağlıdır.</li>
+      <li>Başkasının hesabına, sistemine veya verisine izinsiz erişim, zararlı yazılım ve yasa dışı kullanım yasaktır.</li>
+      <li>Sohbete koyduğunuz içeriğin modele gitmesini kabul edersiniz. Göndermemeniz gereken bilgiyi yazmayın.</li>
+      <li>Apple ile giriş, Apple’ın Hizmet Koşullarına; Google ile giriş, Google’ın koşullarına da tabidir.</li>
+    </ul>
+
+    <hr id="en">
+
+    <div class="lang-label">🇬🇧 English</div>
+
+    <header>
+      <h1>Privacy Policy &amp; Terms of Use</h1>
+      <p class="meta"><strong>AI-Ahtapot</strong> (Android package: <code>com.aipool.aipool_chat_app</code> · iOS bundle: <code>com.aipool.aipoolChatApp</code>)</p>
+      <p class="meta">Last updated: <time datetime="2026-11-08">8 November 2026</time></p>
+    </header>
+
+    <p>
+      This page explains how <strong>AI-Ahtapot</strong> handles account, chat,
+      file, location and voice data, and includes basic terms of use. By
+      installing or using the app you agree to this text.
+    </p>
+
+    <h2>A. Privacy Policy</h2>
+
+    <h3>1. Data controller</h3>
+    <p>
+      Developer: <strong>Mehmet Burhan</strong><br>
+      Contact: <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a><br>
+      App info:
+      <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-app-info.html">AI-Ahtapot-app-info.html</a>
+    </p>
+
+    <h3>2. What the app does</h3>
+    <p>
+      AI-Ahtapot is a chat client that talks to the <strong>AIPool</strong>
+      gateway at <code>https://api-aipool.enkolaycari.com</code>. Answers come
+      from the model provider enabled for your account. This version has no
+      advertising SDK and no third-party analytics SDK.
+    </p>
+
+    <h3>3. Data we process</h3>
+    <ul>
+      <li><strong>Account</strong> — email/password, Google Sign-In, or Sign in with Apple. AIPool issues a session token. Apple may provide a Hide My Email relay address. The Apple user id is stored to link the account. Passwords are not kept in plain text on the device.</li>
+      <li><strong>Chat</strong> — messages, title and chosen model stay on the device first. A temporary chat is not written to disk or to the server. A normal chat may also be stored on AIPool when a PersonalId is set. Message text and attachments are sent to AIPool and then to the selected model provider.</li>
+      <li><strong>Photos, PDFs and shared files</strong> — sent so the model can read them. Not used to build an ad profile.</li>
+      <li><strong>Keys, memory, settings</strong> — API keys stay in encrypted device storage and are sent as request headers. Custom instructions and optional memory stay on the device and may be included in chat requests. Language, theme and voice choice stay on the device.</li>
+      <li><strong>Location</strong> — only while you ask about weather, nearby places or on-duty pharmacies. Coordinates may go to BigDataCloud (place name) and Open-Meteo (forecast). No background tracking and no ads. If you deny permission, the app asks for a city.</li>
+      <li><strong>Microphone</strong> — dictation only, when you start it. Speech-to-text uses the operating system recognizer (often Google on Android, Apple on iOS).</li>
+      <li><strong>Read-aloud</strong> — neural voice sends the assistant’s text to Microsoft’s Edge read-aloud service. Device voice keeps synthesis on the device.</li>
+      <li><strong>Contacts</strong> — the address book is not uploaded. “Save to contacts” writes only the card you confirm.</li>
+      <li><strong>Live data</strong> — exchange rates from Frankfurter (no location); on-duty pharmacies from eczaneler.gen.tr when you ask; web search queries go to AIPool when search is on.</li>
+      <li><strong>Technical data</strong> — IP and ordinary HTTP metadata on API calls.</li>
+    </ul>
+
+    <h3>4. Third parties</h3>
+    <ul>
+      <li>AIPool API — auth, chat, models, web search</li>
+      <li>Model providers behind the gateway (Ollama, Gemini, Groq, OpenAI, or another provider on your grant)</li>
+      <li>Google Sign-In and Sign in with Apple (Services ID <code>com.aipool.signin</code>)</li>
+      <li>BigDataCloud, Open-Meteo, Frankfurter, eczaneler.gen.tr</li>
+      <li>Microsoft Edge read-aloud, when neural voice is selected</li>
+      <li>The operating system for speech recognition, camera, photos and maps</li>
+    </ul>
+
+    <h3>5. Permissions</h3>
+    <ul>
+      <li>Internet — login, chat, search and live data</li>
+      <li>Microphone and speech recognition — dictation</li>
+      <li>Camera and photos — optional attachments</li>
+      <li>Location while in use — weather and nearby-place questions only</li>
+      <li>Bluetooth on Android — headset / audio route; not used to build a profile</li>
+      <li>Contacts write — only when you save a card</li>
+    </ul>
+
+    <h3>6. Retention, children, security, contact</h3>
+    <p>
+      You can delete chats in the app. Uninstalling removes local chats, settings
+      and encrypted keys. For server-side account or chat deletion, email the
+      address above. The app is not directed at children under 13. Chat text is
+      processed by the model provider, so do not send secrets you would not want
+      that provider to see. Rights requests (access, correction, deletion):
+      <a href="mailto:mehmetburhan@gmail.com">mehmetburhan@gmail.com</a>.
+    </p>
+
+    <h2>B. Terms of use (summary)</h2>
+    <ul>
+      <li>AI-Ahtapot is a general chat tool, not medical, legal or financial advice.</li>
+      <li>Model output can be wrong. Weather, rates and pharmacy lists come from third parties and are not official notices.</li>
+      <li>The service is provided “as is”. Quotas and model access follow your AIPool grant.</li>
+      <li>Unauthorized access, malware and illegal use are prohibited.</li>
+      <li>You choose what you type. That content is sent to the model.</li>
+    </ul>
+
+    <footer>
+      <p style="margin:0">
+        Bu sayfa yalnızca <strong>AI-Ahtapot</strong> için geçerlidir.
+        Mağaza gizlilik URL’si: bu dosyanın herkese açık HTTPS adresi
+        (<code>…/AI-Ahtapot-privacy-policy.html</code>).
+        Destek ve pazarlama sayfası:
+        <a href="https://raw.githubusercontent.com/mehmetburhan/portfolio/main/AI-Ahtapot-app-info.html">uygulama bilgileri</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
